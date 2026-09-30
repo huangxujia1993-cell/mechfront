@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="机械前沿 MechFront - 每天从全球信源收集 AI × 机械设计的最新动态，双评分精选、事件聚簇、按独立来源计算热度">
+<title>机械前沿 MechFront · AI 正在重塑机械设计</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+<style>
+:root{
+  --ink:#0c1a2b; --steel:#1e3a5f; --blue:#2563eb; --blue-dark:#1d4ed8;
+  --orange:#f97316; --orange-dark:#ea580c;
+  --text:#334155; --muted:#64748b; --line:#e2e8f0; --bg:#f6f8fb; --card:#ffffff;
+  --ok:#16a34a; --warn:#d97706; --err:#dc2626;
+  --mono:"JetBrains Mono","Cascadia Code",Consolas,monospace;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",-apple-system,"Segoe UI",sans-serif;
+  --shadow:0 2px 10px rgba(12,26,43,.06); --shadow-lg:0 16px 40px -16px rgba(12,26,43,.22);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--text);background:var(--bg);line-height:1.75;font-size:15px}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer}
+img{max-width:100%}
+.wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+.mono{font-family:var(--mono)}
+.muted{color:var(--muted)}
+
+/* ===== 顶栏 ===== */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.topbar{height:60px;display:flex;align-items:center;gap:22px}
+.logo{display:flex;align-items:center;gap:9px;font-weight:800;font-size:17px;color:var(--ink);flex:none}
+.logo .mark{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--steel),var(--blue));display:grid;place-items:center;color:#fff;box-shadow:0 3px 10px rgba(37,99,235,.35)}
+.logo small{font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.06em}
+nav.main{display:flex;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none}
+nav.main::-webkit-scrollbar{display:none}
+nav.main a{padding:7px 13px;border-radius:8px;font-size:14px;font-weight:600;color:var(--text);white-space:nowrap;transition:.15s}
+nav.main a:hover{background:#eef2f9;color:var(--blue-dark)}
+nav.main a.active{background:var(--ink);color:#fff}
+.searchbox{display:flex;align-items:center;background:#eef2f9;border:1.5px solid transparent;border-radius:999px;padding:6px 14px;gap:8px;flex:none;width:210px;transition:.2s}
+.searchbox:focus-within{border-color:var(--blue);background:#fff;box-shadow:0 0 0 4px rgba(37,99,235,.1)}
+.searchbox input{border:0;outline:0;background:transparent;font-size:13.5px;width:100%;font-family:inherit;color:var(--ink)}
+.icon-btn{width:36px;height:36px;border-radius:9px;display:grid;place-items:center;border:1px solid var(--line);background:#fff;font-size:15px;transition:.15s;flex:none}
+.icon-btn:hover{border-color:var(--blue);color:var(--blue-dark)}
+
+/* ===== 头部横幅 ===== */
+.hero{
+  position:relative;border-bottom:1px solid var(--line);overflow:hidden;
+  background:linear-gradient(180deg,#f0f5fc, var(--bg) 90%);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;opacity:.55;
+  background-image:linear-gradient(rgba(37,99,235,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(37,99,235,.07) 1px,transparent 1px);
+  background-size:26px 26px;
+}
+.hero::after{content:"";position:absolute;top:-80px;right:-60px;width:340px;height:340px;border-radius:50%;background:radial-gradient(closest-side,rgba(249,115,22,.13),transparent)}
+.hero-in{position:relative;padding:34px 0 26px}
+.crumb{font-size:13px;color:var(--muted);margin-bottom:6px}
+.crumb b{color:var(--orange-dark);font-weight:700}
+.hero h1{font-size:clamp(20px,3vw,28px);color:var(--ink);font-weight:800;letter-spacing:-.01em}
+.hero .sub{font-size:14px;color:var(--muted);margin-top:6px;max-width:760px}
+
+/* ===== 布局 ===== */
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 336px;gap:28px;padding:28px 0 60px}
+@media(max-width:1020px){.layout{grid-template-columns:1fr}}
+
+/* ===== 标签页 ===== */
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.tab{padding:7px 15px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font-size:13.5px;font-weight:600;color:var(--text);transition:.15s}
+.tab:hover{border-color:var(--blue)}
+.tab.active{background:var(--ink);border-color:var(--ink);color:#fff}
+
+/* ===== 精选卡片 ===== */
+.feed{display:grid;gap:14px}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;
+  transition:.18s;box-shadow:var(--shadow);position:relative
+}
+.card:hover{border-color:rgba(37,99,235,.4);box-shadow:var(--shadow-lg);transform:translateY(-2px)}
+.card .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:12.5px;color:var(--muted);margin-bottom:8px}
+.src-tag{display:inline-flex;align-items:center;gap:5px;background:#eef2f9;padding:2px 10px;border-radius:999px;font-weight:600;color:var(--steel)}
+.src-tag.tier-official{background:#e7f2ec;color:#15803d}
+.src-tag.tier-community{background:#fdf1e5;color:#b45309}
+.time{font-family:var(--mono);font-size:12px}
+.score-badge{margin-left:auto;font-family:var(--mono);font-size:11.5px;font-weight:700;color:var(--blue-dark);background:rgba(37,99,235,.09);padding:2px 9px;border-radius:999px}
+.card h3{font-size:16.5px;line-height:1.5;color:var(--ink);font-weight:700}
+.card h3 a::after{content:"";position:absolute;inset:0}
+.card .summary{font-size:14px;margin-top:6px}
+.card .reason{font-size:13px;color:var(--muted);margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+.card .reason::before{content:"为什么入选 · ";font-weight:700;color:var(--orange-dark)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+.chip{font-size:11.5px;font-weight:600;padding:2px 10px;border-radius:999px;background:#f1f5f9;color:#475569;position:relative;z-index:2}
+.chip.cat{background:rgba(37,99,235,.08);color:var(--blue-dark)}
+.progress-tag{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:700;color:var(--warn);background:#fdf6e7;border:1px solid #f3e2b8;padding:2px 9px;border-radius:999px}
+.event-link{position:relative;z-index:2;font-size:12.5px;font-weight:700;color:var(--blue-dark)}
+.event-link:hover{text-decoration:underline}
+
+/* ===== 侧栏 ===== */
+.aside{display:grid;gap:18px;align-content:start;position:sticky;top:76px}
+@media(max-width:1020px){.aside{position:static}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);overflow:hidden}
+.panel h2{font-size:14.5px;color:var(--ink);padding:14px 18px 10px;font-weight:800;display:flex;align-items:center;gap:8px}
+.panel h2 .bar{width:4px;height:16px;border-radius:2px;background:linear-gradient(180deg,var(--orange),#fbbf24)}
+.hot-list li{border-top:1px solid #f1f5f9}
+.hot-list li a{display:flex;gap:12px;padding:11px 16px;transition:.15s;align-items:flex-start}
+.hot-list li a:hover{background:#f8fafc}
+.rank{font-family:var(--mono);font-weight:800;font-size:15px;color:#cbd5e1;width:22px;flex:none;padding-top:1px}
+.hot-list li:nth-child(1) .rank{color:var(--orange)}
+.hot-list li:nth-child(2) .rank{color:#f59e0b}
+.hot-list li:nth-child(3) .rank{color:#fbbf24}
+.hot-list .t{font-size:13.5px;font-weight:700;color:var(--ink);line-height:1.5}
+.hot-list .h{font-size:11.5px;color:var(--muted);margin-top:3px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.heat-num{font-family:var(--mono);color:var(--orange-dark);font-weight:700}
+.trend{font-size:10.5px;font-weight:800;padding:0 6px;border-radius:999px}
+.trend.up{background:#dcfce7;color:#15803d}
+.trend.new{background:#ffedd5;color:#c2410c}
+.trend.flat{background:#f1f5f9;color:#64748b}
+.panel .more{display:block;text-align:center;font-size:13px;font-weight:700;color:var(--blue-dark);padding:11px;border-top:1px solid #f1f5f9}
+.panel .more:hover{background:#f8fafc}
+.side-item{padding:12px 18px;border-top:1px solid #f1f5f9;font-size:13.5px}
+.side-item b{color:var(--ink)}
+.side-item .d{font-size:12.5px;color:var(--muted);margin-top:2px}
+.side-item a.b{font-weight:700;color:var(--blue-dark)}
+.side-item a.b:hover{text-decoration:underline}
+
+/* ===== 页面标题 ===== */
+.page-head{margin-bottom:20px}
+.page-head h1{font-size:clamp(20px,3vw,26px);color:var(--ink);font-weight:800}
+.page-head p{font-size:14px;color:var(--muted);margin-top:4px}
+
+/* ===== 事件页 ===== */
+.event-hero{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--orange);border-radius:14px;padding:26px 28px;box-shadow:var(--shadow);margin-bottom:20px}
+.event-hero .cat-line{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px;font-size:12.5px}
+.event-hero h1{font-size:clamp(19px,2.8vw,25px);color:var(--ink);font-weight:800;line-height:1.5}
+.event-hero .overview{margin-top:12px;font-size:14.5px;color:var(--text)}
+.stat-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.stat-pill{background:#f1f5f9;border-radius:10px;padding:8px 14px;font-size:12.5px;color:var(--muted)}
+.stat-pill b{color:var(--ink);font-family:var(--mono);font-size:14px}
+.stat-pill b.hot{color:var(--orange-dark)}
+.timeline{margin:22px 0 8px;border-left:2px solid #e2e8f0;padding-left:20px;display:grid;gap:12px}
+.timeline .tl{position:relative}
+.timeline .tl::before{content:"";position:absolute;left:-26px;top:7px;width:10px;height:10px;border-radius:50%;background:#fff;border:2.5px solid var(--orange)}
+.timeline .tl .d{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.timeline .tl b{display:block;font-size:14px;color:var(--ink)}
+.section-title{display:flex;align-items:center;gap:10px;font-size:16px;color:var(--ink);font-weight:800;margin:26px 0 14px}
+.section-title::before{content:"";width:4px;height:18px;border-radius:2px;background:var(--blue)}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+
+/* ===== 报告页 ===== */
+.report-card{cursor:pointer}
+.report-card .r-meta{font-size:12.5px;color:var(--muted);display:flex;gap:10px;align-items:center;margin-bottom:8px}
+.r-type{font-size:11px;font-weight:800;padding:2px 10px;border-radius:999px}
+.r-type.daily{background:#e0eaff;color:#1d4ed8}
+.r-type.weekly{background:#dcfce7;color:#15803d}
+.r-type.monthly{background:#fdf1e5;color:#b45309}
+.report-intro{background:linear-gradient(135deg,#12233b,#1e3a5f);color:#dbe7f5;border-radius:14px;padding:24px 26px;margin-bottom:22px;box-shadow:var(--shadow-lg)}
+.report-intro h1{color:#fff;font-size:20px;margin-bottom:8px}
+.report-intro .d{font-family:var(--mono);font-size:12.5px;color:#9db4d0;margin-bottom:10px}
+.report-intro p{font-size:14.5px}
+
+/* ===== 主题页 ===== */
+.topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.topic-card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;transition:.15s;box-shadow:var(--shadow)}
+.topic-card:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow-lg)}
+.topic-card b{color:var(--ink);font-size:15px}
+.topic-card .n{font-size:12.5px;color:var(--muted);margin-top:4px}
+.topic-card .n b{color:var(--orange-dark);font-family:var(--mono);font-size:14px}
+
+/* ===== 搜索 ===== */
+.search-page .big{width:100%;padding:15px 20px;border-radius:14px;border:2px solid var(--line);font-size:16px;font-family:inherit;outline:0;transition:.2s;background:#fff}
+.search-page .big:focus{border-color:var(--blue);box-shadow:0 0 0 5px rgba(37,99,235,.1)}
+mark{background:#fef08a;color:inherit;border-radius:3px;padding:0 2px}
+.mode-row{display:flex;gap:8px;margin:14px 0}
+.mode-btn{padding:6px 14px;border-radius:999px;border:1.5px solid var(--line);background:#fff;font-size:13px;font-weight:600}
+.mode-btn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ===== 关于页 ===== */
+.about-sec{margin-bottom:34px}
+.about-sec h2{font-size:18px;color:var(--ink);font-weight:800;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.about-sec h2::before{content:"";width:4px;height:20px;border-radius:2px;background:var(--orange)}
+.pipeline{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+@media(max-width:900px){.pipeline{grid-template-columns:repeat(3,1fr)}}
+.pipe-step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center;position:relative}
+.pipe-step .no{font-family:var(--mono);font-weight:800;color:var(--orange-dark);font-size:12px}
+.pipe-step b{display:block;color:var(--ink);font-size:14px;margin:4px 0 3px}
+.pipe-step small{font-size:11.5px;color:var(--muted);line-height:1.5;display:block}
+.river{display:grid;gap:10px}
+.river-group{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px}
+.river-group h3{font-size:14px;color:var(--ink);margin-bottom:10px;display:flex;gap:8px;align-items:center}
+.river-group h3 .n{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:600}
+.river .items{display:flex;flex-wrap:wrap;gap:8px}
+.river .src{display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;border-radius:999px;padding:4px 12px;font-size:12.5px;font-weight:600;color:var(--steel)}
+.river .src small{font-weight:500;color:var(--muted)}
+.river .src.off{opacity:.45;text-decoration:line-through}
+.table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:13.5px}
+.table th{background:#f1f5f9;text-align:left;padding:10px 14px;color:var(--ink);font-size:12.5px}
+.table td{padding:9px 14px;border-top:1px solid #f1f5f9}
+.code-box{background:#0c1a2b;color:#cde3f8;border-radius:12px;padding:18px 20px;font-family:var(--mono);font-size:13px;line-height:1.9;overflow-x:auto}
+.code-box .c{color:#64748b}
+
+/* ===== 页脚 ===== */
+footer{border-top:1px solid var(--line);background:#fff;padding:30px 0;font-size:13px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:center}
+footer a{font-weight:600;color:var(--steel)}
+footer a:hover{color:var(--blue-dark)}
+
+/* ===== 通用 ===== */
+.empty{text-align:center;padding:60px 20px;color:var(--muted)}
+.back{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:var(--blue-dark);margin-bottom:14px}
+.back:hover{text-decoration:underline}
+.grid-cards{display:grid;gap:14px}
+.fade{animation:fade .3s ease}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap topbar">
+    <a class="logo" href="#/">
+      <span class="mark">⚙️</span>
+      <span id="logoName">机械前沿 <small>MECHFRONT</small></span>
+    </a>
+    <nav class="main" id="nav">
+      <a href="#/" data-route="home">首页</a>
+      <a href="#/hot" data-route="hot">热点榜</a>
+      <a href="#/featured" data-route="featured">精选</a>
+      <a href="#/reports" data-route="reports">日报·周报</a>
+      <a href="#/topics" data-route="topics">主题</a>
+      <a href="#/about" data-route="about">关于</a>
+    </nav>
+    <div class="searchbox">
+      <span>🔍</span>
+      <input id="searchInput" placeholder="搜标题、摘要、全文…">
+    </div>
+    <a class="icon-btn" id="rssBtn" title="RSS 订阅" href="rss.xml" target="_blank">📡</a>
+    <a class="icon-btn" title="后台管理" href="admin.html">🛠️</a>
+  </div>
+</header>
+
+<div class="hero"><div class="wrap hero-in" id="hero"></div></div>
+<main class="wrap" id="app"></main>
+
+<footer><div class="wrap">
+  <span id="footerText"></span>
+  <span>
+    <a href="rss.xml" target="_blank">RSS</a> ·
+    <a href="api/news.json" target="_blank">API</a> ·
+    <a href="llms.txt" target="_blank">llms.txt</a> ·
+    <a href="admin.html">后台</a>
+  </span>
+</div></footer>
+
+<script src="config/site.js"></script>
+<script src="config/taxonomy.js"></script>
+<script src="config/selection.js"></script>
+<script src="config/sources.js"></script>
+<script src="data/news-data.js"></script>
+<script>
+/* ================= 工具 ================= */
+const $ = (s, el) => (el || document).querySelector(s);
+const D = window.NEWS_DATA, TAX = window.TAXONOMY, SITE = window.SITE, SEL = window.SELECTION, SRC = window.SOURCES;
+const NOW = new Date(D.generatedAt);
+const CAT = Object.fromEntries(TAX.categories.map(c => [c.key, c]));
+const ALL_ITEMS = D.events.flatMap(e => e.items.map(i => ({ ...i, event: e })));
+const ITEM_INDEX = Object.fromEntries(ALL_ITEMS.map(i => [i.id, i]));
+
+const esc = s => String(s || "").replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+const hl = (s, q) => { if (!q) return esc(s); try { return esc(s).replace(new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark>$1</mark>"); } catch (e) { return esc(s); } };
+const pDate = s => new Date(s);
+const WEEK = ["日", "一", "二", "三", "四", "五", "六"];
+function fmtDate(s) { const d = pDate(s); return `${d.getMonth() + 1}月${d.getDate()}日`; }
+function fmtDateFull(s) { const d = pDate(s); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`; }
+function fmtTime(s) { const d = pDate(s); return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`; }
+function fmtDT(s) { return `${fmtDate(s)} ${fmtTime(s)}`; }
+function tierName(t) { return SEL.tiers[t] ? SEL.tiers[t].label : t; }
+
+/* ================= 热度算法（按事件：48h 窗口，独立来源只计一次，24h 内满权） ================= */
+function eventHeat(e) {
+  const seen = {};
+  let heat = 0;
+  for (const it of e.items) {
+    const hours = (NOW - pDate(it.publishedAt)) / 36e5;
+    if (hours < 0 || hours >= SEL.heat.windowHours) continue;
+    if (seen[it.sourceId]) continue;
+    seen[it.sourceId] = 1;
+    heat += hours <= SEL.heat.freshHours ? SEL.heat.perSource : SEL.heat.perSource * 0.5;
+  }
+  const srcCount = Object.keys(seen).length;
+  let trend = "flat";
+  const firstHours = (NOW - pDate(e.firstSeen)) / 36e5;
+  if (heat > 0 && firstHours < SEL.heat.freshHours) trend = "new";
+  else if (heat > (e.prevHeat || 0) * 1.4 && heat > 0) trend = "up";
+  return { heat: Math.round(heat * 10) / 10, srcCount, trend, totalSources: new Set(e.items.map(i => i.sourceId)).size };
+}
+const EVENTS_WITH_HEAT = D.events
+  .map(e => ({ e, h: eventHeat(e) }))
+  .sort((a, b) => b.h.heat - a.h.heat || pDate(b.e.lastSeen) - pDate(a.e.lastSeen));
+
+/* ================= 组件 ================= */
+function cardHTML(it, q) {
+  const e = it.event;
+  const progress = it.role === "progress" ? `<span class="progress-tag">⟳ 后续进展</span>` : "";
+  return `<article class="card fade">
+    <div class="meta">
+      <span class="src-tag tier-${it.tier}">${esc(it.sourceName)}</span>
+      <span class="time">${fmtDT(it.publishedAt)}</span>
+      ${progress}
+      <span class="score-badge" title="双评分（模型A / 模型B），门槛见关于页">A ${it.scoreA} · B ${it.scoreB}</span>
+    </div>
+    <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${hl(it.title, q)}</a></h3>
+    <p class="summary">${hl(it.summary, q)}</p>
+    <p class="reason">${hl(it.reason, q)}</p>
+    <div class="chips">
+      <a class="chip cat" href="#/featured?cat=${e.category}">${CAT[e.category] ? CAT[e.category].icon + " " + CAT[e.category].name : e.category}</a>
+      ${e.tags.slice(0, 3).map(t => `<span class="chip">${esc(t)}</span>`).join("")}
+      <a class="event-link" href="#/event/${e.id}">事件页（${e.items.length} 篇报道）→</a>
+    </div>
+  </article>`;
+}
+
+function hotItemHTML(rank, e, h) {
+  const trendTxt = { up: "↑ 上升", new: "● 新", flat: "· 平稳" }[h.trend];
+  return `<li><a href="#/event/${e.id}">
+    <span class="rank">${String(rank).padStart(2, "0")}</span>
+    <span>
+      <span class="t">${esc(e.title)}</span>
+      <span class="h">
+        <span class="heat-num">🔥 ${h.heat}</span>
+        <span>${h.srcCount} 个来源在说</span>
+        <span class="trend ${h.trend}">${trendTxt}</span>
+      </span>
+    </span>
+  </a></li>`;
+}
+
+function feedHTML(items, q) {
+  if (!items.length) return `<div class="empty">暂无内容</div>`;
+  return `<div class="feed">${items.map(i => cardHTML(i, q)).join("")}</div>`;
+}
+
+function categoryTabs(current, base) {
+  const count = k => ALL_ITEMS.filter(i => i.selected && (k === "all" || i.event.category === k)).length;
+  return `<div class="tabs">
+    <a class="tab ${current === "all" ? "active" : ""}" href="${base}">全部 ${count("all")}</a>
+    ${TAX.categories.map(c => `<a class="tab ${current === c.key ? "active" : ""}" href="${base}?cat=${c.key}">${c.icon} ${c.name} ${count(c.key)}</a>`).join("")}
+  </div>`;
+}
+
+function statPill(label, value, cls) { return `<div class="stat-pill">${label} <b class="${cls || ""}">${value}</b></div>`; }
+
+/* ================= 路由页面 ================= */
+function pageHome() {
+  const todayItems = ALL_ITEMS.filter(i => i.selected).sort((a, b) => pDate(b.publishedAt) - pDate(a.publishedAt));
+  const hotEvents = EVENTS_WITH_HEAT.filter(x => x.h.heat > 0).slice(0, 8);
+  const latestReport = D.reports[0];
+  const d = NOW;
+  return `
+  <div class="layout">
+    <div>
+      ${categoryTabs("all", "#/featured").replace("#/featured", "#/")}
+      ${feedHTML(todayItems.slice(0, 14))}
+      <div style="text-align:center;margin-top:18px"><a class="tab" href="#/featured">查看全部精选 →</a></div>
+    </div>
+    <aside class="aside">
+      <div class="panel">
+        <h2><span class="bar"></span>当前热点 · 按独立来源数</h2>
+        <ul class="hot-list">${hotEvents.map((x, i) => hotItemHTML(i + 1, x.e, x.h)).join("")}</ul>
+        <a class="more" href="#/hot">完整热点榜 →</a>
+      </div>
+      <div class="panel">
+        <h2><span class="bar"></span>最新一期</h2>
+        <div class="side-item">
+          <span class="r-type ${latestReport.type}">${{ daily: "日报", weekly: "周报", monthly: "月报" }[latestReport.type]}</span>
+          <b>${esc(latestReport.title)}</b>
+          <div class="d">${latestReport.sections.reduce((n, s) => n + s.items.length, 0)} 条 · ${fmtDateFull(latestReport.date)}</div>
+          <a class="b" href="#/report/${latestReport.id}">阅读全文 →</a>
+        </div>
+        <a class="more" href="#/reports">往期报告 →</a>
+      </div>
+      <div class="panel">
+        <h2><span class="bar"></span>本周数据</h2>
+        <div class="side-item">近 7 日抓取 <b>${D.diagnostics.pipeline.fetched7d}</b> 条 · 精选 <b>${D.diagnostics.pipeline.selected7d}</b> 条</div>
+        <div class="side-item">在线信源 <b>${SRC.sources.filter(s => s.enabled).length}</b> / ${SRC.sources.length} · ${D.diagnostics.selectionRate}</div>
+        <div class="side-item"><a class="b" href="#/about">这套流水线怎么运转 →</a></div>
+      </div>
+    </aside>
+  </div>`;
+}
+
+function pageHot() {
+  return `
+  <div class="page-head"><h1>当前热点榜</h1>
+    <p>热度按事件计算：${SEL.heat.windowHours} 小时窗口内，每个独立来源只计一次，${SEL.heat.freshHours} 小时内满权、窗口内其余计半权。和 6 小时前对比标注趋势。</p></div>
+  <div class="panel">
+    <ul class="hot-list">${EVENTS_WITH_HEAT.map((x, i) => hotItemHTML(i + 1, x.e, x.h)).join("")}</ul>
+  </div>
+  <p class="muted" style="font-size:13px;margin-top:14px">热度为 0 的事件是两周内的里程碑事件，仍保留在事件库中，可在主题页与搜索中找到。</p>`;
+}
+
+function pageFeatured(cat) {
+  const items = ALL_ITEMS.filter(i => i.selected && (!cat || cat === "all" || i.event.category === cat))
+    .sort((a, b) => pDate(b.publishedAt) - pDate(a.publishedAt));
+  return `${categoryTabs(cat || "all", "#/featured")}
+  <div class="page-head" style="margin-bottom:16px"><p class="muted" style="font-size:13px">入选标准：同一份资料由两个模型独立打分（A/B），双双高于该信源级别的门槛才入选 —— 官方一手 ≥${SEL.tiers.official.minScore}，媒体 ≥${SEL.tiers.media.minScore}，社区 ≥${SEL.tiers.community.minScore}。</p></div>
+  ${feedHTML(items)}`;
+}
+
+function pageEvent(id) {
+  const rec = EVENTS_WITH_HEAT.find(x => x.e.id === id);
+  if (!rec) return `<div class="empty">事件不存在 <a class="back" href="#/">← 返回首页</a></div>`;
+  const e = rec.e, h = rec.h;
+  const reports = e.items.filter(i => i.role !== "progress").sort((a, b) => pDate(b.publishedAt) - pDate(a.publishedAt));
+  const progress = e.items.filter(i => i.role === "progress").sort((a, b) => pDate(a.publishedAt) - pDate(b.publishedAt));
+  const related = D.events.filter(x => x.id !== e.id && x.tags.some(t => e.tags.includes(t)))
+    .sort((a, b) => pDate(b.lastSeen) - pDate(a.lastSeen)).slice(0, 3);
+  return `
+  <a class="back" href="#/hot">← 热点榜</a>
+  <div class="event-hero fade">
+    <div class="cat-line">
+      <span class="chip cat">${CAT[e.category].icon} ${CAT[e.category].name}</span>
+      ${e.tags.map(t => `<span class="chip">${esc(t)}</span>`).join("")}
+    </div>
+    <h1>${esc(e.title)}</h1>
+    <p class="overview">${esc(e.overview)}</p>
+    <div class="stat-row">
+      ${statPill("热度", "🔥 " + h.heat, "hot")}
+      ${statPill("独立来源", h.totalSources + " 家")}
+      ${statPill("窗口内来源", h.srcCount + " 家")}
+      ${statPill("首次进入", fmtDT(e.firstSeen))}
+      ${statPill("最近报道", fmtDT(e.lastSeen))}
+    </div>
+  </div>
+  ${progress.length ? `
+    <div class="section-title">后续进展</div>
+    <div class="timeline">${progress.map(i => `<div class="tl">
+      <span class="d">${fmtDateFull(i.publishedAt)} · ${esc(i.sourceName)}</span>
+      <b><a href="${esc(i.url)}" target="_blank" rel="noopener" style="color:inherit">${esc(i.title)} ↗</a></b>
+    </div>`).join("")}</div>` : ""}
+  <div class="section-title">聚簇报道（${reports.length}）</div>
+  ${feedHTML(reports)}
+  ${related.length ? `<div class="section-title">相关事件</div>
+    <div class="related">${related.map(r => `<a class="card" href="#/event/${r.id}">
+      <h3 style="font-size:15px">${esc(r.title)}</h3>
+      <p class="summary" style="font-size:13px">${esc(r.overview.slice(0, 90))}…</p>
+    </a>`).join("")}</div>` : ""}`;
+}
+
+function pageReports() {
+  const typeName = { daily: "日报", weekly: "周报", monthly: "月报" };
+  return `
+  <div class="page-head"><h1>日报 · 周报 · 月报</h1>
+    <p>${SITE.reportSchedule.daily} 出日报 · ${SITE.reportSchedule.weekly} · ${SITE.reportSchedule.monthly}。按分类分节，带导语，可通过 RSS 订阅。</p></div>
+  <div class="grid-cards">${[...D.reports].sort((a, b) => pDate(b.date) - pDate(a.date)).map(r => `
+    <a class="card report-card" href="#/report/${r.id}">
+      <div class="r-meta"><span class="r-type ${r.type}">${typeName[r.type]}</span><span class="mono">${fmtDateFull(r.date)}</span><span>第 ${r.issue} 期</span></div>
+      <h3>${esc(r.title)}</h3>
+      <p class="summary" style="font-size:13.5px">${esc(r.intro.slice(0, 110))}…</p>
+    </a>`).join("")}</div>`;
+}
+
+function pageReport(id) {
+  const r = D.reports.find(x => x.id === id);
+  if (!r) return `<div class="empty">报告不存在</div>`;
+  return `
+  <a class="back" href="#/reports">← 全部报告</a>
+  <div class="report-intro fade">
+    <h1>${esc(r.title)}</h1>
+    <div class="d">${fmtDateFull(r.date)} · 第 ${r.issue} 期 · 收录 ${r.sections.reduce((n, s) => n + s.items.length, 0)} 条</div>
+    <p>${esc(r.intro)}</p>
+  </div>
+  ${r.sections.map(s => `
+    <div class="section-title">${s.title || (CAT[s.category] ? CAT[s.category].icon + " " + CAT[s.category].name : s.category)}${s.note ? ` <span class="muted" style="font-weight:500;font-size:13px">— ${esc(s.note)}</span>` : ""}</div>
+    <div class="feed" style="margin-bottom:8px">${s.items.map(iid => {
+      const it = ITEM_INDEX[iid];
+      if (!it) return "";
+      return `<article class="card">
+        <div class="meta"><span class="src-tag tier-${it.tier}">${esc(it.sourceName)}</span><span class="time">${fmtDT(it.publishedAt)}</span>
+        <span class="score-badge">A ${it.scoreA} · B ${it.scoreB}</span></div>
+        <h3><a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a></h3>
+        <p class="summary">${esc(it.summary)}</p>
+        <div class="chips"><a class="event-link" href="#/event/${it.event.id}">事件页 →</a></div>
+      </article>`;
+    }).join("")}</div>`).join("")}`;
+}
+
+function topicEvents(topic) {
+  const keys = [topic.name, ...(topic.aliases || [])];
+  return D.events.filter(e => keys.some(k =>
+    e.title.includes(k) || e.overview.includes(k) || e.tags.some(t => t.includes(k) || k.includes(t))
+  ));
+}
+
+function pageTopics() {
+  const group = (title, items) => `
+    <div class="section-title">${title}</div>
+    <div class="topic-grid">${items.map(t => {
+      const n = topicEvents(t).length;
+      return `<a class="topic-card" href="#/topic/${t.key}"><b>${esc(t.name)}</b><div class="n"><b>${n}</b> 个相关事件</div></a>`;
+    }).join("")}</div>`;
+  return `
+  <div class="page-head"><h1>主题索引</h1><p>公司、方向、内容形态三类主题页，事件按标签与正文自动归集。</p></div>
+  ${group("公司", TAX.topics.companies)}
+  ${group("方向", TAX.topics.directions)}
+  ${group("内容形态", TAX.topics.formats.map(f => ({ ...f, aliases: [f.name] })))}`;
+}
+
+function pageTopic(key) {
+  const all = [...TAX.topics.companies, ...TAX.topics.directions, ...TAX.topics.formats.map(f => ({ ...f, aliases: [f.name] }))];
+  const t = all.find(x => x.key === key);
+  if (!t) return `<div class="empty">主题不存在</div>`;
+  const events = topicEvents(t).map(e => ({ e, h: eventHeat(e) }))
+    .sort((a, b) => pDate(b.e.lastSeen) - pDate(a.e.lastSeen));
+  return `
+  <a class="back" href="#/topics">← 主题索引</a>
+  <div class="page-head"><h1>${esc(t.name)}</h1><p>${events.length} 个相关事件</p></div>
+  <div class="grid-cards">${events.map(x => `<a class="card" href="#/event/${x.e.id}">
+    <div class="meta"><span class="chip cat">${CAT[x.e.category].icon} ${CAT[x.e.category].name}</span><span class="time">${fmtDT(x.e.lastSeen)}</span></div>
+    <h3>${esc(x.e.title)}</h3>
+    <p class="summary" style="font-size:13.5px">${esc(x.e.overview.slice(0, 120))}…</p>
+    <div class="chips"><span class="chip">🔥 ${x.h.heat}</span><span class="chip">${x.h.totalSources} 个来源</span></div>
+  </a>`).join("")}</div>`;
+}
+
+function pageSearch(q, mode) {
+  const query = (q || "").trim();
+  let items = [];
+  if (query) {
+    items = ALL_ITEMS.filter(i => {
+      const base = mode === "full"
+        ? [i.title, i.summary, i.reason, i.body].join(" ")
+        : [i.title, i.summary, i.reason, i.event.title, i.event.tags.join(" ")].join(" ");
+      return base.toLowerCase().includes(query.toLowerCase());
+    }).sort((a, b) => pDate(b.publishedAt) - pDate(a.publishedAt));
+  }
+  const base = `#/search?q=${encodeURIComponent(query)}&mode=`;
+  return `
+  <div class="page-head"><h1>搜索</h1><p>标题摘要搜索覆盖标题、摘要、推荐理由与事件标签；全文搜索额外覆盖报道正文索引。</p></div>
+  <div class="search-page">
+    <input class="big" id="searchBig" value="${esc(query)}" placeholder="输入关键词，如：参数化 / PhysicsAI / 宇树 / text-to-CAD">
+    <div class="mode-row">
+      <a class="mode-btn ${mode !== "full" ? "active" : ""}" href="${base}title">标题摘要搜索</a>
+      <a class="mode-btn ${mode === "full" ? "active" : ""}" href="${base}full">全文相关搜索</a>
+      ${query ? `<span class="muted" style="align-self:center;font-size:13px">${mode === "full" ? "全文" : "标题摘要"}模式 · 命中 ${items.length} 条</span>` : ""}
+    </div>
+    ${feedHTML(items.slice(0, 40), query)}
+    ${query && items.length > 40 ? `<p class="muted" style="text-align:center;margin-top:16px">仅显示前 40 条…</p>` : ""}
+  </div>`;
+}
+
+function pageAbout() {
+  const types = {
+    rss: ["📡 RSS 订阅", "标准 RSS/Atom 源，按固定频率抓取"],
+    webpage: ["🌐 网页列表", "监控新闻列表页，官方 RSS 失效时的替代方案"],
+    json: ["🔌 JSON / API 接口", "结构化接口，如 arXiv 关键词订阅"],
+    x: ["𝕏 X 账号", "厂商与研究者账号的短动态"],
+    wechat: ["💬 微信公众号", "国内厂商与行业媒体的主要发布渠道"],
+    push: ["⬆️ 脚本推送", "自定义脚本 POST 进来的内容"],
+  };
+  return `
+  <div class="page-head"><h1>关于${SITE.name}</h1><p>${SITE.description}</p></div>
+
+  <div class="about-sec">
+    <h2>一条资料怎么变成日报</h2>
+    <div class="pipeline">
+      ${[
+        ["01", "采集", "六种信源定时抓取，先判重"],
+        ["02", "预筛", "模型粗筛，淘汰行业无关内容"],
+        ["03", "双评分", "同一标准独立打两次分，过门槛入选"],
+        ["04", "写作", "中文标题、答案先行摘要、推荐理由"],
+        ["05", "聚簇", "同一件事聚成一个事件，进展挂时间线"],
+        ["06", "成刊", "按事件算热度，每天 08:00 出日报"],
+      ].map(s => `<div class="pipe-step"><span class="no">${s[0]}</span><b>${s[1]}</b><small>${s[2]}</small></div>`).join("")}
+    </div>
+    <p class="muted" style="font-size:13px;margin-top:12px">每一步的提示词原文在 <span class="mono">config/prompts/</span>，入选门槛在 <span class="mono">config/selection.js</span> —— 改标准不用改代码。拿不准的聚簇合并会换一家模型再确认，人工改过的归属不会被覆盖。</p>
+  </div>
+
+  <div class="about-sec">
+    <h2>信源河（${SRC.sources.length} 条信源，${SRC.sources.filter(s => s.enabled).length} 条启用中）</h2>
+    <div class="river">
+      ${Object.entries(types).map(([type, info]) => {
+        const list = SRC.sources.filter(s => s.type === type);
+        if (!list.length) return "";
+        return `<div class="river-group">
+          <h3>${info[0]}<span class="n">${list.length} 条 · ${info[1]}</span></h3>
+          <div class="items">${list.map(s => `<span class="src ${s.enabled ? "" : "off"}" title="${esc(s.notes || "")}">${esc(s.name)}<small>· ${tierName(s.tier)}</small></span>`).join("")}</div>
+        </div>`;
+      }).join("")}
+    </div>
+  </div>
+
+  <div class="about-sec">
+    <h2>精选门槛</h2>
+    <table class="table">
+      <tr><th>信源级别</th><th>双评分门槛（A、B 均须 ≥）</th><th>说明</th></tr>
+      ${Object.entries(SEL.tiers).map(([k, v]) => `<tr><td><b>${v.label}</b></td><td class="mono">${v.minScore}</td><td>${k === "official" ? "厂商官方博客 / 新闻室，信息最可靠" : k === "media" ? "行业媒体与通讯社" : "社区、研究者与自媒体"}</td></tr>`).join("")}
+    </table>
+    <p class="muted" style="font-size:13px;margin-top:10px">${D.diagnostics.selectionRate}。评分标准（行业直接性 40% / 信息增量 30% / 影响面 20% / 可信度 10%）见 <span class="mono">config/prompts/selection-score.md</span>。</p>
+  </div>
+
+  <div class="about-sec">
+    <h2>给 Agent 用的出口</h2>
+    <div class="code-box">
+      <span class="c"># 人看网页，Agent 走接口，同一份内容</span><br>
+      RSS（精选）  <a style="color:#7dd3fc" href="rss.xml" target="_blank">${SITE.url}/rss.xml</a><br>
+      API（事件）  <a style="color:#7dd3fc" href="api/news.json" target="_blank">${SITE.url}/api/news.json</a><br>
+      说明文件     <a style="color:#7dd3fc" href="llms.txt" target="_blank">${SITE.url}/llms.txt</a><br>
+      信源配置     <a style="color:#7dd3fc" href="config/sources.json" target="_blank">${SITE.url}/config/sources.json</a>
+    </div>
+  </div>
+
+  <div class="about-sec">
+    <h2>把它改成你的行业</h2>
+    <p style="font-size:14px">要改的东西几乎都在 <span class="mono">config/</span> 一个文件夹里：站名与文案（<span class="mono">site.js</span>）、分类与主题（<span class="mono">taxonomy.js</span>）、信源（<span class="mono">sources.json</span>）、精选标准与门槛（<span class="mono">prompts/</span> + <span class="mono">selection.js</span>）。采集脚本 <span class="mono">scripts/fetch-sources.mjs</span> 按信源配置定时抓取，导出脚本 <span class="mono">scripts/build-exports.mjs</span> 生成 RSS 与 API。</p>
+  </div>`;
+}
+
+/* ================= Hero ================= */
+function renderHero(route) {
+  const d = NOW;
+  const selectedCount = ALL_ITEMS.filter(i => i.selected && pDate(i.publishedAt) >= NOW - 864e5 * 3).length;
+  const titles = {
+    home: [`今天 ${d.getMonth() + 1}月${d.getDate()}日 周${WEEK[d.getDay()]} · 近 3 日精选 <b>${selectedCount}</b> 条 · 热度截至 ${fmtTime(D.generatedAt)}`,
+      "AI 正在重塑机械设计",
+      "从 CAD 智能体到物理 AI 仿真，从 text-to-CAD 论文到人形机器人量产 —— 全球信源，一网打尽。"],
+    hot: ["", "当前热点榜", "按事件计算热度：独立来源越多越靠前，重复报道不重复计分。"],
+    featured: ["", "精选流", "每条资料经预筛、双评分、写作三道工序，附推荐理由与双评分。"],
+    reports: ["", "日报 · 周报 · 月报", "每天 08:00 出日报，按分类分节，带导语。"],
+    topics: ["", "主题索引", "公司 / 方向 / 内容形态三类主题页。"],
+    about: ["", "关于本站", "流水线、信源河、精选门槛与 Agent 出口。"],
+    event: ["", "事件页", "同一件事的不同报道聚成一个事件，后续进展挂在时间线。"],
+    report: ["", "报告", ""],
+    topic: ["", "主题", ""],
+    search: ["", "搜索", ""],
+  };
+  const t = titles[route] || titles.home;
+  $("#hero").innerHTML = `<div class="crumb">${t[0] || ""}</div><h1>${t[1]}</h1>${t[2] ? `<p class="sub">${t[2]}</p>` : ""}`;
+}
+
+/* ================= 路由 ================= */
+function parseHash() {
+  const raw = location.hash.slice(2) || "";
+  const [path, queryStr] = raw.split("?");
+  const params = new URLSearchParams(queryStr || "");
+  const parts = path.split("/").filter(Boolean);
+  return { parts, params };
+}
+
+function route() {
+  const { parts, params } = parseHash();
+  let routeKey = "home", html = "";
+  const p0 = parts[0] || "home";
+  if (p0 === "home") { routeKey = "home"; html = pageHome(); }
+  else if (p0 === "hot") { routeKey = "hot"; html = pageHot(); }
+  else if (p0 === "featured") { routeKey = "featured"; html = pageFeatured(params.get("cat")); }
+  else if (p0 === "event") { routeKey = "event"; html = pageEvent(parts[1]); }
+  else if (p0 === "reports") { routeKey = "reports"; html = pageReports(); }
+  else if (p0 === "report") { routeKey = "report"; html = pageReport(parts[1]); }
+  else if (p0 === "topics") { routeKey = "topics"; html = pageTopics(); }
+  else if (p0 === "topic") { routeKey = "topic"; html = pageTopic(parts[1]); }
+  else if (p0 === "search") { routeKey = "search"; html = pageSearch(params.get("q"), params.get("mode") || "title"); }
+  else if (p0 === "about") { routeKey = "about"; html = pageAbout(); }
+  else { html = pageHome(); }
+
+  renderHero(routeKey);
+  $("#app").innerHTML = html;
+  document.querySelectorAll("nav.main a").forEach(a => a.classList.toggle("active", a.dataset.route === routeKey));
+  window.scrollTo({ top: 0 });
+  const big = $("#searchBig");
+  if (big) { big.focus(); big.addEventListener("keydown", ev => { if (ev.key === "Enter") location.hash = `#/search?q=${encodeURIComponent(big.value)}&mode=${params.get("mode") || "title"}`; }); }
+}
+
+window.addEventListener("hashchange", route);
+$("#searchInput").addEventListener("keydown", ev => {
+  if (ev.key === "Enter" && ev.target.value.trim()) location.hash = `#/search?q=${encodeURIComponent(ev.target.value.trim())}`;
+});
+
+/* ================= 初始化 ================= */
+$("#logoName").innerHTML = `${esc(SITE.name)} <small>${esc(SITE.nameEn.toUpperCase())}</small>`;
+$("#footerText").textContent = SITE.footer;
+route();
+</script>
+</body>
+</html>

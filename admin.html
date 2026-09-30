@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>后台管理 · 机械前沿 MechFront</title>
+<style>
+:root{
+  --ink:#0c1a2b; --steel:#1e3a5f; --blue:#2563eb; --blue-dark:#1d4ed8;
+  --orange:#f97316; --text:#334155; --muted:#64748b; --line:#e2e8f0;
+  --bg:#f4f6fa; --card:#fff; --ok:#16a34a; --warn:#d97706; --err:#dc2626;
+  --mono:"JetBrains Mono",Consolas,monospace;
+  --sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);font-size:14.5px;line-height:1.7}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer}
+.shell{display:grid;grid-template-columns:218px minmax(0,1fr);min-height:100vh}
+@media(max-width:860px){.shell{grid-template-columns:1fr}}
+
+/* 侧栏 */
+.side{background:var(--ink);color:#b6c5d8;padding:20px 0;display:flex;flex-direction:column}
+.side .brand{display:flex;align-items:center;gap:9px;padding:0 20px 18px;border-bottom:1px solid rgba(255,255,255,.08);font-weight:800;color:#fff;font-size:16px}
+.side .brand .mark{width:30px;height:30px;border-radius:8px;background:linear-gradient(135deg,#2563eb,#f97316);display:grid;place-items:center}
+.side nav{flex:1;padding:12px 10px;display:grid;gap:2px;align-content:start}
+.side nav button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;background:none;border:0;color:#b6c5d8;font-size:14px;font-weight:600;padding:10px 12px;border-radius:9px;transition:.15s}
+.side nav button:hover{background:rgba(255,255,255,.06);color:#fff}
+.side nav button.active{background:var(--blue);color:#fff}
+.side .foot{padding:14px 20px;border-top:1px solid rgba(255,255,255,.08);font-size:12.5px;color:#7e93ac}
+.side .foot a{color:#9db4d0;font-weight:700}
+.side .foot a:hover{color:#fff}
+
+/* 主区 */
+.main{padding:26px 30px 60px;max-width:1100px}
+.h1{font-size:20px;color:var(--ink);font-weight:800;margin-bottom:4px}
+.h1 small{font-weight:500;color:var(--muted);font-size:13px;margin-left:8px}
+.page-sub{font-size:13.5px;color:var(--muted);margin-bottom:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;box-shadow:0 2px 10px rgba(12,26,43,.05);margin-bottom:16px}
+.card h2{font-size:15.5px;color:var(--ink);margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.card h2::before{content:"";width:4px;height:16px;border-radius:2px;background:var(--orange)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{background:#f1f5f9;text-align:left;padding:9px 12px;color:var(--ink);font-size:12.5px;white-space:nowrap}
+td{padding:9px 12px;border-top:1px solid #f1f5f9;vertical-align:middle}
+tr:hover td{background:#fafcff}
+.mono{font-family:var(--mono)}
+.muted{color:var(--muted)}
+.pill{display:inline-block;font-size:11.5px;font-weight:700;padding:2px 10px;border-radius:999px}
+.pill.on{background:#dcfce7;color:#15803d}
+.pill.off{background:#f1f5f9;color:#94a3b8}
+.pill.ok{background:#dcfce7;color:#15803d}
+.pill.warn{background:#fef3c7;color:#b45309}
+.pill.error{background:#fee2e2;color:#b91c1c}
+.pill.type{background:#e0eaff;color:#1d4ed8}
+.btn{padding:6px 14px;border-radius:8px;border:1.5px solid var(--line);background:#fff;font-size:13px;font-weight:600;transition:.15s}
+.btn:hover{border-color:var(--blue);color:var(--blue-dark)}
+.btn.sm{padding:3px 11px;font-size:12px}
+.bar-out{background:#eef2f9;border-radius:999px;height:9px;overflow:hidden;min-width:90px}
+.bar-in{height:100%;border-radius:999px;background:linear-gradient(90deg,var(--blue),#60a5fa)}
+.bar-in.warn{background:linear-gradient(90deg,#f59e0b,#fbbf24)}
+.bar-in.err{background:linear-gradient(90deg,#dc2626,#f87171)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px;margin-bottom:16px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi b{font-family:var(--mono);font-size:22px;color:var(--ink);display:block}
+.kpi span{font-size:12.5px;color:var(--muted)}
+.kpi b.hot{color:var(--orange)}
+.switch{position:relative;width:38px;height:21px;border-radius:999px;background:#cbd5e1;transition:.2s;border:0;flex:none}
+.switch::after{content:"";position:absolute;top:2.5px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:.2s}
+.switch.on{background:var(--ok)}
+.switch.on::after{left:19px}
+select{padding:7px 10px;border-radius:8px;border:1.5px solid var(--line);font-family:inherit;font-size:13.5px;background:#fff;color:var(--ink)}
+.toast{position:fixed;left:50%;bottom:30px;transform:translate(-50%,16px);background:var(--ink);color:#fff;padding:11px 24px;border-radius:999px;font-size:13.5px;opacity:0;pointer-events:none;transition:.3s;z-index:99}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.notes{font-size:12.5px;color:var(--muted)}
+.sim-log{font-family:var(--mono);font-size:12.5px;background:#0c1a2b;color:#9fe3b0;border-radius:10px;padding:14px 16px;margin-top:12px;display:none;white-space:pre-wrap}
+.sim-log.show{display:block}
+.flow{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:6px}
+@media(max-width:860px){.flow{grid-template-columns:repeat(2,1fr)}.main{padding:20px 16px}}
+.step{border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:12.5px}
+.step b{display:block;color:var(--ink);font-size:13px}
+.step small{color:var(--muted);font-family:var(--mono);font-size:11px}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="brand"><span class="mark">⚙️</span> MechFront</div>
+    <nav id="nav">
+      <button data-page="sources" class="active">📡 信源管理</button>
+      <button data-page="diag">📊 内容诊断</button>
+      <button data-page="eval">🎯 精选评测</button>
+      <button data-page="models">🤖 模型配置</button>
+      <button data-page="budget">💰 预算与熔断</button>
+      <button data-page="runs">📜 运行记录</button>
+    </nav>
+    <div class="foot">数据快照 2026-09-30<br><a href="index.html">← 返回主站</a></div>
+  </aside>
+
+  <main class="main" id="main"></main>
+</div>
+<div class="toast" id="toast">✓ 已保存</div>
+
+<script src="config/site.js"></script>
+<script src="config/taxonomy.js"></script>
+<script src="config/selection.js"></script>
+<script src="config/sources.js"></script>
+<script src="data/news-data.js"></script>
+<script>
+const D = window.NEWS_DATA, SRC = window.SOURCES, SEL = window.SELECTION;
+const $ = s => document.querySelector(s);
+const esc = s => String(s || "").replace(/[&<>"']/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m]));
+const TYPE_NAME = { rss: "RSS", webpage: "网页列表", json: "JSON 接口", x: "X 账号", wechat: "微信公众号", push: "脚本推送" };
+const TIER_NAME = { official: "官方一手", media: "媒体", community: "社区" };
+const toast = (msg, ms) => { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); setTimeout(() => t.classList.remove("show"), ms || 1800); };
+
+/* ---------- 信源管理 ---------- */
+function pageSources() {
+  return `<div class="h1">信源管理 <small>六种信源 · 分级 · 抓取频率</small></div>
+  <div class="page-sub">信源分级决定精选门槛（官方一手 ${SEL.tiers.official.minScore} / 媒体 ${SEL.tiers.media.minScore} / 社区 ${SEL.tiers.community.minScore}）。抓取频率按产出自动调整：产出稳定则加密，长期无产出则降频。配置文件：<span class="mono">config/sources.json</span></div>
+  <div class="card">
+    <h2>全部信源（${SRC.sources.length}）</h2>
+    <div style="overflow-x:auto">
+    <table>
+      <tr><th>启用</th><th>名称</th><th>类型</th><th>级别</th><th>频率</th><th>操作</th></tr>
+      ${SRC.sources.map(s => `<tr>
+        <td><button class="switch ${s.enabled ? "on" : ""}" data-toggle="${s.id}" title="启停"></button></td>
+        <td><b style="color:var(--ink)">${esc(s.name)}</b><div class="notes">${esc(s.notes || "")}</div></td>
+        <td><span class="pill type">${TYPE_NAME[s.type]}</span></td>
+        <td class="mono" style="font-size:12.5px">${TIER_NAME[s.tier]}</td>
+        <td class="mono" style="font-size:12.5px">${s.intervalMinutes ? s.intervalMinutes + " 分钟" : "推送"}</td>
+        <td><button class="btn sm" data-test="${s.id}">试抓</button></td>
+      </tr>`).join("")}
+    </table></div>
+    <div class="sim-log" id="simLog"></div>
+  </div>`;
+}
+
+/* ---------- 内容诊断 ---------- */
+function pageDiag() {
+  const p = D.diagnostics.pipeline;
+  const max = Math.max(...D.diagnostics.perSource.map(x => x.fetched));
+  return `<div class="h1">内容诊断 <small>近 7 日</small></div>
+  <div class="page-sub">漏斗：抓取 → 预筛 → 双评分 → 精选 → 聚簇成事件。健康区间：精选率 8% – 15%。</div>
+  <div class="kpis">
+    <div class="kpi"><b>${p.fetched7d}</b><span>抓取（7 日）</span></div>
+    <div class="kpi"><b>${p.prefiltered7d}</b><span>预筛通过</span></div>
+    <div class="kpi"><b>${p.scored7d}</b><span>进入双评分</span></div>
+    <div class="kpi"><b class="hot">${p.selected7d}</b><span>最终入选</span></div>
+    <div class="kpi"><b>${p.clusterEvents7d}</b><span>聚簇事件</span></div>
+  </div>
+  <div class="card">
+    <h2>各信源产出与精选率</h2>
+    <table>
+      <tr><th>信源</th><th style="width:34%">抓取 / 精选</th><th>精选率</th></tr>
+      ${D.diagnostics.perSource.map(s => {
+        const rate = s.fetched ? Math.round(s.selected / s.fetched * 1000) / 10 : 0;
+        const w = Math.max(4, s.fetched / max * 100);
+        return `<tr>
+          <td><b style="color:var(--ink)">${esc(s.name)}</b></td>
+          <td><div style="display:flex;align-items:center;gap:10px"><div class="bar-out" style="flex:1"><div class="bar-in" style="width:${w}%"></div></div><span class="mono" style="font-size:12px;white-space:nowrap">${s.fetched} / ${s.selected}</span></div></td>
+          <td><span class="mono">${rate}%</span> ${rate === 0 ? '<span class="pill warn">零产出</span>' : rate > 60 ? '<span class="pill warn">过高，检查门槛</span>' : ""}</td>
+        </tr>`;
+      }).join("")}
+    </table>
+    <p class="notes" style="margin-top:10px">${D.diagnostics.selectionRate} · arXiv cs.RO 量大但精选率低属正常（多数论文与机械设计无关）；公众号机器人大讲堂同理，靠预筛关键词控制成本。</p>
+  </div>`;
+}
+
+/* ---------- 精选评测 ---------- */
+function pageEval() {
+  const e = D.evalBench;
+  return `<div class="h1">精选评测 <small>SelectBench</small></div>
+  <div class="page-sub">用人工标注的样本集回放双评分，检验「选得准不准」。样本持续增补：误选与漏选各取一部分进入下一轮标注。</div>
+  <div class="kpis">
+    <div class="kpi"><b>${e.samples}</b><span>标注样本</span></div>
+    <div class="kpi"><b>${e.accuracy}%</b><span>准确率</span></div>
+    <div class="kpi"><b class="hot">${e.recall}%</b><span>召回率</span></div>
+    <div class="kpi"><b>${e.precision}%</b><span>精确率</span></div>
+  </div>
+  <div class="card">
+    <h2>双评分分歧复核</h2>
+    <p style="font-size:14px">${esc(e.disagreeResolved)}</p>
+    <p class="notes" style="margin-top:8px">规则：A、B 分差 ≥ 15 分进入人工复核队列；复核结论回流为下一轮标注样本。</p>
+  </div>
+  <div class="card">
+    <h2>如何校准</h2>
+    <ol style="padding-left:20px;font-size:14px;display:grid;gap:6px">
+      <li>标注 100–200 条自己行业的资料（选入 / 不选入）</li>
+      <li>跑 <span class="mono">scripts/eval-selection.mjs</span>（占位）对照双评分结果</li>
+      <li>误选多 → 提高门槛或收紧评分提示词中的「行业直接性」权重</li>
+      <li>漏选多 → 降低门槛；逐条看漏掉的是什么类型，考虑补进评分维度</li>
+    </ol>
+  </div>`;
+}
+
+/* ---------- 模型配置 ---------- */
+function pageModels() {
+  const steps = D.budget.perStep;
+  const models = ["deepseek-v3", "deepseek-v3-fast", "qwen3-max", "glm-5", "kimi-k2"];
+  return `<div class="h1">模型配置 <small>每一步单独换模型</small></div>
+  <div class="page-sub">流水线六步可分别指定模型：便宜的模型做预筛，贵的模型做聚簇复核。更换即时生效，下一轮任务使用新模型。</div>
+  <div class="card">
+    <h2>流水线模型</h2>
+    <div class="flow">
+      ${steps.map((s, i) => `<div class="step"><small>步骤 0${i + 1}</small><b>${s.step}</b>
+        <select data-step="${i}">${models.map(m => `<option ${m === s.model ? "selected" : ""}>${m}</option>`).join("")}</select>
+        <div class="notes" style="margin-top:4px">7日用量 <span class="mono">${s.tokensM}M</span> tokens</div>
+      </div>`).join("")}
+    </div>
+    <p class="notes" style="margin-top:12px">聚簇采用双模型确认：主模型判断 same_event / follow_up / different，拿不准的合并再换第二家模型复核，两票不同则拆开。</p>
+  </div>
+  <div class="card">
+    <h2>AI 专属模块</h2>
+    <table>
+      <tr><th>模块</th><th>状态</th><th>说明</th></tr>
+      <tr><td>模型榜</td><td><span class="pill off">已关闭</span></td><td class="muted">面向 AI 行业的模块，机械设计行业不适用（config/site.js → features.leaderboard）</td></tr>
+      <tr><td>新模型发布监控</td><td><span class="pill off">已关闭</span></td><td class="muted">同上（features.modelWatch）</td></tr>
+    </table>
+  </div>`;
+}
+
+/* ---------- 预算与熔断 ---------- */
+function pageBudget() {
+  const b = D.budget;
+  const usedPct = Math.round(b.tokenUsedMillion / b.tokenLimitMillion * 100);
+  const cls = usedPct >= b.fuseThresholdPct ? "err" : usedPct >= 70 ? "warn" : "";
+  return `<div class="h1">预算与熔断 <small>${b.month}</small></div>
+  <div class="page-sub">付费模型按月设 token 预算，达到熔断阈值自动切换到备用低价模型并告警，绝不超支。</div>
+  <div class="card">
+    <h2>本月用量</h2>
+    <div class="kpis">
+      <div class="kpi"><b class="${cls === "err" ? "" : ""}" style="color:${usedPct >= b.fuseThresholdPct ? "#dc2626" : "#0c1a2b"}">${usedPct}%</b><span>预算已用</span></div>
+      <div class="kpi"><b>${b.tokenUsedMillion}M</b><span>/ ${b.tokenLimitMillion}M tokens</span></div>
+      <div class="kpi"><b>$${b.costUsd}</b><span>本月成本</span></div>
+      <div class="kpi"><b>${b.fuseThresholdPct}%</b><span>熔断阈值</span></div>
+    </div>
+    <div class="bar-out" style="height:14px"><div class="bar-in ${cls}" style="width:${usedPct}%"></div></div>
+    <p class="notes" style="margin-top:10px">${usedPct >= b.fuseThresholdPct ? "⚠️ 已达熔断阈值：写作与聚簇步骤已切换至 deepseek-v3-fast，评分步骤降频。" : "距熔断阈值还有 " + (b.fuseThresholdPct - usedPct) + " 个百分点。"}</p>
+  </div>
+  <div class="card">
+    <h2>分步用量</h2>
+    <table>
+      <tr><th>步骤</th><th>模型</th><th>7日 tokens</th><th>占比</th></tr>
+      ${b.perStep.map(s => {
+        const total = b.perStep.reduce((n, x) => n + x.tokensM, 0);
+        return `<tr><td><b style="color:var(--ink)">${s.step}</b></td><td class="mono">${s.model}</td><td class="mono">${s.tokensM}M</td>
+        <td><div class="bar-out" style="min-width:70px"><div class="bar-in" style="width:${Math.round(s.tokensM / total * 100)}%"></div></div></td></tr>`;
+      }).join("")}
+    </table>
+  </div>`;
+}
+
+/* ---------- 运行记录 ---------- */
+function pageRuns() {
+  return `<div class="h1">运行记录 <small>最近任务与告警</small></div>
+  <div class="page-sub">采集 → 预筛 → 双评分 → 聚簇 → 成刊，每步独立记录；异常自动重试，失败告警。</div>
+  <div class="card">
+    <table>
+      <tr><th>时间</th><th>任务</th><th>状态</th><th>详情</th></tr>
+      ${D.runs.map(r => `<tr>
+        <td class="mono" style="font-size:12.5px;white-space:nowrap">${r.time}</td>
+        <td><b style="color:var(--ink)">${r.task}</b></td>
+        <td><span class="pill ${r.status}">${{ ok: "成功", warn: "告警", error: "失败后恢复" }[r.status]}</span></td>
+        <td class="muted">${esc(r.detail)}</td>
+      </tr>`).join("")}
+    </table>
+  </div>`;
+}
+
+/* ---------- 渲染与交互 ---------- */
+const pages = { sources: pageSources, diag: pageDiag, eval: pageEval, models: pageModels, budget: pageBudget, runs: pageRuns };
+function render(key) {
+  $("#main").innerHTML = pages[key]();
+  document.querySelectorAll("#nav button").forEach(b => b.classList.toggle("active", b.dataset.page === key));
+}
+document.querySelectorAll("#nav button").forEach(b => b.addEventListener("click", () => render(b.dataset.page)));
+
+$("#main").addEventListener("click", e => {
+  const t = e.target.closest("[data-toggle],[data-test]");
+  if (!t) return;
+  if (t.dataset.toggle) { t.classList.toggle("on"); toast(t.classList.contains("on") ? "✓ 信源已启用（演示，未写入配置）" : "已停用（演示）"); }
+  if (t.dataset.test) {
+    const s = SRC.sources.find(x => x.id === t.dataset.test);
+    const log = $("#simLog");
+    log.classList.add("show");
+    log.textContent = `▶ 试抓 ${s.name} [${TYPE_NAME[s.type]}]\n` +
+      (s.type === "wechat" ? "→ 通过公众号采集器拉取最近 5 篇…\n✓ 抓取 5 条，去重后新增 2 条，已入箱等待预筛" :
+       s.type === "push" ? "→ 无需抓取：等待外部脚本 POST /api/push\n✓ 当前队列 0 条" :
+       s.type === "x" ? "→ 拉取 @账号 最近 20 条…\n✓ 抓取 20 条，含转推 8 条已过滤，新增 3 条" :
+       `→ GET ${s.url}\n✓ 200 OK · 解析 ${5 + (s.id.length % 7)} 条，去重后新增 ${s.id.length % 4} 条，已入箱等待预筛`);
+    toast("试抓完成（演示）", 2400);
+  }
+});
+
+render("sources");
+</script>
+</body>
+</html>

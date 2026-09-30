@@ -1,0 +1,1191 @@
+{
+  "site": {
+    "name": "机械前沿",
+    "nameEn": "MechFront",
+    "url": "https://mechfront.news",
+    "description": "每天从全球信源收集 AI × 机械设计的最新动态，双评分精选、事件聚簇、按独立来源计算热度，每天早上 8 点出一份日报。",
+    "generatedAt": "2026-09-30T08:00:00+08:00"
+  },
+  "counts": {
+    "events": 31,
+    "reports": 4,
+    "items": 60
+  },
+  "events": [
+    {
+      "id": "e01",
+      "title": "中望软件发布 CAx 智能体平台与「中望3D悟空」，自然语言直出带参三维模型",
+      "overview": "中望在 ZWORLD 2026 大会（广州，1500+ 与会）发布集 CAD/CAE/CAM 一体的 CAx 智能体平台，规划 5000+ 可组合能力单元；「中望3D悟空」实现自然语言生成带参三维模型、AI 出图（接入 DeepSeek/Kimi）与 AI CAM 编程，并启动百家客户共创计划。国产 CAD 从「对标替代」转入「智能体平台」叙事。",
+      "category": "cad",
+      "tags": [
+        "中望软件",
+        "工程智能体",
+        "国产CAD",
+        "text-to-CAD"
+      ],
+      "firstSeen": "2026-09-16T10:00:00+08:00",
+      "lastSeen": "2026-09-29T18:30:00+08:00",
+      "items": [
+        {
+          "id": "i0101",
+          "title": "中望发布 CAx 智能体平台与中望3D悟空（上海证券报）",
+          "url": "http://www.gd.news.cn/20260921/643e1403afe34a81a2e385ae19e04050/c.html",
+          "sourceName": "新华网广东（转上海证券报）",
+          "tier": "media",
+          "publishedAt": "2026-09-21T09:20:00+08:00",
+          "scoreA": 84,
+          "scoreB": 82,
+          "summary": "中望软件在 ZWORLD 2026 发布 CAx 智能体平台与「中望3D悟空」，集 CAD/CAE/CAM 于一体、规划 5000+ 可组合能力单元，悟空可由自然语言生成带参三维模型，并启动百家客户共创。"
+        },
+        {
+          "id": "i0102",
+          "title": "中望3D悟空：自然语言生成带参模型，AI 出图接入 DeepSeek/Kimi",
+          "url": "https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initnsei2938796.shtml",
+          "sourceName": "新浪科技",
+          "tier": "media",
+          "publishedAt": "2026-09-29T18:30:00+08:00",
+          "scoreA": 80,
+          "scoreB": 79,
+          "summary": "新浪科技跟进报道中望 CAx 智能体平台：悟空实现自然语言生成带参数三维模型、AI 出图接入 DeepSeek 与 Kimi、AI CAM 编程辅助，百家客户共创已启动。"
+        },
+        {
+          "id": "i0103",
+          "title": "中望软件公司大事：ZWCAD365 V2.0 上线两项 AI 功能",
+          "url": "http://emweb.securities.eastmoney.com/PC_HSF10/CompanyBigNews/Index?code=SH688083",
+          "sourceName": "东方财富·公司大事（688083）",
+          "tier": "media",
+          "publishedAt": "2026-09-22T10:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 72,
+          "summary": "东方财富公司大事记录显示，中望 ZWCAD365 V2.0 上线两项 AI 功能，ZW3D 悟空 2027 版规划 AI 自动出图。"
+        }
+      ]
+    },
+    {
+      "id": "e02",
+      "title": "Autodesk AU 2026：Fusion 发布 AutoTimeline / AutoAssemble 等一波 AI 工作流",
+      "overview": "Autodesk 在 AU 2026（9 月中）为 Fusion 发布新一轮 AI 能力：AutoTimeline 从无历史几何重建可编辑参数化特征树、AutoAssemble 自动装配、AI 生成 CAM 刀路、Find Similar 零件识别复用，延续年初接入 Claude/MCP 的路线。重建参数化历史长期是逆向工程痛点，官方定位为「把扫描件变成可编辑设计」。",
+      "category": "cad",
+      "tags": [
+        "Autodesk",
+        "Fusion",
+        "参数化重建",
+        "工程智能体"
+      ],
+      "firstSeen": "2026-09-18T22:00:00+08:00",
+      "lastSeen": "2026-09-18T22:00:00+08:00",
+      "items": [
+        {
+          "id": "i0201",
+          "title": "AI-powered workflows coming to Autodesk Fusion",
+          "url": "https://www.autodesk.com/products/fusion-360/blog/ai-powered-workflows-coming-to-autodesk-fusion/",
+          "sourceName": "Autodesk Fusion 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-09-18T22:00:00+08:00",
+          "scoreA": 90,
+          "scoreB": 87,
+          "summary": "Autodesk 官方发布 Fusion 新一波 AI 工作流：AutoTimeline 从无历史的几何重建可编辑参数化特征树，AutoAssemble 自动装配，AI 生成 CAM 刀路，Find Similar 按形状识别复用已有零件。"
+        },
+        {
+          "id": "i0202",
+          "title": "Fusion AI 工作流发布（法文版官方博客同步）",
+          "url": "https://www.autodesk.com/products/fusion-360/blog/fr/ai-powered-workflows-coming-to-autodesk-fusion/",
+          "sourceName": "Autodesk Fusion 官方博客（FR）",
+          "tier": "official",
+          "publishedAt": "2026-09-18T22:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 76,
+          "summary": "Autodesk 官方法文博客同日发布 Fusion AI 工作流公告，内容与英文版一致，显示该波更新面向全球用户。"
+        }
+      ]
+    },
+    {
+      "id": "e03",
+      "title": "ConCAD（清华深研院）：约束感知的 image-to-CAD，B-rep 约束满足率达 SOTA",
+      "overview": "清华深圳国际研究生院提出 ConCAD，用 GRPO 强化学习 + 代码级约束与几何双粒度奖励做约束感知 image-to-CAD，并提出 B-rep 约束满足率指标 G-CSR，在 DeepCAD / Zero2CAD 数据集上达到 SOTA。9 月 28 日挂出 arXiv。",
+      "category": "research",
+      "tags": [
+        "清华大学",
+        "image-to-CAD",
+        "text-to-CAD",
+        "学术论文"
+      ],
+      "firstSeen": "2026-09-28T16:00:00+08:00",
+      "lastSeen": "2026-09-28T16:00:00+08:00",
+      "items": [
+        {
+          "id": "i0301",
+          "title": "ConCAD: Constraint-Aware Image-to-CAD（arXiv）",
+          "url": "https://arxiv.org/pdf/2609.34494",
+          "sourceName": "arXiv",
+          "tier": "community",
+          "publishedAt": "2026-09-28T16:00:00+08:00",
+          "scoreA": 82,
+          "scoreB": 80,
+          "summary": "ConCAD 用 GRPO 强化学习对 image-to-CAD 施加代码级约束与几何双粒度奖励，提出约束满足率指标 G-CSR，在 DeepCAD 与 Zero2CAD 上达到 SOTA。"
+        }
+      ]
+    },
+    {
+      "id": "e04",
+      "title": "特斯拉 Optimus 周产翻 10 倍冲刺千台；智元上半年出货 9700 台居全球第一",
+      "overview": "第一财经 9 月 29 日报道：特斯拉 Optimus 周产由数十台升至数百台，年底冲刺周产 1000 台；2026 年全球人形机器人出货预计破 5 万台，智元上半年出货约 9700 台、占全球 43% 居首。人形机器人进入万台级量产时代，直接改变机械本体设计与供应链的需求结构。",
+      "category": "robotics",
+      "tags": [
+        "具身智能",
+        "人形机器人",
+        "特斯拉",
+        "智元机器人"
+      ],
+      "firstSeen": "2026-09-29T09:55:00+08:00",
+      "lastSeen": "2026-09-29T09:55:00+08:00",
+      "items": [
+        {
+          "id": "i0401",
+          "title": "Optimus 周产翻 10 倍；2026 全球人形机器人出货预计破 5 万台",
+          "url": "https://finance.sina.com.cn/wm/2026-09-29/doc-initnfqc7854030.shtml",
+          "sourceName": "第一财经（新浪财经转载）",
+          "tier": "media",
+          "publishedAt": "2026-09-29T09:55:00+08:00",
+          "scoreA": 83,
+          "scoreB": 81,
+          "summary": "第一财经报道：特斯拉 Optimus 周产由数十台升至数百台、年底冲刺周产 1000 台；智元上半年出货约 9700 台占全球 43%，2026 年全球人形机器人出货预计突破 5 万台。"
+        }
+      ]
+    },
+    {
+      "id": "e05",
+      "title": "宇树科技科创板上市，「具身智能第一股」市值约 1830 亿元",
+      "overview": "宇树科技 8 月 19 日登陆科创板（688836），发行价 150.80 元/股、募资约 61 亿元、IPO 估值约 90 亿美元；2025 年人形机器人出货超 5500 台全球第一，8 月 17 日发布 Superman 人形机器人（2 米立定跳、12.66m/s）。9 月底总市值约 1830 亿元。",
+      "category": "market",
+      "tags": [
+        "宇树科技",
+        "具身智能",
+        "IPO",
+        "人形机器人"
+      ],
+      "firstSeen": "2026-08-17T10:00:00+08:00",
+      "lastSeen": "2026-08-19T09:30:00+08:00",
+      "items": [
+        {
+          "id": "i0501",
+          "title": "Unitree makes debut on STAR Market as first embodied intelligence stock",
+          "url": "https://english.news.cn/20260818/9a5428390120473883d825a3030ec41b/c.html",
+          "sourceName": "新华社（英文）",
+          "tier": "media",
+          "publishedAt": "2026-08-18T20:00:00+08:00",
+          "scoreA": 88,
+          "scoreB": 86,
+          "summary": "新华社报道宇树科技 8 月 19 日科创板上市：发行价 150.80 元/股，募资约 61 亿元，IPO 估值约 90 亿美元，2025 年人形机器人出货超 5500 台居全球第一。"
+        },
+        {
+          "id": "i0502",
+          "title": "上交所：宇树科技首次公开发行股票上市公告书",
+          "url": "http://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml",
+          "sourceName": "上海证券交易所",
+          "tier": "official",
+          "publishedAt": "2026-08-18T16:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 78,
+          "summary": "上交所披露宇树科技上市公告书（代码 688836），为「具身智能第一股」提供官方口径的发行信息。"
+        },
+        {
+          "id": "i0503",
+          "title": "宇树上市前夜：第一财经专题「具身智能第一股」",
+          "url": "https://touch.shio.gov.cn/jsp/zfxw_detail.jsp?id=20260809182429472",
+          "sourceName": "第一财经（上海市人民政府转载）",
+          "tier": "media",
+          "publishedAt": "2026-08-09T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 74,
+          "summary": "上市前的第一财经专题报道梳理宇树的出货结构、Superman 发布节点与估值逻辑。"
+        }
+      ]
+    },
+    {
+      "id": "e06",
+      "title": "Synopsys 发布 Ansys 2026 R1：收购后首个联合版本，首发生成式几何 GeomAI",
+      "overview": "Synopsys 3 月 11 日发布 Ansys 2026 R1——收购完成后的首个联合版本：VC FSM×medini 安全分析、QuantumATK×Granta 材料流等联合工作流；SimAI 拆为云端 Premium 与桌面 Pro，并首发生成式几何产品 Ansys GeomAI、引入 agentic 工程能力。8 月 26 日 Q3 财报显示 Ansys 贡献营收 6.22 亿美元。",
+      "category": "cae",
+      "tags": [
+        "Synopsys / Ansys",
+        "AI 仿真与代理模型",
+        "产品发布",
+        "并购整合"
+      ],
+      "firstSeen": "2026-03-11T21:00:00+08:00",
+      "lastSeen": "2026-08-26T20:00:00+08:00",
+      "items": [
+        {
+          "id": "i0601",
+          "title": "Synopsys Launches Ansys 2026 R1 to Re-Engineer Engineering",
+          "url": "https://news.synopsys.com/2026-03-11-Synopsys-Launches-Ansys-2026-R1-to-Re-Engineer-Engineering-with-Joint-Solutions-and-AI-Powered-Products",
+          "sourceName": "Synopsys 新闻室",
+          "tier": "official",
+          "publishedAt": "2026-03-11T21:00:00+08:00",
+          "scoreA": 88,
+          "scoreB": 85,
+          "summary": "Synopsys 发布 Ansys 2026 R1：首个整合双方的联合版本，含联合工作流与 AI 产品；SimAI 拆分为云端 Premium 与桌面 Pro，首发生成式几何产品 Ansys GeomAI，并引入 agentic 工程能力。"
+        },
+        {
+          "id": "i0602",
+          "title": "Ansys AI 产品页：SimAI / GeomAI / agentic 工程能力",
+          "url": "https://www.ansys.com/products/ai",
+          "sourceName": "Ansys 官网",
+          "tier": "official",
+          "publishedAt": "2026-03-11T21:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 73,
+          "summary": "Ansys 官网 AI 产品页汇总 SimAI（云端/桌面双版本）、GeomAI 生成式几何与 agentic 工程能力的产品定位。"
+        },
+        {
+          "id": "i0603",
+          "title": "Synopsys Q3 营收 24.8 亿美元（+42%），Ansys 贡献 6.22 亿",
+          "url": "https://www.assetroom.net/s/synopsys/njfDrn/synopsys-reports-42-revenue-growth-to-2-48-billion-driven-by-ansys-acquisition",
+          "sourceName": "AssetRoom",
+          "tier": "media",
+          "publishedAt": "2026-08-26T20:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 71,
+          "summary": "Synopsys FY2026 Q3 营收 24.8 亿美元、同比 +42%，其中 Ansys 贡献 6.22 亿美元（占 28.7%），积压订单约 109 亿美元。"
+        }
+      ]
+    },
+    {
+      "id": "e07",
+      "title": "达索 SOLIDWORKS AI 虚拟伙伴 AURA/LEO/MARIE：从 3DEXPERIENCE World 发布到全球上线",
+      "overview": "达索系统 2 月在 3DEXPERIENCE World 2026 发布基于「科学验证世界模型」的三个 AI 虚拟伙伴——AURA（创意）、LEO（工程）、MARIE（科学），并与 NVIDIA 共建工业 AI 平台；7 月 11 日 Virtual Companions 在 3DEXPERIENCE 平台 SaaS 全球可用，LEO 可把 STEP/BREP 几何转为全参数化 SOLIDWORKS 模型；8 月 FD03 更新新增装配性能分析与自然语言生成宏。",
+      "category": "cad",
+      "tags": [
+        "达索系统 Dassault",
+        "SOLIDWORKS",
+        "工程智能体",
+        "参数化重建"
+      ],
+      "firstSeen": "2026-02-02T10:00:00+08:00",
+      "lastSeen": "2026-08-05T20:00:00+08:00",
+      "items": [
+        {
+          "id": "i0701",
+          "title": "3DEXPERIENCE World 2026 第二天：达索×NVIDIA 工业AI平台与 AI 三助手",
+          "url": "https://blogs.solidworks.com/products/solidworks/day-two-of-3dexperience-world-2026-catching-up-on-the-action/",
+          "sourceName": "SOLIDWORKS 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-02-04T08:00:00+08:00",
+          "scoreA": 87,
+          "scoreB": 85,
+          "summary": "SOLIDWORKS 官方博客回顾 3DEXPERIENCE World 2026：达索与 NVIDIA 宣布共建基于科学验证世界模型的工业 AI 平台，发布 AURA/LEO/MARIE 三个虚拟助手，支持 2D 转 3D 与对话式生成装配和图纸。"
+        },
+        {
+          "id": "i0702",
+          "title": "3Dnatives：达索的 NVIDIA 驱动 AI 智能体（英文报道）",
+          "url": "https://www.3dnatives.com/en/dassault-systemes-nvidia-ai-agents-05022026/",
+          "sourceName": "3Dnatives",
+          "tier": "media",
+          "publishedAt": "2026-02-05T18:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 75,
+          "summary": "3Dnatives 报道达索与 NVIDIA 的工业 AI 平台合作与三个 AI 智能体的现场演示细节。"
+        },
+        {
+          "id": "i0703",
+          "title": "Virtual Companions 全球上线：LEO 可将 STEP/BREP 转为全参数化模型",
+          "url": "https://3dswym.3dexperience.3ds.com/wiki/solidworks-news-info/what-s-new-generative-experiences-virtual-companions_dUETx-VASWaynZGRLPgXrg",
+          "sourceName": "3DEXPERIENCE 官方 Wiki",
+          "tier": "official",
+          "publishedAt": "2026-07-11T16:00:00+08:00",
+          "scoreA": 85,
+          "scoreB": 83,
+          "summary": "7 月 11 日起 Aura/Leo/Marie 三个虚拟伙伴在 3DEXPERIENCE 平台 SaaS 全球可用，基于 Industry World Models；LEO 可把 STEP/BREP 几何转为全参数化 SOLIDWORKS 模型。"
+        },
+        {
+          "id": "i0704",
+          "title": "SOLIDWORKS AI R2026x FD03：LEO 新增装配分析与自然语言宏",
+          "url": "https://blogs.solidworks.com/products/solidworks/whats-new-in-solidworks-ai-r2026x-fd03/",
+          "sourceName": "SOLIDWORKS 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-08-05T20:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 78,
+          "summary": "FD03 更新为 LEO 新增装配性能分析、装配简化、自动生成装配指导书与自然语言生成宏的能力。"
+        }
+      ]
+    },
+    {
+      "id": "e08",
+      "title": "PTC 发布 Creo 13 与 Creo AI Assistant：内嵌聊天式 AI 助手进入设计环境",
+      "overview": "PTC 6 月 10 日发布 Creo 13：内嵌聊天式 Creo AI Assistant 提供工程指引与排障，beta 功能可读取 3D 模型提前发现设计问题，生成式设计扩展至装配上下文。",
+      "category": "cad",
+      "tags": [
+        "PTC",
+        "Creo",
+        "工程智能体",
+        "产品发布"
+      ],
+      "firstSeen": "2026-06-10T20:00:00+08:00",
+      "lastSeen": "2026-06-16T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i0801",
+          "title": "PTC Brings AI-Powered Guidance to the Design Environment with Creo 13",
+          "url": "https://www.ptc.com/en/news/2026/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13",
+          "sourceName": "PTC 新闻室",
+          "tier": "official",
+          "publishedAt": "2026-06-10T20:00:00+08:00",
+          "scoreA": 86,
+          "scoreB": 84,
+          "summary": "PTC 发布 Creo 13 与 Creo AI Assistant：聊天式 AI 助手内嵌于设计环境提供工程指引与排障，beta 功能可读取 3D 模型提前发现设计问题，生成式设计扩展至装配上下文。"
+        },
+        {
+          "id": "i0802",
+          "title": "PTC 日本新闻室：Creo 13 の AI 機能（日文版）",
+          "url": "https://www.ptc.com/ja/news/2026/ptc-brings-ai-powered-guidance-to-the-design-environment-with-creo-13",
+          "sourceName": "PTC 新闻室（JA）",
+          "tier": "official",
+          "publishedAt": "2026-06-16T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 73,
+          "summary": "PTC 日本官网发布 Creo 13 日文公告，内容与英文版一致。"
+        }
+      ]
+    },
+    {
+      "id": "e09",
+      "title": "NVIDIA NemoClaw「自主 AI 工程师」：工业软件巨头联手把数周仿真压到数小时",
+      "overview": "NVIDIA 在 GTC 台北（6 月 3 日）发布 NemoClaw 自主 AI 工程师蓝图：Cadence、达索、西门子、新思（Ansys Icepak 做 GPU 散热）以及 Luminary、Neural Concept、nTop、PhysicsX、P-1 AI、SimScale、Flexcompute 等基于 NemoClaw 蓝图 + OpenShell 构建 CAE/EDA 智能体，把数周仿真压缩至数小时。",
+      "category": "cae",
+      "tags": [
+        "NVIDIA",
+        "工程智能体",
+        "AI 仿真与代理模型",
+        "产品发布"
+      ],
+      "firstSeen": "2026-06-03T14:00:00+08:00",
+      "lastSeen": "2026-06-03T14:00:00+08:00",
+      "items": [
+        {
+          "id": "i0901",
+          "title": "工业软件领导者部署 NemoClaw 自主 AI 工程师（NVIDIA 中文博客）",
+          "url": "https://blogs.nvidia.cn/blog/industrial-software-leaders-secure-autonomous-ai-engineers-nemoclaw/",
+          "sourceName": "NVIDIA 官方博客（中文）",
+          "tier": "official",
+          "publishedAt": "2026-06-03T14:00:00+08:00",
+          "scoreA": 89,
+          "scoreB": 86,
+          "summary": "NVIDIA 发布 NemoClaw 自主 AI 工程师：Cadence、达索、西门子、新思及 Luminary、Neural Concept、nTop、PhysicsX、P-1 AI、SimScale、Flexcompute 等基于 NemoClaw 蓝图与 OpenShell 构建 CAE/EDA 智能体，可将数周仿真压缩至数小时。"
+        }
+      ]
+    },
+    {
+      "id": "e10",
+      "title": "NVIDIA Cosmos 3（CVPR）：统一视觉推理与世界/动作生成的开放全模态模型",
+      "overview": "NVIDIA 在 CVPR 2026 发布 Cosmos 3：统一视觉推理 + 世界/动作生成的开放前沿全模态模型，配套 Isaac Sim、AlpaGym、Cosmos-Dreams 等用于合成数据与策略训练——机器人与物理 AI 的研发底座再升级。",
+      "category": "robotics",
+      "tags": [
+        "NVIDIA",
+        "具身智能",
+        "世界模型",
+        "开源发布"
+      ],
+      "firstSeen": "2026-06-03T14:00:00+08:00",
+      "lastSeen": "2026-06-03T14:00:00+08:00",
+      "items": [
+        {
+          "id": "i1001",
+          "title": "CVPR 物理 AI 研究：Cosmos 3 与 Agent Skills",
+          "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+          "sourceName": "NVIDIA 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-06-03T14:00:00+08:00",
+          "scoreA": 84,
+          "scoreB": 82,
+          "summary": "NVIDIA 发布 Cosmos 3：统一视觉推理与世界/动作生成的开放前沿全模态模型，配套 Isaac Sim、AlpaGym、Cosmos-Dreams 做合成数据与策略训练。"
+        }
+      ]
+    },
+    {
+      "id": "e11",
+      "title": "西门子 Simcenter 2026 夏季版：首个整合 Altair 技术的统一仿真组合，新增 PhysicsAI Generate",
+      "overview": "西门子 7 月 28 日发布 Simcenter 2026 夏季版——收购 Altair 后首个整合双方技术的统一仿真组合：PhysicsAI 跨产品集成，新增 PhysicsAI Generate 秒级生成物理感知设计概念，多 GPU 训练提速 10 倍以上。此前 2025 年 12 月 Altair HyperWorks 2026 已以几何深度学习 + GPU 降阶模型亮相（物理 AI 最快比传统求解快 1000 倍）。",
+      "category": "cae",
+      "tags": [
+        "西门子 Siemens",
+        "Altair",
+        "AI 仿真与代理模型",
+        "并购整合"
+      ],
+      "firstSeen": "2025-12-08T10:00:00+08:00",
+      "lastSeen": "2026-07-28T18:00:00+08:00",
+      "items": [
+        {
+          "id": "i1101",
+          "title": "Altair HyperWorks 2026：几何深度学习与 GPU 降阶模型",
+          "url": "https://news.siemens.com/zh-cn/altair-hyperworks-2026/",
+          "sourceName": "西门子新闻（中文）",
+          "tier": "official",
+          "publishedAt": "2025-12-08T10:00:00+08:00",
+          "scoreA": 84,
+          "scoreB": 82,
+          "summary": "西门子发布 Altair HyperWorks 2026：几何深度学习 + GPU 降阶模型，物理 AI 模型最快比传统求解快 1000 倍，为并入西门子后的首个大版本。"
+        },
+        {
+          "id": "i1102",
+          "title": "Simcenter Summer 2026：首个整合 Altair 技术的统一仿真组合",
+          "url": "https://news.siemens.com/pt-pt/siemens-simcenter-summer-2026/",
+          "sourceName": "西门子新闻（葡语）",
+          "tier": "official",
+          "publishedAt": "2026-07-28T18:00:00+08:00",
+          "scoreA": 86,
+          "scoreB": 84,
+          "summary": "Simcenter 2026 夏季版成为首个整合 Altair 技术的统一仿真组合：PhysicsAI 跨产品集成，新增 PhysicsAI Generate 秒级生成物理感知设计概念，多 GPU 训练提速 10 倍以上。"
+        }
+      ]
+    },
+    {
+      "id": "e12",
+      "title": "西门子 Eigen Engineering Agent 正式上市：面向 TIA Portal 的生成式自动化工程智能体",
+      "overview": "西门子面向 TIA Portal 的生成式自动化工程智能体 Eigen Engineering Agent 正式 GA 并快速迭代（V1.4.0 于 2026-08-27）：覆盖 SCL/LAD/FBD 三种语言，开放 60 万+ 用户、提供 1 个月免费试用。从 CAD 延伸到自动化工程，「工程智能体」成为西门子的主线叙事。",
+      "category": "cad",
+      "tags": [
+        "西门子 Siemens",
+        "工程智能体",
+        "产品发布"
+      ],
+      "firstSeen": "2026-05-27T10:00:00+08:00",
+      "lastSeen": "2026-08-27T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1201",
+          "title": "Siemens takes AI to the physical world with Eigen Engineering Agent",
+          "url": "https://press.siemens.com/global/en/pressrelease/siemens-takes-ai-physical-world-next-level-two-new-eigen-engineering-agent",
+          "sourceName": "西门子新闻稿",
+          "tier": "official",
+          "publishedAt": "2026-06-10T10:00:00+08:00",
+          "scoreA": 82,
+          "scoreB": 80,
+          "summary": "西门子新闻稿宣布 Eigen Engineering Agent 上市：面向 TIA Portal 的生成式自动化工程智能体，覆盖 SCL/LAD/FBD，开放 60 万+ 用户并提供 1 个月免费试用。"
+        },
+        {
+          "id": "i1202",
+          "title": "Eigen Engineering Agent 产品页（西门子中国）",
+          "url": "https://www.siemens.com/zh-cn/products/tia-portal/eigen-engineering-agent/",
+          "sourceName": "西门子（中国）产品页",
+          "tier": "official",
+          "publishedAt": "2026-06-20T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 74,
+          "summary": "西门子中国官网 Eigen Engineering Agent 产品页：能力范围、试用入口与中文文档。"
+        },
+        {
+          "id": "i1203",
+          "title": "Eigen V1.4.0 发布：WinCC Unified 工程支持与用例征集",
+          "url": "https://sieportal.siemens.com/en-ch/support/forum/posts/Eigen-Engineering-Agent-for-WinCC-Unified-Engineering---Share-Your-Ideas-Questions-Use-Cases/344319",
+          "sourceName": "SiePortal 社区",
+          "tier": "community",
+          "publishedAt": "2026-08-27T10:00:00+08:00",
+          "scoreA": 68,
+          "scoreB": 70,
+          "summary": "SiePortal 社区帖：Eigen Engineering Agent V1.4.0 发布并扩展 WinCC Unified 工程支持，同时征集用户用例。"
+        }
+      ]
+    },
+    {
+      "id": "e13",
+      "title": "PTC Onshape Labs AI 早期体验全面开放：AI 渲染 / SimReady / FeatureScript 补全上线",
+      "overview": "Onshape Labs AI 早期体验计划 7 月 15 日全面开放：AI Quick Render、SimReady Publisher（对接 NVIDIA Isaac Sim）、FeatureScript Co-Complete 上线；路线图包含 FeatureScript MCP Server 与 Drawing Checker。9 月 18 日更新增加 AI 生成缩略图与描述搜索。云原生 CAD 的 AI 能力正以月为单位迭代。",
+      "category": "cad",
+      "tags": [
+        "PTC",
+        "Onshape",
+        "工程智能体",
+        "产品发布"
+      ],
+      "firstSeen": "2026-07-15T20:00:00+08:00",
+      "lastSeen": "2026-09-18T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1301",
+          "title": "AI in CAD: Onshape Labs Early Access Program",
+          "url": "https://www.onshape.com/en/blog/ai-in-cad-onshape-labs-early-access-program",
+          "sourceName": "Onshape 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-07-15T20:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 79,
+          "summary": "Onshape Labs AI 早期体验计划全面开放：AI Quick Render、SimReady Publisher（对接 NVIDIA Isaac Sim）、FeatureScript Co-Complete 上线，路线图含 FeatureScript MCP Server 与 Drawing Checker。"
+        },
+        {
+          "id": "i1302",
+          "title": "PTC 新闻室：OnshapeLabs 计划公告",
+          "url": "https://www.ptc.com/en/news/2026/onshapelabs",
+          "sourceName": "PTC 新闻室",
+          "tier": "official",
+          "publishedAt": "2026-07-15T20:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 75,
+          "summary": "PTC 官方新闻稿确认 Onshape Labs AI 早期体验计划开放。"
+        },
+        {
+          "id": "i1303",
+          "title": "Onshape 更新：AI 生成缩略图与描述性搜索",
+          "url": "https://www.onshape.com/de/resource-center/what-is-new/dynamic-suppression-assemblies-compare-feature-studios-ai-generated-thumbnail-descriptive-search",
+          "sourceName": "Onshape 更新日志",
+          "tier": "official",
+          "publishedAt": "2026-09-18T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 71,
+          "summary": "9 月 18 日更新：Onshape 增加 AI 生成缩略图与自然语言描述搜索，配合动态抑制装配与 Feature Studio 对比等功能。"
+        }
+      ]
+    },
+    {
+      "id": "e14",
+      "title": "Neural Concept 完成 1 亿美元 C 轮（高盛领投），CES 2026 发布 AI 设计助手",
+      "overview": "AI 工程设计平台 Neural Concept 2025 年 12 月完成 1 亿美元 C 轮（Goldman Sachs 领投），客户含 GM、GE Vernova、莱昂纳多、赛峰、雷诺及多支 F1 车队，称年省 5000 万美元；2026 年 1 月 CES 发布 AI 设计助手，把数周 CAD 迭代压缩至几分钟。AI 工程设计独立软件赛道得到一级市场确认。",
+      "category": "market",
+      "tags": [
+        "Neural Concept",
+        "融资并购",
+        "AI 仿真与代理模型",
+        "产品发布"
+      ],
+      "firstSeen": "2025-12-18T10:00:00+08:00",
+      "lastSeen": "2026-01-07T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1401",
+          "title": "Neural Concept closes $100M funding round led by Goldman Sachs",
+          "url": "https://am.gs.com/en-int/institutions/news/press-release/2025/neural-concept-closes--100m-funding-round-led-by-growth-equity-a",
+          "sourceName": "Goldman Sachs 新闻室",
+          "tier": "official",
+          "publishedAt": "2025-12-18T10:00:00+08:00",
+          "scoreA": 86,
+          "scoreB": 84,
+          "summary": "Neural Concept 完成 1 亿美元 C 轮融资，Goldman Sachs 领投；客户包括 GM、GE Vernova、莱昂纳多、赛峰、雷诺及多支 F1 车队，公司称客户每年合计节省约 5000 万美元。"
+        },
+        {
+          "id": "i1402",
+          "title": "Pulse2：Neural Concept 1 亿美元 C 轮",
+          "url": "https://pulse2.com/neural-concept-100-million-series-c-2/",
+          "sourceName": "Pulse2",
+          "tier": "media",
+          "publishedAt": "2025-12-19T08:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 73,
+          "summary": "Pulse2 报道 Neural Concept 1 亿美元 C 轮融资与 AI 工程设计平台的商业化进展。"
+        },
+        {
+          "id": "i1403",
+          "title": "CES 2026：Neural Concept 发布 AI 设计助手",
+          "url": "http://m.toutiao.com/group/7595122973468590626/",
+          "sourceName": "中国航空新闻网（今日头条）",
+          "tier": "media",
+          "publishedAt": "2026-01-07T10:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 76,
+          "summary": "Neural Concept 在 CES 2026 发布 AI 设计助手，将数周的 CAD 迭代压缩至几分钟。"
+        }
+      ]
+    },
+    {
+      "id": "e15",
+      "title": "ReliCAD（中科大）：从不确定的 LLM 生成到可靠参数化 CAD，有效率 99.8%",
+      "overview": "中国科学技术大学 9 月 16 日提出 ReliCAD：用显式设计意图建模 + CAD 内核 API + 验证反馈修复，把 LLM 生成的「不确定 CAD」变成可靠参数化 CAD，HistCAD 数据集上有效率 99.8%、IoU 0.8753。直击 text-to-CAD 落地的可靠性短板。",
+      "category": "research",
+      "tags": [
+        "中国科学技术大学",
+        "text-to-CAD",
+        "学术论文",
+        "参数化重建"
+      ],
+      "firstSeen": "2026-09-16T16:00:00+08:00",
+      "lastSeen": "2026-09-16T16:00:00+08:00",
+      "items": [
+        {
+          "id": "i1501",
+          "title": "ReliCAD: Reliable Parametric CAD Generation（arXiv）",
+          "url": "https://arxiv.org/html/2609.22325v1",
+          "sourceName": "arXiv",
+          "tier": "community",
+          "publishedAt": "2026-09-16T16:00:00+08:00",
+          "scoreA": 82,
+          "scoreB": 81,
+          "summary": "中科大提出 ReliCAD：显式设计意图建模 + CAD 内核 API + 验证反馈修复，使 LLM 生成的参数化 CAD 更可靠，HistCAD 上有效率 99.8%、IoU 0.8753。"
+        }
+      ]
+    },
+    {
+      "id": "e16",
+      "title": "CADKnitter（SIGGRAPH Asia 2026）：按文本+已有零件生成可装配互补件",
+      "overview": "CADKnitter 提出组合式 CAD 生成：给定文本描述与已有零件，生成可与之装配的互补零件，并发布 31 万样本的 KnitCAD 数据集。论文入选 SIGGRAPH Asia 2026。",
+      "category": "research",
+      "tags": [
+        "text-to-CAD",
+        "学术论文",
+        "生成式设计"
+      ],
+      "firstSeen": "2025-12-16T10:00:00+08:00",
+      "lastSeen": "2025-12-16T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1601",
+          "title": "CADKnitter: Compositional CAD Generation（arXiv / SIGGRAPH Asia 2026）",
+          "url": "https://arxiv.org/html/2512.11199v2",
+          "sourceName": "arXiv",
+          "tier": "community",
+          "publishedAt": "2025-12-16T10:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 77,
+          "summary": "CADKnitter 按文本与已有零件生成可装配的互补零件，发布 31 万样本 KnitCAD 数据集，入选 SIGGRAPH Asia 2026。"
+        }
+      ]
+    },
+    {
+      "id": "e17",
+      "title": "NeurIPS 2025 工程设计基准三连：EngDesign / BikeBench / EngiBench",
+      "overview": "NeurIPS 2025 D&B Track 密集出现工程设计基准：UIUC 等的 EngDesign（9 领域仿真评测，直指「Engineering AGI」）、BikeBench（自行车多目标设计，1.6M 合成设计）、ETH 的 EngiBench（跨域设计优化开源库）。另有 ExpConCAD（隐式空间约束补全）与 LLMForge（97 题 text-to-CAD 多模型实证）。工程设计能力开始有了统一考场。",
+      "category": "research",
+      "tags": [
+        "学术论文",
+        "text-to-CAD",
+        "基准测试",
+        "NeurIPS"
+      ],
+      "firstSeen": "2025-12-05T10:00:00+08:00",
+      "lastSeen": "2026-08-28T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1701",
+          "title": "EngDesign：面向「Engineering AGI」的九领域仿真评测基准",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/664f777548205fb6e0cbb0965e8d2e16-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "sourceName": "NeurIPS 2025 Proceedings",
+          "tier": "community",
+          "publishedAt": "2025-12-05T10:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 78,
+          "summary": "EngDesign（UIUC 等）提出覆盖 9 个工程领域的仿真评测基准，用于系统性评测 AI 的工程设计能力。"
+        },
+        {
+          "id": "i1702",
+          "title": "BikeBench：自行车多目标设计基准（1.6M 合成设计）",
+          "url": "https://proceedings.neurips.cc/paper/2025/hash/1d057f87f694734222a390ac3a373930-Abstract-Datasets_and_Benchmarks_Track.html",
+          "sourceName": "NeurIPS 2025 Proceedings",
+          "tier": "community",
+          "publishedAt": "2025-12-05T10:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 73,
+          "summary": "BikeBench 用 160 万个合成自行车设计做多目标设计评测，考察 LLM 在真实工程权衡中的表现。"
+        },
+        {
+          "id": "i1703",
+          "title": "EngiBench（ETH）：跨域工程设计优化开源库",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/0013efa1327c079e73154d4061c3a396-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "sourceName": "NeurIPS 2025 Proceedings",
+          "tier": "community",
+          "publishedAt": "2025-12-05T10:00:00+08:00",
+          "scoreA": 73,
+          "scoreB": 72,
+          "summary": "ETH 发布 EngiBench：跨域工程设计优化的开源基准库。"
+        },
+        {
+          "id": "i1704",
+          "title": "ExpConCAD：隐式空间约束下的 CAD 补全",
+          "url": "https://arxiv.org/html/2608.24760",
+          "sourceName": "arXiv",
+          "tier": "community",
+          "publishedAt": "2026-08-28T10:00:00+08:00",
+          "scoreA": 70,
+          "scoreB": 69,
+          "summary": "ExpConCAD 研究在隐式空间约束下补全 CAD 模型的问题，提出相应数据与评测方案。"
+        },
+        {
+          "id": "i1705",
+          "title": "LLMForge：97 题 text-to-CAD 多模型实证",
+          "url": "https://arxiv.org/abs/2607.05573v1",
+          "sourceName": "arXiv",
+          "tier": "community",
+          "publishedAt": "2026-07-21T10:00:00+08:00",
+          "scoreA": 71,
+          "scoreB": 70,
+          "summary": "LLMForge 在 97 道 text-to-CAD 题目上对多个模型做实证比较，给出各模型在工程制图任务上的强弱分布。"
+        }
+      ]
+    },
+    {
+      "id": "e18",
+      "title": "NVIDIA 发布 Isaac GR00T 参考人形机器人（宇树 H2 本体）；GR00T 1.7 上线 LeRobot",
+      "overview": "NVIDIA 在 GTC@Computex 台北（6 月 1 日）发布首个开放参考人形设计：宇树 H2 本体 + Sharpa 五指手 + Jetson AGX Thor T5000 + GR00T 开放软件栈，面向高校统一「本体-大脑」开发平台；7 月 7 日 GR00T 1.7 开源 VLA 模型上线 LeRobot，配套 Isaac Teleop 遥操作数据采集框架，支持 SO-101 等低成本本体微调。",
+      "category": "robotics",
+      "tags": [
+        "NVIDIA",
+        "宇树科技",
+        "具身智能",
+        "开源发布"
+      ],
+      "firstSeen": "2026-06-01T14:00:00+08:00",
+      "lastSeen": "2026-07-07T18:00:00+08:00",
+      "items": [
+        {
+          "id": "i1801",
+          "title": "NVIDIA、宇树联合发布搭载 Isaac GR00T 的新人形机器人",
+          "url": "https://news.cgtn.com/news/2026-06-01/NVIDIA-Unitree-unveil-new-humanoid-powered-by-Isaac-GR00T-1NCWlv6VRde/index.html",
+          "sourceName": "CGTN",
+          "tier": "media",
+          "publishedAt": "2026-06-01T14:00:00+08:00",
+          "scoreA": 84,
+          "scoreB": 83,
+          "summary": "NVIDIA 与宇树在 GTC@Computex 发布首个开放参考人形机器人设计：宇树 H2 本体 + Sharpa 五指手 + Jetson AGX Thor T5000 + GR00T 开放软件栈，面向高校研究统一本体与大脑的开发平台。"
+        },
+        {
+          "id": "i1802",
+          "title": "NVIDIA 开放人形机器人参考设计（官方博客）",
+          "url": "https://blogs.nvidia.co.kr/blog/nvidia-open-humanoid-robot-reference-design/",
+          "sourceName": "NVIDIA 官方博客（韩国）",
+          "tier": "official",
+          "publishedAt": "2026-06-01T14:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 79,
+          "summary": "NVIDIA 官方博客发布开放人形机器人参考设计公告，与 CGTN 报道互证。"
+        },
+        {
+          "id": "i1803",
+          "title": "GR00T 1.7 开源 VLA 模型上线 LeRobot，配套 Isaac Teleop",
+          "url": "https://huggingface.co/blog/nvidia/nvidia-isaac-teleop-and-gr00t17-in-lerobot",
+          "sourceName": "Hugging Face 博客",
+          "tier": "official",
+          "publishedAt": "2026-07-07T18:00:00+08:00",
+          "scoreA": 82,
+          "scoreB": 80,
+          "summary": "GR00T 1.7 开源 VLA 模型上线 LeRobot 并替代 N1.5 成为最新可商用视觉-语言-动作模型，配套 Isaac Teleop 遥操作数据采集框架，支持 SO-101 等低成本本体的微调部署。"
+        }
+      ]
+    },
+    {
+      "id": "e19",
+      "title": "Figure 发布 Helix-02：单一神经网络双机协作，估值约 390 亿美元",
+      "overview": "Figure AI 5 月 8 日发布 Helix-02：全球首次用单一神经网络实现双机器人协作（无中心控制），BotQ 产线 120 天效率提升 24 倍；公司估值约 390 亿美元。",
+      "category": "robotics",
+      "tags": [
+        "Figure AI",
+        "具身智能",
+        "多机器人协作"
+      ],
+      "firstSeen": "2026-05-08T10:00:00+08:00",
+      "lastSeen": "2026-05-08T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i1901",
+          "title": "Figure AI 发布 Helix-02：单一神经网络双机协作",
+          "url": "https://m.sohu.com/a/1024753981_122715394/",
+          "sourceName": "搜狐科技",
+          "tier": "media",
+          "publishedAt": "2026-05-08T10:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 77,
+          "summary": "Figure AI 发布 Helix-02，首次用单一神经网络实现双机器人无中心协作；BotQ 产线 120 天效率提升 24 倍，公司估值约 390 亿美元。"
+        },
+        {
+          "id": "i1902",
+          "title": "2026 人形机器人横向对比：Figure / Apptronik / 1X / Tesla",
+          "url": "https://valueaddvc.com/blog/humanoid-robots-in-2026-figure-apptronik-1x-and-tesla-optimus-compared",
+          "sourceName": "Value Add VC",
+          "tier": "community",
+          "publishedAt": "2026-05-20T10:00:00+08:00",
+          "scoreA": 70,
+          "scoreB": 71,
+          "summary": "风险投资博客横向对比 2026 年 Figure、Apptronik、1X 与 Tesla Optimus 的技术路线与商业化进度。"
+        }
+      ]
+    },
+    {
+      "id": "e20",
+      "title": "Hannover Messe 2026：AI 驱动制造拐点，工业软件集体接入 CUDA-X / Omniverse",
+      "overview": "汉诺威工博会 2026（4 月 20-24 日）被视为「AI 驱动制造」的拐点：NVIDIA 及伙伴展示 AI 物理实时仿真、工厂级数字孪生与在厂人形机器人；Cadence、达索、西门子、Synopsys 宣布集成 CUDA-X、Omniverse 与 Nemotron 模型；德国电信 Industrial AI Cloud 成为欧洲最大 AI 工厂之一。",
+      "category": "market",
+      "tags": [
+        "展会活动",
+        "NVIDIA",
+        "数字孪生",
+        "西门子 Siemens"
+      ],
+      "firstSeen": "2026-04-20T10:00:00+08:00",
+      "lastSeen": "2026-05-15T16:00:00+08:00",
+      "items": [
+        {
+          "id": "i2001",
+          "title": "AI is taking the lead（汉诺威工博会官方综述）",
+          "url": "https://www.hannovermesse.de/en/news/news-articles/ai-is-taking-the-lead",
+          "sourceName": "汉诺威工博会官网",
+          "tier": "official",
+          "publishedAt": "2026-05-15T16:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 79,
+          "summary": "汉诺威工博会官方综述：AI 驱动制造成为主线，NVIDIA 及伙伴展示 AI 物理实时仿真、工厂级数字孪生与在厂人形机器人，Cadence/达索/西门子/Synopsys 集成 CUDA-X、Omniverse 与 Nemotron；灵巧手厂商 Linkerbot 下轮融资估值目标 60 亿美元，Schaeffler 预计 2030 年人形机器人订单达数亿欧元。"
+        },
+        {
+          "id": "i2002",
+          "title": "NVIDIA 博客：AI 制造亮相汉诺威工博会",
+          "url": "https://blogs.nvidia.com/blog/ai-manufacturing-hannover-messe",
+          "sourceName": "NVIDIA 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-04-21T10:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 77,
+          "summary": "NVIDIA 官方博客汇总其在汉诺威工博会的 AI 制造发布：物理实时仿真、数字孪生与工业 AI 云。"
+        }
+      ]
+    },
+    {
+      "id": "e21",
+      "title": "CIIF 2026 工博会（10 月 12-16 日·上海）：新增「新一代智能制造展区」，机器人展设人形专区",
+      "overview": "第 26 届中国国际工业博览会将于 10 月 12-16 日在上海举行：新增 1 万㎡、近 200 家展商的「新一代智能制造展区」，主题「AI 重构工业未来」，聚焦具身智能、工业大模型与智能体；机器人展 RS 2026 设 56000㎡ 人形/具身智能独立专区（宇树、优必选等参展）。",
+      "category": "market",
+      "tags": [
+        "展会活动",
+        "具身智能",
+        "工业大模型"
+      ],
+      "firstSeen": "2026-09-24T10:00:00+08:00",
+      "lastSeen": "2026-09-24T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2101",
+          "title": "人民网：第 26 届中国国际工业博览会 10 月在沪举行",
+          "url": "http://sh.people.com.cn/n2/2026/0924/c134768-41707053.html",
+          "sourceName": "人民网上海",
+          "tier": "media",
+          "publishedAt": "2026-09-24T10:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 75,
+          "summary": "人民网报道：第 26 届中国国际工业博览会 10 月 12-16 日在沪举行，新增「新一代智能制造展区」（1 万㎡、近 200 家展商），主题「AI 重构工业未来」；机器人展设人形/具身智能独立专区（56000㎡）。"
+        }
+      ]
+    },
+    {
+      "id": "e22",
+      "title": "Synopsys 完成对 Ansys 的收购：约 350 亿美元交易收官，「芯片到系统」",
+      "overview": "Synopsys 2025 年 7 月 17 日完成对 Ansys 约 350 亿美元的收购，打造「芯片到系统」设计解决方案龙头，TAM 扩至 310 亿美元；首批多物理场融合 EDA 集成能力原计划 2026 年上半年交付（后由 Ansys 2026 R1 兑现，见相关事件）。",
+      "category": "market",
+      "tags": [
+        "Synopsys / Ansys",
+        "融资并购"
+      ],
+      "firstSeen": "2025-07-17T20:00:00+08:00",
+      "lastSeen": "2025-07-17T20:00:00+08:00",
+      "items": [
+        {
+          "id": "i2201",
+          "title": "Synopsys Completes Acquisition of Ansys",
+          "url": "https://news.synopsys.com/2025-07-17-Synopsys-Completes-Acquisition-of-Ansys",
+          "sourceName": "Synopsys 新闻室",
+          "tier": "official",
+          "publishedAt": "2025-07-17T20:00:00+08:00",
+          "scoreA": 88,
+          "scoreB": 86,
+          "summary": "Synopsys 完成对 Ansys 约 350 亿美元的收购，打造从芯片到系统的设计解决方案提供商，TAM 扩至约 310 亿美元。"
+        },
+        {
+          "id": "i2202",
+          "title": "SEC 8-K 文件：Synopsys/Ansys 交易披露",
+          "url": "https://www.sec.gov/Archives/edgar/data/883241/000114036125026140/ef20051970_425.htm",
+          "sourceName": "美国证券交易委员会（SEC）",
+          "tier": "official",
+          "publishedAt": "2025-07-17T20:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 76,
+          "summary": "SEC 8-K 文件披露 Synopsys 收购 Ansys 的交易细节。"
+        }
+      ]
+    },
+    {
+      "id": "e23",
+      "title": "华天软件发布 CrownStyling 与基于 MCP 的智能制造助手（CCF CAD/CG 2026）",
+      "overview": "华天软件在 CCF CAD/CG 2026（苏州，8 月中）发布 CrownStyling 工业造型软件与 6 大智能体，并基于 MCP 协议打造智能制造助手，实现「设计-仿真-反馈-优化」闭环。国产工业软件的智能体化路线进一步分化：中望走平台化，华天走造型+闭环。",
+      "category": "cad",
+      "tags": [
+        "华天软件",
+        "工程智能体",
+        "国产CAD"
+      ],
+      "firstSeen": "2026-08-11T10:00:00+08:00",
+      "lastSeen": "2026-08-14T18:00:00+08:00",
+      "items": [
+        {
+          "id": "i2301",
+          "title": "华天软件亮相 CCF CAD/CG 2026：CrownStyling 与智能制造助手",
+          "url": "https://www.hoteamsoft.com/news-2087",
+          "sourceName": "华天软件官网",
+          "tier": "official",
+          "publishedAt": "2026-08-14T18:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 74,
+          "summary": "华天软件在 CCF CAD/CG 2026 发布 CrownStyling 工业造型软件与 6 大智能体，基于 MCP 协议打造智能制造助手，实现设计-仿真-反馈-优化闭环。"
+        }
+      ]
+    },
+    {
+      "id": "e24",
+      "title": "华为盘古 × 云天化：全球首个煤气化 RTO 大模型，气化自动化率 96.88%",
+      "overview": "华为披露盘古大模型在云天化的落地：基于盘古训练 16 个场景模型建成全球首个煤气化 RTO（实时优化）大模型，气化自动化率 96.88%、吨蒸汽煤耗降 2.08%，2025 上半年多项产量创纪录。工业大模型从「质检/预测性维护」深入到核心工艺闭环。",
+      "category": "industrial",
+      "tags": [
+        "华为盘古",
+        "工业大模型",
+        "数字孪生"
+      ],
+      "firstSeen": "2025-08-20T10:00:00+08:00",
+      "lastSeen": "2025-08-20T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2401",
+          "title": "华为案例：云天化煤气化 RTO 大模型（Yuntianhua）",
+          "url": "https://www.huawei.com/en/media-center/transform/23/08-Yuntianhua",
+          "sourceName": "华为官网（Transform 案例）",
+          "tier": "official",
+          "publishedAt": "2025-08-20T10:00:00+08:00",
+          "scoreA": 78,
+          "scoreB": 77,
+          "summary": "华为官方案例：基于盘古大模型为云天化训练 16 个场景模型，建成全球首个煤气化 RTO 大模型，气化自动化率 96.88%，吨蒸汽煤耗下降 2.08%。"
+        }
+      ]
+    },
+    {
+      "id": "e25",
+      "title": "《推动工业互联网平台高质量发展行动方案（2026—2028）》点名工业大模型方向",
+      "overview": "政策解读显示，行动方案点名华为 FusionPlant 盘古（工业视觉/预测性维护/工艺优化）、百度开物千帆（电子/纺织/装备）、河钢钢铁大模型、海尔卡奥斯大小模型协同等路径，为 2026-2028 年工业 AI 落地定调。",
+      "category": "industrial",
+      "tags": [
+        "政策标准",
+        "工业大模型",
+        "华为盘古"
+      ],
+      "firstSeen": "2026-02-15T10:00:00+08:00",
+      "lastSeen": "2026-02-15T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2501",
+          "title": "中国电子报：工业互联网平台高质量发展行动方案解读",
+          "url": "http://m.toutiao.com/group/7598156768664928774/",
+          "sourceName": "中国电子报（今日头条）",
+          "tier": "media",
+          "publishedAt": "2026-02-15T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 71,
+          "summary": "中国电子报解读《推动工业互联网平台高质量发展行动方案（2026—2028）》：点名华为 FusionPlant 盘古、百度开物千帆、河钢钢铁大模型、海尔卡奥斯等工业大模型路径。"
+        }
+      ]
+    },
+    {
+      "id": "e26",
+      "title": "Autodesk Fusion 上线 Backflip AI 插件：扫描网格转参数化模型，从小时级到分钟级",
+      "overview": "Autodesk 8 月 19 日宣布 Fusion 上线 Backflip AI 插件：把 3D 扫描 / STL 网格转为带可编辑特征的参数化模型，扫描到 CAD 从小时级降至分钟级。与官方 AutoTimeline 形成「官方 + 第三方」双路线的参数化重建生态。",
+      "category": "cad",
+      "tags": [
+        "Autodesk",
+        "参数化重建",
+        "Fusion",
+        "产品发布"
+      ],
+      "firstSeen": "2026-08-19T20:00:00+08:00",
+      "lastSeen": "2026-08-19T20:00:00+08:00",
+      "items": [
+        {
+          "id": "i2601",
+          "title": "Backflip add-in for Autodesk Fusion",
+          "url": "https://www.autodesk.com/products/fusion-360/blog/backflip-add-in-autodesk-fusion/",
+          "sourceName": "Autodesk Fusion 官方博客",
+          "tier": "official",
+          "publishedAt": "2026-08-19T20:00:00+08:00",
+          "scoreA": 80,
+          "scoreB": 78,
+          "summary": "Autodesk 官方博客：Fusion 上线 Backflip AI 插件，将 3D 扫描与 STL 网格转为带可编辑特征的参数化模型，扫描到 CAD 流程从小时级降至分钟级。"
+        }
+      ]
+    },
+    {
+      "id": "e27",
+      "title": "Autodesk 详述「神经 CAD」路线：为 Fusion/Forma 打造几何基础模型",
+      "overview": "Autodesk SVP Mike Haley 撰文详述「神经 CAD」基础模型路线：为 Fusion 与 Forma 打造几何基础模型，Forma 的 Building Layout Explorer 已用神经 CAD 生成场地布局，承接 2024 年 Project Bernini 的生成式几何研究。CAD 内核级的 AI 化开始有了明确路线图。",
+      "category": "cad",
+      "tags": [
+        "Autodesk",
+        "神经 CAD",
+        "CAD 基础模型",
+        "text-to-CAD"
+      ],
+      "firstSeen": "2026-06-30T10:00:00+08:00",
+      "lastSeen": "2026-06-30T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2701",
+          "title": "Neural CAD：Autodesk 的几何基础模型路线",
+          "url": "https://www.autodesk.com/design-make/articles/neural-cad",
+          "sourceName": "Autodesk Design & Make",
+          "tier": "official",
+          "publishedAt": "2026-06-30T10:00:00+08:00",
+          "scoreA": 84,
+          "scoreB": 82,
+          "summary": "Autodesk SVP Mike Haley 详述「神经 CAD」：为 Fusion/Forma 打造几何基础模型，Forma 的 Building Layout Explorer 已用神经 CAD 生成场地布局，承接 Project Bernini 研究。"
+        },
+        {
+          "id": "i2702",
+          "title": "Project Bernini 早期中文报道（背景）",
+          "url": "https://blog.csdn.net/www3300300/article/details/139010140",
+          "sourceName": "CSDN",
+          "tier": "community",
+          "publishedAt": "2024-05-24T10:00:00+08:00",
+          "scoreA": 62,
+          "scoreB": 60,
+          "summary": "CSDN 对 Autodesk Project Bernini 生成式几何研究的早期中文报道，作为神经 CAD 路线的前史。"
+        }
+      ]
+    },
+    {
+      "id": "e28",
+      "title": "Intact.Simulation for nTop V2.0：隐式几何原生仿真，打通生成式设计闭环",
+      "overview": "Intact Solutions 9 月 1 日发布 Intact.Simulation for nTop V2.0：无需体网格即可在 nTop 隐式几何（点阵/梯度结构）上直接做结构/热/模态/热-力耦合分析，支持 DOE、优化与 ML 驱动设计循环。生成式设计「造得出却算不动」的断点被补上。",
+      "category": "cae",
+      "tags": [
+        "nTopology",
+        "生成式设计",
+        "AI 仿真与代理模型"
+      ],
+      "firstSeen": "2026-09-01T10:00:00+08:00",
+      "lastSeen": "2026-09-01T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2801",
+          "title": "Intact.Simulation built for implicit design（nTop V2.0）",
+          "url": "https://intact-solutions.com/simulation-built-for-implicit-design/",
+          "sourceName": "Intact Solutions 官网",
+          "tier": "official",
+          "publishedAt": "2026-09-01T10:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 74,
+          "summary": "Intact.Simulation for nTop V2.0 无需体网格即可在 nTop 隐式几何（点阵/梯度结构）上直接做结构、热、模态与热-力耦合分析，支持 DOE、优化与 ML 驱动设计循环。"
+        }
+      ]
+    },
+    {
+      "id": "e29",
+      "title": "Luminary Cloud × Honda/NVIDIA 发布 SHIFT-SUV：首个开源 SUV 气动基础模型",
+      "overview": "Luminary Cloud 与 Honda、NVIDIA 发布首个开源 SUV 气动基础模型 SHIFT-SUV：宣称比传统 CFD 快 1000 倍以上、误差 <2%，并与 nTop、PTC Onshape、PhysicsNeMo 集成。气动基础模型开始成为整车设计的公共基础设施。",
+      "category": "cae",
+      "tags": [
+        "Luminary Cloud",
+        "AI 仿真与代理模型",
+        "开源发布",
+        "NVIDIA"
+      ],
+      "firstSeen": "2025-11-15T10:00:00+08:00",
+      "lastSeen": "2025-11-15T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i2901",
+          "title": "AI+CAE 供应商盘点：SHIFT-SUV 开源气动基础模型（含原始出处）",
+          "url": "https://mt.sohu.com/a/985475439_613767",
+          "sourceName": "搜狐科技（含原始出处）",
+          "tier": "media",
+          "publishedAt": "2025-11-15T10:00:00+08:00",
+          "scoreA": 74,
+          "scoreB": 72,
+          "summary": "Luminary Cloud 与 Honda、NVIDIA 发布首个开源 SUV 气动基础模型 SHIFT-SUV，宣称快 1000 倍以上、误差 <2%，与 nTop、Onshape、PhysicsNeMo 集成。"
+        }
+      ]
+    },
+    {
+      "id": "e30",
+      "title": "NVIDIA：AI 物理把工程设计提速 500×，PhysicsNeMo 持续迭代",
+      "overview": "NVIDIA 2025 年 10 月发布 DoMINO NIM 与 PhysicsNeMo 更新：Northrop Grumman 与 Luminary Cloud 用其构建航天器喷管代理模型，Blue Origin 用于新飞行器；Ansys Fluent 借 PhysicsNeMo 初始化实现约 50×GPU×10×AI≈500× 加速。框架 v26.08 新增 GeoTransolver/AeroJEPA/不确定性量化。",
+      "category": "cae",
+      "tags": [
+        "NVIDIA",
+        "AI 仿真与代理模型",
+        "PhysicsNeMo"
+      ],
+      "firstSeen": "2025-10-28T10:00:00+08:00",
+      "lastSeen": "2026-08-30T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i3001",
+          "title": "NVIDIA：AI Physics 加速航空航天与汽车设计工程",
+          "url": "https://blogs.nvidia.com/ai-physics-aerospace-automotive-design-engineering",
+          "sourceName": "NVIDIA 官方博客",
+          "tier": "official",
+          "publishedAt": "2025-10-28T10:00:00+08:00",
+          "scoreA": 82,
+          "scoreB": 80,
+          "summary": "NVIDIA 发布 AI Physics 加速方案：Northrop Grumman 与 Luminary Cloud 构建航天器喷管代理模型，Blue Origin 用于新飞行器设计，Ansys Fluent 借 PhysicsNeMo 初始化实现约 50×GPU × 10×AI ≈ 500× 加速。"
+        },
+        {
+          "id": "i3002",
+          "title": "PhysicsNeMo v26.08：GeoTransolver / AeroJEPA / 不确定性量化",
+          "url": "https://docs.nvidia.com/physicsnemo/latest/release-notes/",
+          "sourceName": "NVIDIA 文档",
+          "tier": "official",
+          "publishedAt": "2026-08-30T10:00:00+08:00",
+          "scoreA": 72,
+          "scoreB": 71,
+          "summary": "PhysicsNeMo v26.08 新增 GeoTransolver、AeroJEPA 架构与不确定性量化能力。"
+        }
+      ]
+    },
+    {
+      "id": "e31",
+      "title": "西门子 IMTS 2026 展示工业 AI 全链路：AI 驱动 CNC 编程与副驾情境感知加工",
+      "overview": "西门子在 IMTS 2026（9 月 14-19 日，芝加哥）展示工业 AI 全链路：AI 驱动 CNC 编程、AI 副驾提供情境感知加工建议、NX X Manufacturing 与数字孪生验证。制造端 AI 与设计端智能体开始闭环。",
+      "category": "market",
+      "tags": [
+        "西门子 Siemens",
+        "展会活动",
+        "工程智能体",
+        "CAM"
+      ],
+      "firstSeen": "2026-09-14T10:00:00+08:00",
+      "lastSeen": "2026-09-14T10:00:00+08:00",
+      "items": [
+        {
+          "id": "i3101",
+          "title": "西门子 IMTS 2026：工业 AI 全链路展示",
+          "url": "https://www.siemens.com/zh-cn/events/imts/",
+          "sourceName": "西门子（中国）活动页",
+          "tier": "official",
+          "publishedAt": "2026-09-14T10:00:00+08:00",
+          "scoreA": 76,
+          "scoreB": 75,
+          "summary": "西门子在 IMTS 2026 展示 AI 驱动 CNC 编程、AI 副驾的情境感知加工建议，以及 NX X Manufacturing 与数字孪生验证的全链路。"
+        }
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": "daily-20260930",
+      "type": "daily",
+      "date": "2026-09-30",
+      "title": "机械前沿日报 · 第 187 期",
+      "intro": "今天三件事值得注意：人形机器人量产口径再刷新——Optimus 周产翻 10 倍、智元上半年出货 9700 台占全球 43%；清华 ConCAD 给 image-to-CAD 补上了约束满足这个硬指标；中望 CAx 智能体平台持续发酵，媒体端开始拆解其 5000+ 能力单元路线。"
+    },
+    {
+      "id": "daily-20260929",
+      "type": "daily",
+      "date": "2026-09-29",
+      "title": "机械前沿日报 · 第 186 期",
+      "intro": "中望 CAx 智能体平台经新浪科技跟进报道，细节进一步明确；ConCAD 论文昨日挂出后今日在社区引发约束感知路线讨论。"
+    },
+    {
+      "id": "weekly-2026w39",
+      "type": "weekly",
+      "date": "2026-09-28",
+      "title": "机械前沿周报 · 第 39 周（9.21 - 9.27）",
+      "intro": "本周主线有两条：一是国产 CAD 智能体化——中望 CAx 智能体平台经上海证券报与新浪科技连续报道，5000+ 能力单元的平台叙事开始被市场消化；二是展会季临近，工博会（10.12-16）与 IMTS 2026（9.14-19）先后定调「AI 重构工业」。上上周的 AU 2026 与 ReliCAD 论文仍在发酵，列入延续关注。"
+    },
+    {
+      "id": "monthly-202609",
+      "type": "monthly",
+      "date": "2026-09-01",
+      "title": "机械前沿月报 · 2026 年 9 月",
+      "intro": "九月是「智能体进入 CAD」的月份：Autodesk 在 AU 2026 一次放出 AutoTimeline/AutoAssemble 等 AI 工作流；中望发布 CAx 智能体平台与悟空；达索虚拟伙伴从发布走到 GA 后继续以 FD 更新扩展。学术端中科大 ReliCAD 与清华 ConCAD 相继给出可靠性解法，NeurIPS 基准三连让「工程设计能力」有了考场。月末工博会预告与 IMTS 展示则把话题推向制造闭环。"
+    }
+  ]
+}

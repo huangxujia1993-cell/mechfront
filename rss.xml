@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>机械前沿 · 精选</title>
+  <link>https://mechfront.news/</link>
+  <atom:link href="https://mechfront.news/rss.xml" rel="self" type="application/rss+xml"/>
+  <description>每天从全球信源收集 AI × 机械设计的最新动态，双评分精选、事件聚簇、按独立来源计算热度，每天早上 8 点出一份日报。</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Wed, 30 Sep 2026 00:00:00 GMT</lastBuildDate>
+  <item>
+    <title>中望3D悟空：自然语言生成带参模型，AI 出图接入 DeepSeek/Kimi</title>
+    <link>https://finance.sina.com.cn/tech/roll/2026-09-29/doc-initnsei2938796.shtml</link>
+    <guid isPermaLink="false">i0102</guid>
+    <pubDate>Tue, 29 Sep 2026 10:30:00 GMT</pubDate>
+    <description>新浪科技跟进报道中望 CAx 智能体平台：悟空实现自然语言生成带参数三维模型、AI 出图接入 DeepSeek 与 Kimi、AI CAM 编程辅助，百家客户共创已启动。
+推荐理由：补充了悟空 AI 出图所接入的模型（DeepSeek/Kimi）等细节，可评估其技术路线。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>Optimus 周产翻 10 倍；2026 全球人形机器人出货预计破 5 万台</title>
+    <link>https://finance.sina.com.cn/wm/2026-09-29/doc-initnfqc7854030.shtml</link>
+    <guid isPermaLink="false">i0401</guid>
+    <pubDate>Tue, 29 Sep 2026 01:55:00 GMT</pubDate>
+    <description>第一财经报道：特斯拉 Optimus 周产由数十台升至数百台、年底冲刺周产 1000 台；智元上半年出货约 9700 台占全球 43%，2026 年全球人形机器人出货预计突破 5 万台。
+推荐理由：给出量产爬坡的具体数字与市占口径，是判断本体设计岗位需求与供应链机会的基础数据。</description>
+    <category>robotics</category>
+  </item>
+  <item>
+    <title>ConCAD: Constraint-Aware Image-to-CAD（arXiv）</title>
+    <link>https://arxiv.org/pdf/2609.34494</link>
+    <guid isPermaLink="false">i0301</guid>
+    <pubDate>Mon, 28 Sep 2026 08:00:00 GMT</pubDate>
+    <description>ConCAD 用 GRPO 强化学习对 image-to-CAD 施加代码级约束与几何双粒度奖励，提出约束满足率指标 G-CSR，在 DeepCAD 与 Zero2CAD 上达到 SOTA。
+推荐理由：论文开源了评测指标与训练细节，做图像转 CAD 的工程师可直接对照复现。</description>
+    <category>research</category>
+  </item>
+  <item>
+    <title>人民网：第 26 届中国国际工业博览会 10 月在沪举行</title>
+    <link>http://sh.people.com.cn/n2/2026/0924/c134768-41707053.html</link>
+    <guid isPermaLink="false">i2101</guid>
+    <pubDate>Thu, 24 Sep 2026 02:00:00 GMT</pubDate>
+    <description>人民网报道：第 26 届中国国际工业博览会 10 月 12-16 日在沪举行，新增「新一代智能制造展区」（1 万㎡、近 200 家展商），主题「AI 重构工业未来」；机器人展设人形/具身智能独立专区（56000㎡）。
+推荐理由：展会时间、展区面积与参展商结构都有官方口径，可提前规划参观与发布对照。</description>
+    <category>market</category>
+  </item>
+  <item>
+    <title>中望软件公司大事：ZWCAD365 V2.0 上线两项 AI 功能</title>
+    <link>http://emweb.securities.eastmoney.com/PC_HSF10/CompanyBigNews/Index?code=SH688083</link>
+    <guid isPermaLink="false">i0103</guid>
+    <pubDate>Tue, 22 Sep 2026 02:00:00 GMT</pubDate>
+    <description>东方财富公司大事记录显示，中望 ZWCAD365 V2.0 上线两项 AI 功能，ZW3D 悟空 2027 版规划 AI 自动出图。
+推荐理由：上市公司信披口径的产品路线信息，可核对 AI 功能的落地节奏。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>中望发布 CAx 智能体平台与中望3D悟空（上海证券报）</title>
+    <link>http://www.gd.news.cn/20260921/643e1403afe34a81a2e385ae19e04050/c.html</link>
+    <guid isPermaLink="false">i0101</guid>
+    <pubDate>Mon, 21 Sep 2026 01:20:00 GMT</pubDate>
+    <description>中望软件在 ZWORLD 2026 发布 CAx 智能体平台与「中望3D悟空」，集 CAD/CAE/CAM 于一体、规划 5000+ 可组合能力单元，悟空可由自然语言生成带参三维模型，并启动百家客户共创。
+推荐理由：上海证券报给出平台能力单元数量与共创计划等可核对细节，是观察国产 CAD 智能体化的关键一手信息。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>AI-powered workflows coming to Autodesk Fusion</title>
+    <link>https://www.autodesk.com/products/fusion-360/blog/ai-powered-workflows-coming-to-autodesk-fusion/</link>
+    <guid isPermaLink="false">i0201</guid>
+    <pubDate>Fri, 18 Sep 2026 14:00:00 GMT</pubDate>
+    <description>Autodesk 官方发布 Fusion 新一波 AI 工作流：AutoTimeline 从无历史的几何重建可编辑参数化特征树，AutoAssemble 自动装配，AI 生成 CAM 刀路，Find Similar 按形状识别复用已有零件。
+推荐理由：官方一手发布页附功能演示与适用版本说明，可直接评估对逆向建模与装配工作的提速幅度。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>Fusion AI 工作流发布（法文版官方博客同步）</title>
+    <link>https://www.autodesk.com/products/fusion-360/blog/fr/ai-powered-workflows-coming-to-autodesk-fusion/</link>
+    <guid isPermaLink="false">i0202</guid>
+    <pubDate>Fri, 18 Sep 2026 14:00:00 GMT</pubDate>
+    <description>Autodesk 官方法文博客同日发布 Fusion AI 工作流公告，内容与英文版一致，显示该波更新面向全球用户。
+推荐理由：多语言官方渠道同步发布，可作为功能全球推送节奏的旁证。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>Onshape 更新：AI 生成缩略图与描述性搜索</title>
+    <link>https://www.onshape.com/de/resource-center/what-is-new/dynamic-suppression-assemblies-compare-feature-studios-ai-generated-thumbnail-descriptive-search</link>
+    <guid isPermaLink="false">i1303</guid>
+    <pubDate>Fri, 18 Sep 2026 02:00:00 GMT</pubDate>
+    <description>9 月 18 日更新：Onshape 增加 AI 生成缩略图与自然语言描述搜索，配合动态抑制装配与 Feature Studio 对比等功能。
+推荐理由：月度更新节奏的实例，可跟踪云 CAD AI 功能的实际交付速度。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>ReliCAD: Reliable Parametric CAD Generation（arXiv）</title>
+    <link>https://arxiv.org/html/2609.22325v1</link>
+    <guid isPermaLink="false">i1501</guid>
+    <pubDate>Wed, 16 Sep 2026 08:00:00 GMT</pubDate>
+    <description>中科大提出 ReliCAD：显式设计意图建模 + CAD 内核 API + 验证反馈修复，使 LLM 生成的参数化 CAD 更可靠，HistCAD 上有效率 99.8%、IoU 0.8753。
+推荐理由：论文给出完整的验证-修复回路设计与量化指标，做生产级 text-to-CAD 的团队可直接参考。</description>
+    <category>research</category>
+  </item>
+  <item>
+    <title>西门子 IMTS 2026：工业 AI 全链路展示</title>
+    <link>https://www.siemens.com/zh-cn/events/imts/</link>
+    <guid isPermaLink="false">i3101</guid>
+    <pubDate>Mon, 14 Sep 2026 02:00:00 GMT</pubDate>
+    <description>西门子在 IMTS 2026 展示 AI 驱动 CNC 编程、AI 副驾的情境感知加工建议，以及 NX X Manufacturing 与数字孪生验证的全链路。
+推荐理由：制造端 AI 能力清单齐全，可与设计端智能体（Eigen/工业副驾）对照看闭环。</description>
+    <category>market</category>
+  </item>
+  <item>
+    <title>Intact.Simulation built for implicit design（nTop V2.0）</title>
+    <link>https://intact-solutions.com/simulation-built-for-implicit-design/</link>
+    <guid isPermaLink="false">i2801</guid>
+    <pubDate>Tue, 01 Sep 2026 02:00:00 GMT</pubDate>
+    <description>Intact.Simulation for nTop V2.0 无需体网格即可在 nTop 隐式几何（点阵/梯度结构）上直接做结构、热、模态与热-力耦合分析，支持 DOE、优化与 ML 驱动设计循环。
+推荐理由：直接解决点阵结构「设计得出、仿真很贵」的痛点，做增材与点阵设计的团队可评估替换成本。</description>
+    <category>cae</category>
+  </item>
+  <item>
+    <title>PhysicsNeMo v26.08：GeoTransolver / AeroJEPA / 不确定性量化</title>
+    <link>https://docs.nvidia.com/physicsnemo/latest/release-notes/</link>
+    <guid isPermaLink="false">i3002</guid>
+    <pubDate>Sun, 30 Aug 2026 02:00:00 GMT</pubDate>
+    <description>PhysicsNeMo v26.08 新增 GeoTransolver、AeroJEPA 架构与不确定性量化能力。
+推荐理由：版本日志可核对框架能力边界，选型时对照。</description>
+    <category>cae</category>
+  </item>
+  <item>
+    <title>ExpConCAD：隐式空间约束下的 CAD 补全</title>
+    <link>https://arxiv.org/html/2608.24760</link>
+    <guid isPermaLink="false">i1704</guid>
+    <pubDate>Fri, 28 Aug 2026 02:00:00 GMT</pubDate>
+    <description>ExpConCAD 研究在隐式空间约束下补全 CAD 模型的问题，提出相应数据与评测方案。
+推荐理由：与 EngDesign/BikeBench 构成基准序列，观察约束类任务的评测演化。</description>
+    <category>research</category>
+  </item>
+  <item>
+    <title>Eigen V1.4.0 发布：WinCC Unified 工程支持与用例征集</title>
+    <link>https://sieportal.siemens.com/en-ch/support/forum/posts/Eigen-Engineering-Agent-for-WinCC-Unified-Engineering---Share-Your-Ideas-Questions-Use-Cases/344319</link>
+    <guid isPermaLink="false">i1203</guid>
+    <pubDate>Thu, 27 Aug 2026 02:00:00 GMT</pubDate>
+    <description>SiePortal 社区帖：Eigen Engineering Agent V1.4.0 发布并扩展 WinCC Unified 工程支持，同时征集用户用例。
+推荐理由：版本迭代节奏与社区反馈的一手入口。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>Synopsys Q3 营收 24.8 亿美元（+42%），Ansys 贡献 6.22 亿</title>
+    <link>https://www.assetroom.net/s/synopsys/njfDrn/synopsys-reports-42-revenue-growth-to-2-48-billion-driven-by-ansys-acquisition</link>
+    <guid isPermaLink="false">i0603</guid>
+    <pubDate>Wed, 26 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Synopsys FY2026 Q3 营收 24.8 亿美元、同比 +42%，其中 Ansys 贡献 6.22 亿美元（占 28.7%），积压订单约 109 亿美元。
+推荐理由：财报数字可核对整合进度：Ansys 已成为新思约三成收入来源。</description>
+    <category>cae</category>
+  </item>
+  <item>
+    <title>Backflip add-in for Autodesk Fusion</title>
+    <link>https://www.autodesk.com/products/fusion-360/blog/backflip-add-in-autodesk-fusion/</link>
+    <guid isPermaLink="false">i2601</guid>
+    <pubDate>Wed, 19 Aug 2026 12:00:00 GMT</pubDate>
+    <description>Autodesk 官方博客：Fusion 上线 Backflip AI 插件，将 3D 扫描与 STL 网格转为带可编辑特征的参数化模型，扫描到 CAD 流程从小时级降至分钟级。
+推荐理由：给出插件能力边界与官方集成方式，做逆向工程的团队可直接试用评估。</description>
+    <category>cad</category>
+  </item>
+  <item>
+    <title>Unitree makes debut on STAR Market as first embodied intelligence stock</title>
+    <link>https://english.news.cn/20260818/9a5428390120473883d825a3030ec41b/c.html</link>
+    <guid isPermaLink="false">i0501</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 GMT</pubDate>
+    <description>新华社报道宇树科技 8 月 19 日科创板上市：发行价 150.80 元/股，募资约 61 亿元，IPO 估值约 90 亿美元，2025 年人形机器人出货超 5500 台居全球第一。
+推荐理由：新华社给出发行价、募资额与出货口径等完整数据，是具身智能资本化的标志性事件记录。</description>
+    <category>market</category>
+  </item>
+  <item>
+    <title>上交所：宇树科技首次公开发行股票上市公告书</title>
+    <link>http://www.sse.com.cn/disclosure/announcement/listing/ipo/c/c_20260818_10829204.shtml</link>
+    <guid isPermaLink="false">i0502</guid>
+    <pubDate>Tue, 18 Aug 2026 08:00:00 GMT</pubDate>
+    <description>上交所披露宇树科技上市公告书（代码 688836），为「具身智能第一股」提供官方口径的发行信息。
+推荐理由：监管一手文件，可核对发行价、募资与股本结构。</description>
+    <category>market</category>
+  </item>
+  <item>
+    <title>华天软件亮相 CCF CAD/CG 2026：CrownStyling 与智能制造助手</title>
+    <link>https://www.hoteamsoft.com/news-2087</link>
+    <guid isPermaLink="false">i2301</guid>
+    <pubDate>Fri, 14 Aug 2026 10:00:00 GMT</pubDate>
+    <description>华天软件在 CCF CAD/CG 2026 发布 CrownStyling 工业造型软件与 6 大智能体，基于 MCP 协议打造智能制造助手，实现设计-仿真-反馈-优化闭环。
+推荐理由：国产 CAD 厂商在 MCP 协议上的具体落地样本，与中望的平台化路线形成对照。</description>
+    <category>cad</category>
+  </item>
+</channel>
+</rss>

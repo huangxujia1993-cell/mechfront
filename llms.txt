@@ -1,0 +1,39 @@
+# 机械前沿 MechFront
+
+> AI × 机械设计行业的前沿资讯站：从全球信源采集，双评分精选，事件聚簇，按独立来源计算热度，每天 08:00 出日报。
+
+本文件面向 AI Agent（llms.txt 规范）。同一份内容，给人看的在网页，给 Agent 用的在接口。
+
+## 站点信息
+- 名称：机械前沿 MechFront
+- 行业：机械设计（CAD / CAE / CAM / 生成式设计 / 具身智能 / 工业大模型）
+- 语言：中文
+- 数据快照：2026-09-30 08:00（Asia/Shanghai）
+
+## 对外出口
+- RSS（精选，最近 20 条）：/rss.xml
+- API（全部事件与聚簇报道，JSON）：/api/news.json
+- 信源配置：/config/sources.json
+- 精选门槛：/config/selection.js
+- 评分提示词：/config/prompts/selection-score.md
+- 主站：/index.html（人类阅读版）
+
+## API 说明
+GET /api/news.json 返回：
+- site：站点元信息
+- counts：事件/报道/报告数量
+- events[]：事件聚簇
+  - id, title, overview（事件综述）, category, tags[], firstSeen, lastSeen
+  - items[]：各来源报道 { id, title, url, sourceName, tier, publishedAt, scoreA, scoreB, summary }
+- reports[]：日报/周报/月报 { id, type: daily|weekly|monthly, date, title, intro }
+
+category 取值：cad（CAD 智能化）| cae（仿真与 CAE）| robotics（机器人与具身智能）| research（生成式设计与学术前沿）| industrial（工业大模型与数字孪生）| market（展会与资本）
+
+## 内容规则
+- 精选：同一资料由两个模型按 config/prompts/selection-score.md 独立打分，双双过门槛才入选（官方一手 ≥70，媒体 ≥78，社区 ≥84）
+- 聚簇：同一事件的不同报道聚成一个事件，后续进展挂时间线；拿不准的合并换第二家模型复核
+- 热度：按事件计算，48 小时窗口内每个独立来源只计一次，24 小时内满权、其余半权
+- 时效：每天 08:00 成刊日报，每周一 08:30 周报，每月 1 日 09:00 月报
+
+## 使用约定
+内容中的 URL 均指向原始出处。摘要与推荐理由由模型生成后经人工抽检；关键数字建议回原文核对。转载请注明事件页与原文出处。

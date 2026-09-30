@@ -1,0 +1,261 @@
+// 本文件由 scripts/build-exports.mjs 从 config/sources.json 生成，请改 JSON 源文件
+window.SOURCES = {
+  "comment": "信源配置：六种类型（rss / webpage / json / x / wechat / push）。tier: official=官方一手, media=媒体, community=社区。抓取频率按产出自动调整：enabled 且产出稳定的信源可缩短 intervalMinutes。",
+  "sources": [
+    {
+      "id": "autodesk_fusion",
+      "name": "Autodesk Fusion 官方博客",
+      "type": "rss",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://www.autodesk.com/products/fusion-360/blog/feed/",
+      "intervalMinutes": 60,
+      "enabled": true,
+      "notes": "已验证活跃（lastBuildDate 2026-09-25），Fusion AI 功能一手来源"
+    },
+    {
+      "id": "nvidia_blog",
+      "name": "NVIDIA 官方博客",
+      "type": "rss",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://blogs.nvidia.com/feed/",
+      "intervalMinutes": 60,
+      "enabled": true,
+      "notes": "已验证可用，物理 AI / Isaac / Omniverse 动态"
+    },
+    {
+      "id": "nvidia_dev",
+      "name": "NVIDIA 技术博客",
+      "type": "rss",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "intervalMinutes": 120,
+      "enabled": true,
+      "notes": "已验证可用，PhysicsNeMo 等工程细节"
+    },
+    {
+      "id": "robot_report",
+      "name": "The Robot Report",
+      "type": "rss",
+      "tier": "media",
+      "lang": "en",
+      "url": "https://www.therobotreport.com/feed/",
+      "intervalMinutes": 60,
+      "enabled": true,
+      "notes": "已验证可用，机器人行业权威媒体"
+    },
+    {
+      "id": "ieee_robotics",
+      "name": "IEEE Spectrum Robotics",
+      "type": "rss",
+      "tier": "media",
+      "lang": "en",
+      "url": "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+      "intervalMinutes": 120,
+      "enabled": true,
+      "notes": "已验证可用"
+    },
+    {
+      "id": "arxiv_ro",
+      "name": "arXiv cs.RO 机器人学新论文",
+      "type": "rss",
+      "tier": "community",
+      "lang": "en",
+      "url": "http://export.arxiv.org/rss/cs.RO",
+      "intervalMinutes": 720,
+      "enabled": true,
+      "notes": "每日更新，机器人方向论文流"
+    },
+    {
+      "id": "arxiv_text2cad",
+      "name": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+      "type": "json",
+      "tier": "community",
+      "lang": "en",
+      "url": "http://export.arxiv.org/api/query?search_query=all:%22text-to-CAD%22+OR+all:%22CAD+generation%22&sortBy=submittedDate&sortOrder=descending&max_results=20",
+      "intervalMinutes": 720,
+      "enabled": true,
+      "notes": "Atom API，脚本解析后入箱"
+    },
+    {
+      "id": "solidworks_blog",
+      "name": "SOLIDWORKS 官方博客",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://blogs.solidworks.com/products/solidworks/",
+      "selector": "article h2 a",
+      "intervalMinutes": 120,
+      "enabled": true,
+      "notes": "官方 RSS 已失效，改为网页列表监控"
+    },
+    {
+      "id": "ptc_news",
+      "name": "PTC 新闻室",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://www.ptc.com/en/news/",
+      "selector": ".news-list a",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "Creo / Onshape 动态一手来源"
+    },
+    {
+      "id": "siemens_news",
+      "name": "西门子工业新闻",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "multi",
+      "url": "https://news.siemens.com/",
+      "selector": "a.teaser",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "含 press.siemens.com 全球新闻稿，Simcenter / NX / Eigen 动态"
+    },
+    {
+      "id": "3ds_newsroom",
+      "name": "达索系统新闻室",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "multi",
+      "url": "https://www.3ds.com/newsroom/",
+      "selector": ".card a",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "SOLIDWORKS / CATIA / 3DEXPERIENCE 动态"
+    },
+    {
+      "id": "synopsys_news",
+      "name": "Synopsys（Ansys）新闻室",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://news.synopsys.com/",
+      "selector": "a.release",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "Ansys 2026 R1 之后的所有版本动态"
+    },
+    {
+      "id": "onshape_blog",
+      "name": "Onshape 官方博客",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://www.onshape.com/en/blog/",
+      "selector": "a.blog-card",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "Onshape Labs AI 计划进展"
+    },
+    {
+      "id": "zwsoft",
+      "name": "中望软件动态",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "zh",
+      "url": "https://www.zwsoft.cn/news",
+      "selector": ".news-item a",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "国产 CAD 厂商一手动态"
+    },
+    {
+      "id": "hoteam",
+      "name": "华天软件资讯",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "zh",
+      "url": "https://www.hoteamsoft.com/news",
+      "selector": ".news-list a",
+      "intervalMinutes": 480,
+      "enabled": true,
+      "notes": "CrownCAD / CrownStyling 动态"
+    },
+    {
+      "id": "hannovermesse",
+      "name": "汉诺威工博会新闻",
+      "type": "webpage",
+      "tier": "official",
+      "lang": "en",
+      "url": "https://www.hannovermesse.de/en/news/news-articles/",
+      "selector": "a.article",
+      "intervalMinutes": 1440,
+      "enabled": true,
+      "notes": "年度展会期间改为 60 分钟"
+    },
+    {
+      "id": "x_nvidiaomniverse",
+      "name": "X 账号：NVIDIA Omniverse",
+      "type": "x",
+      "tier": "official",
+      "lang": "en",
+      "handle": "@nvidiaomniverse",
+      "url": "https://x.com/nvidiaomniverse",
+      "intervalMinutes": 120,
+      "enabled": true,
+      "notes": "数字孪生 / 工业可视化短动态"
+    },
+    {
+      "id": "x_cad_ai",
+      "name": "X 账号：AI CAD 研究者列表",
+      "type": "x",
+      "tier": "community",
+      "lang": "en",
+      "handle": "list:ai-cad-researchers",
+      "url": "https://x.com/i/lists/placeholder",
+      "intervalMinutes": 240,
+      "enabled": false,
+      "notes": "示例：研究者的论文速报，试运行中"
+    },
+    {
+      "id": "wechat_zwsoft",
+      "name": "微信公众号：中望软件",
+      "type": "wechat",
+      "tier": "official",
+      "lang": "zh",
+      "account": "中望软件",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "公众号文章经采集器入箱"
+    },
+    {
+      "id": "wechat_robot_talk",
+      "name": "微信公众号：机器人大讲堂",
+      "type": "wechat",
+      "tier": "media",
+      "lang": "zh",
+      "account": "机器人大讲堂",
+      "intervalMinutes": 240,
+      "enabled": true,
+      "notes": "国内机器人产业报道"
+    },
+    {
+      "id": "wechat_electronics_news",
+      "name": "微信公众号：中国电子报",
+      "type": "wechat",
+      "tier": "media",
+      "lang": "zh",
+      "account": "中国电子报",
+      "intervalMinutes": 480,
+      "enabled": true,
+      "notes": "工业软件 / 工业大模型政策解读"
+    },
+    {
+      "id": "push_custom",
+      "name": "自定义脚本推送",
+      "type": "push",
+      "tier": "community",
+      "lang": "multi",
+      "endpoint": "/api/push",
+      "token": "CHANGE_ME",
+      "intervalMinutes": 0,
+      "enabled": true,
+      "notes": "外部脚本 POST 进来的内容，如内部周报、展会手记"
+    }
+  ]
+}
+;
