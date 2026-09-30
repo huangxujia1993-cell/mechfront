@@ -11,12 +11,12 @@
 - 数据快照：2026-09-30 08:00（Asia/Shanghai）
 
 ## 对外出口
-- RSS（精选，最近 20 条）：/rss.xml
-- API（全部事件与聚簇报道，JSON）：/api/news.json
-- 信源配置：/config/sources.json
-- 精选门槛：/config/selection.js
-- 评分提示词：/config/prompts/selection-score.md
-- 主站：/index.html（人类阅读版）
+- RSS（精选，最近 20 条）：https://huangxujia1993-cell.github.io/mechfront/rss.xml
+- API（全部事件与聚簇报道，JSON）：https://huangxujia1993-cell.github.io/mechfront/api/news.json
+- 信源配置：https://huangxujia1993-cell.github.io/mechfront/config/sources.json
+- 精选门槛：https://huangxujia1993-cell.github.io/mechfront/config/selection.js
+- 评分提示词：https://huangxujia1993-cell.github.io/mechfront/config/prompts/selection-score.md
+- 主站：https://huangxujia1993-cell.github.io/mechfront/（人类阅读版）
 
 ## API 说明
 GET /api/news.json 返回：
