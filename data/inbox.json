@@ -8155,5 +8155,93 @@
     "tier": "community",
     "type": "json",
     "fetchedAt": "2026-10-08T12:10:54.994Z"
+  },
+  {
+    "title": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+    "url": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
+    "desc": "Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs. Developers direct AI agents through [&#8230;]",
+    "publishedAt": "2026-10-08T21:06:35.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.518Z"
+  },
+  {
+    "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
+    "desc": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through [&#8230;]",
+    "publishedAt": "2026-10-08T13:00:46.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.518Z"
+  },
+  {
+    "title": "5 Steps to Create SimReady Assets for Robotics with Frontier AI Models",
+    "url": "https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/",
+    "desc": "Preparing CAD assets for robotics simulation requires more than converting geometry to OpenUSD: developers must configure and validate materials, collision...",
+    "publishedAt": "2026-10-08T20:57:55.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.647Z"
+  },
+  {
+    "title": "Building Reliable Data Analytics Agents: Lessons from the KDD Cup",
+    "url": "https://developer.nvidia.com/blog/building-reliable-data-analytics-agents-lessons-from-the-kdd-cup/",
+    "desc": "The NVIDIA KGMON team placed second in the KDD Cup 2026 Data Agents competition with a system built around a simple idea of making an agent's harness smaller,...",
+    "publishedAt": "2026-10-08T18:30:02.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.647Z"
+  },
+  {
+    "title": "SafeWorld emerges from stealth to build, deploy robot safety simulation technologies",
+    "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+    "desc": "SafeWorld’s platform provides testing and simulation software to help enterprises evaluate and deploy robots safely and responsibly. The post SafeWorld emerges from stealth to build, deploy robot safety simulation technologies appeared first on The Robot Report .",
+    "publishedAt": "2026-10-08T21:09:48.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.813Z"
+  },
+  {
+    "title": "Jabil discusses the pace of humanoid robot development and production",
+    "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+    "desc": "Jabil, which is working with robot developers such as Apptronik, provides a design perspective on humanoid progress. The post Jabil discusses the pace of humanoid robot development and production appeared first on The Robot Report .",
+    "publishedAt": "2026-10-08T16:16:21.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.813Z"
+  },
+  {
+    "title": "Helm.ai reaches $70M in signed commercial contracts for its foundation models",
+    "url": "https://www.therobotreport.com/helm-ai-reaches-70m-signed-commercial-contracts-foundation-models/",
+    "desc": "Helm.ai trained its foundation models using its unsupervised 'deep teaching' methodology to master the structure of the physical world itself. The post Helm.ai reaches $70M in signed commercial contracts for its foundation models appeared first on The Robot Report .",
+    "publishedAt": "2026-10-08T15:55:31.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.813Z"
+  },
+  {
+    "title": "AWS launches open-source Physical AI Toolchain for robotics",
+    "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+    "desc": "The toolchain combines AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement. The post AWS launches open-source Physical AI Toolchain for robotics appeared first on The Robot Report .",
+    "publishedAt": "2026-10-08T13:23:58.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-08T22:18:06.813Z"
   }
 ]
