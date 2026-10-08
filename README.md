@@ -57,8 +57,21 @@ mechfront/
 
 ## 日常运转
 
+### 定时采集（已配置 GitHub Actions）
+
+`.github/workflows/fetch.yml` 每天北京时间 **07:30 / 13:30 / 19:30 / 01:30** 自动运行：抓取全部启用信源 → 去重入箱 → 把 `data/inbox.json` 与 `data/seen.json` 提交回仓库。**不需要本机开机**，由 GitHub 的服务器执行（公开仓库免费不限时长）。
+
+- 手动触发一次：仓库 **Actions** 页 → 定时采集 → Run workflow；或命令行 `gh workflow run fetch.yml`
+- 调整频率：改 workflow 里的 cron（UTC 时间，北京时间 = UTC + 8）
+- 注意：Actions 会向 main 自动提交采集结果，本地推送前先 `git pull`
+- GitHub 政策：仓库 60 天无提交会自动暂停定时任务——采集机器人持续提交即视为活跃，无需干预
+
+采集结果只是入箱（`data/inbox.json`），须经 LLM 流水线（预筛→双评分→写作→聚簇）处理后写回 `data/news-data.js` 才会出现在站点上。
+
+### 本地手动运转
+
 ```bash
-# 1. 采集（可挂 crontab，如每小时）
+# 1. 采集（可本地随时手动跑）
 node scripts/fetch-sources.mjs
 #   可选：--only <sourceId> 单源试抓，--limit N 限流
 
@@ -70,7 +83,7 @@ node scripts/fetch-sources.mjs
 node scripts/build-exports.mjs
 ```
 
-已实测：`nvidia_blog` 信源真实抓取 18 条入箱；`robot_report` 返回 403 反爬被正确记录为失败（信源可换用其镜像或网页监控方式）。
+已实测：`nvidia_blog` 信源真实抓取 18 条入箱；`robot_report` 返回 403 反爬被正确记录为失败（信源可换用其镜像或网页监控方式）；GitHub Actions 定时采集跑通并自动回传。
 
 ## 换成你的行业
 

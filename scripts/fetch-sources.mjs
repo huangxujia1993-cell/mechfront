@@ -62,7 +62,7 @@ async function fetchSource(s) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15000);
   try {
-    const res = await fetch(s.url, { signal: controller.signal, headers: { "user-agent": "MechFrontBot/1.0 (+https://mechfront.news)" } });
+    const res = await fetch(s.url, { signal: controller.signal, headers: { "user-agent": "MechFrontBot/1.0 (+https://huangxujia1993-cell.github.io/mechfront/)" } });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const text = await res.text();
     const items = s.type === "webpage" ? parseWebpage(text) : parseFeed(text);

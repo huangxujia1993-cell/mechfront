@@ -1,0 +1,42 @@
+name: 定时采集
+
+on:
+  schedule:
+    # UTC 时间；北京时间 = UTC + 8 → 每天 07:30 / 13:30 / 19:30 / 01:30
+    # 07:30 那次为 08:00 日报成刊预留采集时间
+    - cron: "30 23,5,11,17 * * *"
+  workflow_dispatch: # 支持在 Actions 页面手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-sources
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: 采集信源
+        run: node scripts/fetch-sources.mjs | tee fetch.log
+
+      - name: 提交采集结果
+        run: |
+          ADDED=$(grep -oP '本次新增 \K[0-9]+' fetch.log || echo 0)
+          git config user.name "mechfront-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/inbox.json data/seen.json
+          if git diff --cached --quiet; then
+            echo "无新增内容，跳过提交"
+          else
+            git commit -m "chore(fetch): 采集新增 ${ADDED} 条（$(TZ=Asia/Shanghai date '+%m-%d %H:%M') 北京时间）"
+            git push
+          fi
