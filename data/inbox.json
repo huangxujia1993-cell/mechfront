@@ -5008,5 +5008,1095 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-08T01:03:27.973Z"
+  },
+  {
+    "title": "See All PTC Awards and Recognition",
+    "url": "https://www.ptc.com/en/news/href",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "The Third Angle",
+    "url": "https://www.ptc.com/en/news/href",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Upcoming PTC Events",
+    "url": "https://www.ptc.com/en/news/href",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Global Locations",
+    "url": "https://www.ptc.com/en/ptc-offices",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Trust Center",
+    "url": "https://www.ptc.com/en/about/trust-center",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.ptc.com/en/documents/policies/privacy",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Legal Trust Center",
+    "url": "https://www.ptc.com/en/documents/policies",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.ptc.com/en/documents/policies/privacy",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:31.901Z"
+  },
+  {
+    "title": "Press Releases",
+    "url": "https://www.3ds.com/newsroom/press-releases",
+    "publishedAt": null,
+    "sourceId": "3ds_newsroom",
+    "sourceName": "达索系统新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.344Z"
+  },
+  {
+    "title": "Media Alerts",
+    "url": "https://www.3ds.com/newsroom/media-alerts",
+    "publishedAt": null,
+    "sourceId": "3ds_newsroom",
+    "sourceName": "达索系统新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.344Z"
+  },
+  {
+    "title": "Press Contacts",
+    "url": "https://www.3ds.com/newsroom/press-contacts",
+    "publishedAt": null,
+    "sourceId": "3ds_newsroom",
+    "sourceName": "达索系统新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.344Z"
+  },
+  {
+    "title": "Customer Home",
+    "url": "https://www.onshape.com/en/customer-home",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "configurations",
+    "url": "https://www.onshape.com/en/features/configurations",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Product Data Management (PDM)",
+    "url": "https://www.onshape.com/en/spotlight/product-data-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "DATA MANAGEMENT",
+    "url": "https://www.onshape.com/en/features/product-data-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "BRANCHING &amp; MERGING",
+    "url": "https://www.onshape.com/en/features/branch-merge-cad",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "RELEASE MANAGEMENT",
+    "url": "https://www.onshape.com/en/features/release-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "BILL OF MATERIALS",
+    "url": "https://www.onshape.com/en/features/bill-of-materials",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "ARENA PLM CONNECTION",
+    "url": "https://www.onshape.com/en/features/onshape-arena-connection",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Real Time Communication",
+    "url": "https://www.onshape.com/en/spotlight/product-design-collaboration-3d-cad",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "COLLABORATION",
+    "url": "https://www.onshape.com/en/features/collaboration",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "INTEGRATIONS",
+    "url": "https://www.onshape.com/en/features/integrations",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Onshape Government",
+    "url": "https://www.onshape.com/en/features/onshape-government",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Onshape Labs",
+    "url": "https://www.onshape.com/en/features/onshape-labs",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Model Based Definition (MBD)",
+    "url": "https://www.onshape.com/en/features/model-based-definition",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "CUSTOM FEATURES",
+    "url": "https://www.onshape.com/en/features/custom-features",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Consumer Products",
+    "url": "https://www.onshape.com/en/solutions/consumer-products",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Machine Design",
+    "url": "https://www.onshape.com/en/solutions/machine-design",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Medical Devices",
+    "url": "https://www.onshape.com/en/solutions/medical-device-design",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "configurations",
+    "url": "https://www.onshape.com/en/features/configurations",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Product Data Management (PDM)",
+    "url": "https://www.onshape.com/en/spotlight/product-data-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "DATA MANAGEMENT",
+    "url": "https://www.onshape.com/en/features/product-data-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "BRANCHING &amp; MERGING",
+    "url": "https://www.onshape.com/en/features/branch-merge-cad",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "RELEASE MANAGEMENT",
+    "url": "https://www.onshape.com/en/features/release-management",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "BILL OF MATERIALS",
+    "url": "https://www.onshape.com/en/features/bill-of-materials",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "ARENA PLM CONNECTION",
+    "url": "https://www.onshape.com/en/features/onshape-arena-connection",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Real Time Communication",
+    "url": "https://www.onshape.com/en/spotlight/product-design-collaboration-3d-cad",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "COLLABORATION",
+    "url": "https://www.onshape.com/en/features/collaboration",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "INTEGRATIONS",
+    "url": "https://www.onshape.com/en/features/integrations",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Onshape Government",
+    "url": "https://www.onshape.com/en/features/onshape-government",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Onshape Labs",
+    "url": "https://www.onshape.com/en/features/onshape-labs",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Model Based Definition (MBD)",
+    "url": "https://www.onshape.com/en/features/model-based-definition",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "CUSTOM FEATURES",
+    "url": "https://www.onshape.com/en/features/custom-features",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Consumer Products",
+    "url": "https://www.onshape.com/en/solutions/consumer-products",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Machine Design",
+    "url": "https://www.onshape.com/en/solutions/machine-design",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Medical Devices",
+    "url": "https://www.onshape.com/en/solutions/medical-device-design",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Features &amp; Benefits",
+    "url": "https://www.onshape.com/en/platform",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Education Plans",
+    "url": "https://www.onshape.com/en/education/plans",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Plans &amp; Pricing",
+    "url": "https://www.onshape.com/en/pricing",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Custom Features",
+    "url": "https://www.onshape.com/en/features/custom-features",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "What&#39;s New",
+    "url": "https://www.onshape.com/en/resource-center/what-is-new/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "CAD Software Comparison",
+    "url": "https://www.onshape.com/en/spotlight/cad-software-comparison-alternatives/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Resource Center",
+    "url": "https://www.onshape.com/en/resource-center/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Industry Focus",
+    "url": "https://www.onshape.com/en/resource-center/case-studies/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Data Migration",
+    "url": "https://www.onshape.com/en/solidworks-data-migration/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Contact Sales",
+    "url": "https://www.onshape.com/en/contact-sales",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "Privacy Center",
+    "url": "https://www.onshape.com/en/privacy-center/",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:32.905Z"
+  },
+  {
+    "title": "三维云CAD皇冠CAD(CrownCAD)",
+    "url": "https://www.hoteamsoft.com/yuncad",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "产品全生命周期管理系统PLM",
+    "url": "https://www.hoteamsoft.com/plm-new",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "产品数据管理系统 PDM",
+    "url": "https://www.hoteamsoft.com/pdm",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "中小型企业版SmartPDM",
+    "url": "https://www.hoteamsoft.com/smartpdm",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "工艺设计与管理系统CAPP",
+    "url": "https://www.hoteamsoft.com/capp",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "协同计划平台CoPLAN",
+    "url": "https://www.hoteamsoft.com/co-plan",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "三维装配大师SVMAN-A",
+    "url": "https://www.hoteamsoft.com/svman-a",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "三维机加大师SVMAN-M",
+    "url": "https://www.hoteamsoft.com/svman-m",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "协同制造管理系统CMMP",
+    "url": "https://www.hoteamsoft.com/cmmp",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "3DPlaza全数字化创新平台",
+    "url": "https://www.hoteamsoft.com/3dplaza",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "3DPlaza全数字化创新平台",
+    "url": "https://www.hoteamsoft.com/3dplaza",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "SView工业互联网平台",
+    "url": "https://www.hoteamsoft.com/industrial-internet",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "三维云CAD皇冠CAD(CrownCAD)",
+    "url": "https://www.hoteamsoft.com/yuncad",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "产品全生命周期管理系统PLM",
+    "url": "https://www.hoteamsoft.com/plm-new",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "产品数据管理系统 PDM",
+    "url": "https://www.hoteamsoft.com/pdm",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "中小型企业版SmartPDM",
+    "url": "https://www.hoteamsoft.com/smartpdm",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "工艺设计与管理系统CAPP",
+    "url": "https://www.hoteamsoft.com/capp",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "协同计划平台CoPLAN",
+    "url": "https://www.hoteamsoft.com/co-plan",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "三维装配大师SVMAN-A",
+    "url": "https://www.hoteamsoft.com/svman-a",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "三维机加大师SVMAN-M",
+    "url": "https://www.hoteamsoft.com/svman-m",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "协同制造管理系统CMMP",
+    "url": "https://www.hoteamsoft.com/cmmp",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "3DPlaza全数字化创新平台",
+    "url": "https://www.hoteamsoft.com/3dplaza",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "3DPlaza全数字化创新平台",
+    "url": "https://www.hoteamsoft.com/3dplaza",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "SView工业互联网平台",
+    "url": "https://www.hoteamsoft.com/industrial-internet",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "隐私政策 | SiteMap",
+    "url": "https://www.hoteamsoft.com/category170",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.464Z"
+  },
+  {
+    "title": "Partner Country",
+    "url": "https://www.hannovermesse.de/en/expo/partner-country/index-4",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Product Innovations",
+    "url": "https://www.hannovermesse.de/en/expo/product-innovations/produkt-innovations",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Special Displays",
+    "url": "https://www.hannovermesse.de/en/expo/special-displays/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Exhibitors &amp; Products 2026",
+    "url": "https://www.hannovermesse.de/en/expo/exhibitors-products/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Become an Exhibitor",
+    "url": "https://www.hannovermesse.de/en/for-exhibitors/become-an-exhibitor/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "News &amp; Articles",
+    "url": "https://www.hannovermesse.de/en/news/news-articles/newshub",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Media Library",
+    "url": "https://www.hannovermesse.de/en/news/media-library/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Image Galleries",
+    "url": "https://www.hannovermesse.de/en/news/image-galleries/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Subscribe to Newsletter",
+    "url": "https://www.hannovermesse.de/en/news/newsletter/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "About HANNOVER MESSE",
+    "url": "https://www.hannovermesse.de/en/about-us/about-the-show/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "After Show Report",
+    "url": "https://www.hannovermesse.de/en/about-us/after-show-report/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "HANNOVER MESSE worldwide",
+    "url": "https://www.hannovermesse.de/en/about-us/hannover-messe-worldwide/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Trade Fair Location",
+    "url": "https://www.hannovermesse.de/en/for-exhibitors/trade-fair-location/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Sustainability",
+    "url": "https://www.hannovermesse.de/en/about-us/sustainability/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Become an Exhibitor",
+    "url": "https://www.hannovermesse.de/en/for-exhibitors/become-an-exhibitor/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "News Service",
+    "url": "https://www.hannovermesse.de/en/application/dashboard/news-service/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Exhibitors &amp; Products",
+    "url": "https://www.hannovermesse.de/en/expo/exhibitors-products/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Daily Program",
+    "url": "https://www.hannovermesse.de/en/side-events/speakers/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Contacts worldwide",
+    "url": "https://www.hannovermesse.de/en/about-us/contacts-worldwide/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Create User Account",
+    "url": "https://www.hannovermesse.de/en/application/registration/account/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Sustainability",
+    "url": "https://www.hannovermesse.de/en/about-us/sustainability/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Exhibitor Shop",
+    "url": "https://shop.hannovermesse.de/en/00index.html",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.hannovermesse.de/en/deutsche-messe/privacy-policy/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "GTC Ticket Shop",
+    "url": "https://www.hannovermesse.de/en/deutsche-messe/gtc-ticket-shop/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Declaration on Accessibility",
+    "url": "https://www.hannovermesse.de/en/deutsche-messe/declaration-on-accessibility",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "HANNOVER MESSE worldwide",
+    "url": "https://www.hannovermesse.de/en/about-us/hannover-messe-worldwide/index-2",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
+  },
+  {
+    "title": "Technology Academy",
+    "url": "https://www.technology-academy.group/en/homepage/",
+    "publishedAt": null,
+    "sourceId": "hannovermesse",
+    "sourceName": "汉诺威工博会新闻",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-08T01:07:35.829Z"
   }
 ]
