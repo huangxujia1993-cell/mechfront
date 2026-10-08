@@ -37,8 +37,10 @@ function parseFeed(xml) {
     const linkM = b.match(/<link[^>]*href="([^"]+)"/) || b.match(/<link[^>]*>([^<]+)<\/link>/);
     const title = pick("title").replace(/<!\[CDATA\[|\]\]>/g, "");
     const date = pick("pubDate", "published", "updated", "dc:date");
+    const desc = pick("description", "summary", "content")
+      .replace(/<!\[CDATA\[|\]\]>/g, "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim().slice(0, 600);
     const url = (linkM && (linkM[1] || linkM[2]) || "").trim();
-    if (title && url) items.push({ title, url, publishedAt: date ? new Date(date).toISOString() : null });
+    if (title && url) items.push({ title, url, desc, publishedAt: date ? new Date(date).toISOString() : null });
   }
   return items;
 }

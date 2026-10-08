@@ -17,5 +17,9 @@
 ## 标签
 - 从既有标签体系里选（公司、方向、形态），最多 4 个；不够再新建
 
+## 分类
+- 从以下六类中选一个 key：
+- cad（CAD 智能化）| cae（仿真与 CAE）| robotics（机器人与具身智能）| research（生成式设计与学术前沿）| industrial（工业大模型与数字孪生）| market（展会与资本）
+
 ## 输出
-JSON：`{"title": "...", "summary": "...", "reason": "...", "tags": [...]}`
+JSON：`{"title": "...", "summary": "...", "reason": "...", "tags": [...], "category": "..."}`

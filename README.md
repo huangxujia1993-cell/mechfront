@@ -68,6 +68,36 @@ mechfront/
 
 采集结果只是入箱（`data/inbox.json`），须经 LLM 流水线（预筛→双评分→写作→聚簇）处理后写回 `data/news-data.js` 才会出现在站点上。
 
+### LLM 流水线（DeepSeek）
+
+`scripts/run-pipeline.mjs` 把入箱资料走完五步：**预筛 → 双评分 → 中文写作 → 事件聚簇 → 日报成刊**，全程 DeepSeek API：
+
+- **双评分用两个不同模型**：`deepseek-chat`（评分 A）+ `deepseek-reasoner`（评分 B），同一标准独立打分，双双过门槛才入选
+- 聚簇（same_event / follow_up / different）用 reasoner，置信度 < 0.55 或事件 id 无效时自动拆为新事件
+- 日报自动成刊：新增条目按分类分节 + LLM 生成导语，当天已出刊则跳过
+- 处理进度记在 `data/pipeline-state.json`（按 URL 去重，淘汰/异常/入选都不会重复付费）
+- token 用量与成本自动累计到 `data/news-data.js` 的 budget 段（后台「预算与熔断」可见）
+
+**Key 的配置（二选一或都配）：**
+
+```bash
+# 本地运行：mechfront/.env 写入一行（.env 已被 .gitignore 忽略，不会入库）
+DEEPSEEK_API_KEY=sk-xxx
+
+# GitHub Actions：存为仓库加密 Secret
+gh secret set DEEPSEEK_API_KEY -R huangxujia1993-cell/mechfront
+```
+
+**运行：**
+
+```bash
+node scripts/run-pipeline.mjs --limit 8   # 小批量试跑
+node scripts/run-pipeline.mjs             # 全量（单次最多 800 条）
+node scripts/build-exports.mjs            # 重新生成 RSS / API
+```
+
+`.github/workflows/pipeline.yml` 每天北京时间 **07:50** 自动运行（07:30 采集之后）；未配置 Secret 时该任务自动跳过，不会报错刷屏。模型可用环境变量 `PIPELINE_MODEL_A` / `PIPELINE_MODEL_B` 覆盖。
+
 ### 本地手动运转
 
 ```bash
