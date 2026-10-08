@@ -3530,36 +3530,6 @@
     "fetchedAt": "2026-10-08T01:03:06.387Z"
   },
   {
-    "title": "See All PTC Awards and Recognition",
-    "url": "https://placeholder.invalid/href",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "The Third Angle",
-    "url": "https://placeholder.invalid/href",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Upcoming PTC Events",
-    "url": "https://placeholder.invalid/href",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
     "title": "Learning Connector",
     "url": "https://learningconnector.ptc.com/",
     "publishedAt": null,
@@ -3572,56 +3542,6 @@
   {
     "title": "Investor Relations",
     "url": "https://investor.ptc.com/investor-overview/default.aspx",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Global Locations",
-    "url": "https://placeholder.invalid/en/ptc-offices",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Trust Center",
-    "url": "https://placeholder.invalid/en/about/trust-center",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Privacy Policy",
-    "url": "https://placeholder.invalid/en/documents/policies/privacy",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Legal Trust Center",
-    "url": "https://placeholder.invalid/en/documents/policies",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
-    "title": "Privacy Policy",
-    "url": "https://placeholder.invalid/en/documents/policies/privacy",
     "publishedAt": null,
     "sourceId": "ptc_news",
     "sourceName": "PTC 新闻室",
@@ -3650,26 +3570,6 @@
     "fetchedAt": "2026-10-08T01:03:23.181Z"
   },
   {
-    "title": "Press Releases",
-    "url": "https://placeholder.invalid/newsroom/press-releases",
-    "publishedAt": null,
-    "sourceId": "3ds_newsroom",
-    "sourceName": "达索系统新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:23.832Z"
-  },
-  {
-    "title": "Media Alerts",
-    "url": "https://placeholder.invalid/newsroom/media-alerts",
-    "publishedAt": null,
-    "sourceId": "3ds_newsroom",
-    "sourceName": "达索系统新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:23.832Z"
-  },
-  {
     "title": "Investors News",
     "url": "https://investor.3ds.com/news-releases",
     "publishedAt": null,
@@ -3682,16 +3582,6 @@
   {
     "title": "La Fondation News",
     "url": "https://www.lafondation3ds.org/news",
-    "publishedAt": null,
-    "sourceId": "3ds_newsroom",
-    "sourceName": "达索系统新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:23.832Z"
-  },
-  {
-    "title": "Press Contacts",
-    "url": "https://placeholder.invalid/newsroom/press-contacts",
     "publishedAt": null,
     "sourceId": "3ds_newsroom",
     "sourceName": "达索系统新闻室",
@@ -4610,418 +4500,8 @@
     "fetchedAt": "2026-10-08T01:03:24.264Z"
   },
   {
-    "title": "Customer Home",
-    "url": "https://placeholder.invalid/en/customer-home",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
     "title": "Open Onshape",
     "url": "https://cad.onshape.com/signin",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "configurations",
-    "url": "https://placeholder.invalid/en/features/configurations",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Product Data Management (PDM)",
-    "url": "https://placeholder.invalid/en/spotlight/product-data-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "DATA MANAGEMENT",
-    "url": "https://placeholder.invalid/en/features/product-data-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "BRANCHING &amp; MERGING",
-    "url": "https://placeholder.invalid/en/features/branch-merge-cad",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "RELEASE MANAGEMENT",
-    "url": "https://placeholder.invalid/en/features/release-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "BILL OF MATERIALS",
-    "url": "https://placeholder.invalid/en/features/bill-of-materials",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "ARENA PLM CONNECTION",
-    "url": "https://placeholder.invalid/en/features/onshape-arena-connection",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Real Time Communication",
-    "url": "https://placeholder.invalid/en/spotlight/product-design-collaboration-3d-cad",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "COLLABORATION",
-    "url": "https://placeholder.invalid/en/features/collaboration",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "INTEGRATIONS",
-    "url": "https://placeholder.invalid/en/features/integrations",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Onshape Government",
-    "url": "https://placeholder.invalid/en/features/onshape-government",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Onshape Labs",
-    "url": "https://placeholder.invalid/en/features/onshape-labs",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Model Based Definition (MBD)",
-    "url": "https://placeholder.invalid/en/features/model-based-definition",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "CUSTOM FEATURES",
-    "url": "https://placeholder.invalid/en/features/custom-features",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Consumer Products",
-    "url": "https://placeholder.invalid/en/solutions/consumer-products",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Machine Design",
-    "url": "https://placeholder.invalid/en/solutions/machine-design",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Medical Devices",
-    "url": "https://placeholder.invalid/en/solutions/medical-device-design",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "configurations",
-    "url": "https://placeholder.invalid/en/features/configurations",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Product Data Management (PDM)",
-    "url": "https://placeholder.invalid/en/spotlight/product-data-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "DATA MANAGEMENT",
-    "url": "https://placeholder.invalid/en/features/product-data-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "BRANCHING &amp; MERGING",
-    "url": "https://placeholder.invalid/en/features/branch-merge-cad",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "RELEASE MANAGEMENT",
-    "url": "https://placeholder.invalid/en/features/release-management",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "BILL OF MATERIALS",
-    "url": "https://placeholder.invalid/en/features/bill-of-materials",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "ARENA PLM CONNECTION",
-    "url": "https://placeholder.invalid/en/features/onshape-arena-connection",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Real Time Communication",
-    "url": "https://placeholder.invalid/en/spotlight/product-design-collaboration-3d-cad",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "COLLABORATION",
-    "url": "https://placeholder.invalid/en/features/collaboration",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "INTEGRATIONS",
-    "url": "https://placeholder.invalid/en/features/integrations",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Onshape Government",
-    "url": "https://placeholder.invalid/en/features/onshape-government",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Onshape Labs",
-    "url": "https://placeholder.invalid/en/features/onshape-labs",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Model Based Definition (MBD)",
-    "url": "https://placeholder.invalid/en/features/model-based-definition",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "CUSTOM FEATURES",
-    "url": "https://placeholder.invalid/en/features/custom-features",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Consumer Products",
-    "url": "https://placeholder.invalid/en/solutions/consumer-products",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Machine Design",
-    "url": "https://placeholder.invalid/en/solutions/machine-design",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Medical Devices",
-    "url": "https://placeholder.invalid/en/solutions/medical-device-design",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Features &amp; Benefits",
-    "url": "https://placeholder.invalid/en/platform",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Education Plans",
-    "url": "https://placeholder.invalid/en/education/plans",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Plans &amp; Pricing",
-    "url": "https://placeholder.invalid/en/pricing",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Custom Features",
-    "url": "https://placeholder.invalid/en/features/custom-features",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "What&#39;s New",
-    "url": "https://placeholder.invalid/en/resource-center/what-is-new/",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "CAD Software Comparison",
-    "url": "https://placeholder.invalid/en/spotlight/cad-software-comparison-alternatives/",
     "publishedAt": null,
     "sourceId": "onshape_blog",
     "sourceName": "Onshape 官方博客",
@@ -5040,26 +4520,6 @@
     "fetchedAt": "2026-10-08T01:03:24.450Z"
   },
   {
-    "title": "Resource Center",
-    "url": "https://placeholder.invalid/en/resource-center/",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Industry Focus",
-    "url": "https://placeholder.invalid/en/resource-center/case-studies/",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
     "title": "Documentation",
     "url": "https://cad.onshape.com/help/Content/EnterpriseHelp/Content/home.htm",
     "publishedAt": null,
@@ -5070,38 +4530,8 @@
     "fetchedAt": "2026-10-08T01:03:24.450Z"
   },
   {
-    "title": "Data Migration",
-    "url": "https://placeholder.invalid/en/solidworks-data-migration/",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
     "title": "Service Status",
     "url": "https://status.onshape.com/",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Contact Sales",
-    "url": "https://placeholder.invalid/en/contact-sales",
-    "publishedAt": null,
-    "sourceId": "onshape_blog",
-    "sourceName": "Onshape 官方博客",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:24.450Z"
-  },
-  {
-    "title": "Privacy Center",
-    "url": "https://placeholder.invalid/en/privacy-center/",
     "publishedAt": null,
     "sourceId": "onshape_blog",
     "sourceName": "Onshape 官方博客",
@@ -5460,16 +4890,6 @@
     "fetchedAt": "2026-10-08T01:03:26.390Z"
   },
   {
-    "title": "三维云CAD皇冠CAD(CrownCAD)",
-    "url": "https://placeholder.invalid/yuncad",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
     "title": "模具行业领先的CAD/CAM/CAE系统SINOVATION",
     "url": "http://sv.hoteamsoft.com/sinovation",
     "publishedAt": null,
@@ -5490,118 +4910,8 @@
     "fetchedAt": "2026-10-08T01:03:27.973Z"
   },
   {
-    "title": "产品全生命周期管理系统PLM",
-    "url": "https://placeholder.invalid/plm-new",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "产品数据管理系统 PDM",
-    "url": "https://placeholder.invalid/pdm",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "中小型企业版SmartPDM",
-    "url": "https://placeholder.invalid/smartpdm",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "工艺设计与管理系统CAPP",
-    "url": "https://placeholder.invalid/capp",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "协同计划平台CoPLAN",
-    "url": "https://placeholder.invalid/co-plan",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "三维装配大师SVMAN-A",
-    "url": "https://placeholder.invalid/svman-a",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "三维机加大师SVMAN-M",
-    "url": "https://placeholder.invalid/svman-m",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "协同制造管理系统CMMP",
-    "url": "https://placeholder.invalid/cmmp",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
     "title": "汽车试验试制管理平台TMP",
     "url": "https://www.hoteamsoft.com/category157",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "3DPlaza全数字化创新平台",
-    "url": "https://placeholder.invalid/3dplaza",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "3DPlaza全数字化创新平台",
-    "url": "https://placeholder.invalid/3dplaza",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "SView工业互联网平台",
-    "url": "https://placeholder.invalid/industrial-internet",
     "publishedAt": null,
     "sourceId": "hoteam",
     "sourceName": "华天软件资讯",
@@ -5620,16 +4930,6 @@
     "fetchedAt": "2026-10-08T01:03:27.973Z"
   },
   {
-    "title": "三维云CAD皇冠CAD(CrownCAD)",
-    "url": "https://placeholder.invalid/yuncad",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
     "title": "模具行业领先的CAD/CAM/CAE系统SINOVATION",
     "url": "http://sv.hoteamsoft.com/sinovation",
     "publishedAt": null,
@@ -5650,118 +4950,8 @@
     "fetchedAt": "2026-10-08T01:03:27.973Z"
   },
   {
-    "title": "产品全生命周期管理系统PLM",
-    "url": "https://placeholder.invalid/plm-new",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "产品数据管理系统 PDM",
-    "url": "https://placeholder.invalid/pdm",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "中小型企业版SmartPDM",
-    "url": "https://placeholder.invalid/smartpdm",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "工艺设计与管理系统CAPP",
-    "url": "https://placeholder.invalid/capp",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "协同计划平台CoPLAN",
-    "url": "https://placeholder.invalid/co-plan",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "三维装配大师SVMAN-A",
-    "url": "https://placeholder.invalid/svman-a",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "三维机加大师SVMAN-M",
-    "url": "https://placeholder.invalid/svman-m",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "协同制造管理系统CMMP",
-    "url": "https://placeholder.invalid/cmmp",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
     "title": "汽车试验试制管理平台TMP",
     "url": "https://www.hoteamsoft.com/category157",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "3DPlaza全数字化创新平台",
-    "url": "https://placeholder.invalid/3dplaza",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "3DPlaza全数字化创新平台",
-    "url": "https://placeholder.invalid/3dplaza",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "SView工业互联网平台",
-    "url": "https://placeholder.invalid/industrial-internet",
     "publishedAt": null,
     "sourceId": "hoteam",
     "sourceName": "华天软件资讯",
@@ -5812,16 +5002,6 @@
   {
     "title": "Powered by Yongsy",
     "url": "https://www.yongsy.com/",
-    "publishedAt": null,
-    "sourceId": "hoteam",
-    "sourceName": "华天软件资讯",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:27.973Z"
-  },
-  {
-    "title": "隐私政策 | SiteMap",
-    "url": "https://placeholder.invalid/category170",
     "publishedAt": null,
     "sourceId": "hoteam",
     "sourceName": "华天软件资讯",

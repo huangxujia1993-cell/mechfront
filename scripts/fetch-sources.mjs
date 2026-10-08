@@ -44,13 +44,16 @@ function parseFeed(xml) {
 }
 
 // ---------- 网页列表解析（提取标题+链接） ----------
-function parseWebpage(html) {
+function parseWebpage(html, baseUrl) {
   const items = [];
   for (const m of html.matchAll(/<a[^>]+href="([^"#]+)"[^>]*>([\s\S]{6,160}?)<\/a>/g)) {
     const url = m[1], title = m[2].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
     if (title.length < 12 || /^(https?:)?\/\//.test(title)) continue;
     if (/\.(css|js|png|jpg|svg|ico|pdf)$/i.test(url)) continue;
-    items.push({ title, url: new URL(url, "https://placeholder.invalid").href, publishedAt: null });
+    let abs;
+    try { abs = new URL(url, baseUrl).href; } catch { continue; }
+    if (/placeholder\.invalid|javascript:|mailto:/.test(abs)) continue;
+    items.push({ title, url: abs, publishedAt: null });
   }
   return items;
 }
@@ -60,12 +63,12 @@ async function fetchSource(s) {
   if (s.type === "push") return { source: s, ok: true, items: [], note: "推送型信源，等待外部 POST /api/push" };
   if (s.type === "x" || s.type === "wechat") return { source: s, ok: true, items: [], note: "由专用采集器推送入箱（本脚本不直接抓取）" };
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), 15000);
+  const timer = setTimeout(() => controller.abort(), 30000);
   try {
     const res = await fetch(s.url, { signal: controller.signal, headers: { "user-agent": "MechFrontBot/1.0 (+https://huangxujia1993-cell.github.io/mechfront/)" } });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const text = await res.text();
-    const items = s.type === "webpage" ? parseWebpage(text) : parseFeed(text);
+    const items = s.type === "webpage" ? parseWebpage(text, s.url) : parseFeed(text);
     return { source: s, ok: true, items };
   } catch (err) {
     return { source: s, ok: false, items: [], note: String(err.message || err) };

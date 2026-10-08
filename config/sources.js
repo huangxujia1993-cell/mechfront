@@ -181,7 +181,7 @@ window.SOURCES = {
       "type": "webpage",
       "tier": "official",
       "lang": "en",
-      "url": "https://www.hannovermesse.de/en/news/news-articles/",
+      "url": "https://www.hannovermesse.de/en/news/news",
       "selector": "a.article",
       "intervalMinutes": 1440,
       "enabled": true,
