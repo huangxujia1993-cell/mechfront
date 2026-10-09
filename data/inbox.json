@@ -8243,5 +8243,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-08T22:18:06.813Z"
+  },
+  {
+    "title": "Scale Bitwise-Deterministic Pretraining with NVIDIA Megatron Core",
+    "url": "https://developer.nvidia.com/blog/scale-bitwise-deterministic-pretraining-with-nvidia-megatron-core/",
+    "desc": "Bitwise determinism makes large-scale pretraining easier to debug, validate, and resume reproducibly. These benefits become especially valuable when training...",
+    "publishedAt": "2026-10-06T19:58:03.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-09T03:01:26.187Z"
+  },
+  {
+    "title": "Look Where You Can: Active View Selection for CAD Reconstruction under Occlusion",
+    "url": "https://arxiv.org/abs/2610.11954v1",
+    "desc": "CAD reconstruction methods assume a luxury reality rarely grants: unrestricted visual access to the object, photographed from any desired angle. Real objects, however, are scene-embedded, bolted against walls, wedged into corners, resting on floors, where the scene renders much of the view sphere unreachable and the remaining views unequally informative. We introduce \\textbf{SightCAD}, a framework for parametric CAD reconstruction that treats view feasibility as a first-class constraint. In this work we consider objects from standard CAD benchmarks embedded in realistic indoor scenes with phys",
+    "publishedAt": "2026-10-08T13:40:38.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-10-09T03:01:27.152Z"
   }
 ]
