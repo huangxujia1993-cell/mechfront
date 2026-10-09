@@ -9860,5 +9860,49 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-10-09T12:01:33.475Z"
+  },
+  {
+    "title": "Why humanoid robot demos still fail the generalization test",
+    "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
+    "desc": "How better data and human judgment can help robots move beyond demos toward reliable real-world performance. The post Why humanoid robot demos still fail the generalization test appeared first on The Robot Report .",
+    "publishedAt": "2026-10-09T19:28:41.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-09T21:49:28.275Z"
+  },
+  {
+    "title": "Boston Dynamics gives more insight into its redesigned humanoid hand",
+    "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+    "desc": "The Robot Report spoke with Alberto Rodriguez, the director of robot behavior for Atlas at Boston Dynamics, about the humanoid's new hand. The post Boston Dynamics gives more insight into its redesigned humanoid hand appeared first on The Robot Report .",
+    "publishedAt": "2026-10-09T16:59:57.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-09T21:49:28.275Z"
+  },
+  {
+    "title": "Groceryshop 2026 shows that retail robots are ready to scale, use AI",
+    "url": "https://www.therobotreport.com/groceryshop-2026-shows-retail-robots-ready-scale-use-ai/",
+    "desc": "Groceryshop 2026 not only featured mobile robots for taking inventory, but it also showed how retail automation is evolving. The post Groceryshop 2026 shows that retail robots are ready to scale, use AI appeared first on The Robot Report .",
+    "publishedAt": "2026-10-09T12:25:47.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-09T21:49:28.275Z"
+  },
+  {
+    "title": "Video Friday: Robot Decommissioning Takes a Fun Turn",
+    "url": "https://spectrum.ieee.org/video-friday-reachy-mini-raps",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! It’s possible that I wasn’t the only one who thought that Figure’s recent stunt was somewhat ridiculous. Devanthro is in fact selling these plastic balls for $1000 each, and they’ll arrive in time for Christmas. [ Devanthro ] Not that anyone ",
+    "publishedAt": "2026-10-09T15:30:02.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-09T21:49:28.407Z"
   }
 ]
