@@ -11485,5 +11485,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-14T15:54:49.694Z"
+  },
+  {
+    "title": "Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym",
+    "url": "https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/",
+    "desc": "AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...",
+    "publishedAt": "2026-10-14T16:10:45.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-14T20:52:43.407Z"
+  },
+  {
+    "title": "How ADI is helping robotics startups scale",
+    "url": "https://www.therobotreport.com/how-adi-is-helping-robotics-startups-scale/",
+    "desc": "Robotics businesses need help keeping up with innovations as they scale. Analog Devices Inc. or ADI is offering its Emerging Tech Hub. The post How ADI is helping robotics startups scale appeared first on The Robot Report .",
+    "publishedAt": "2026-10-14T20:29:21.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-14T20:52:43.493Z"
   }
 ]
