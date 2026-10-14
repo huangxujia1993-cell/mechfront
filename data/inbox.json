@@ -11463,5 +11463,27 @@
     "tier": "official",
     "type": "rss",
     "fetchedAt": "2026-10-14T10:27:21.177Z"
+  },
+  {
+    "title": "RoboBusiness 2026 panel to discuss reshoring with robots",
+    "url": "https://www.therobotreport.com/robobusiness-2026-panel-discusses-reshoring-with-robots/",
+    "desc": "While reshoring manufacturing is a high priority for policymakers and technologists, RoboBusiness panelists will examine how to promote it. The post RoboBusiness 2026 panel to discuss reshoring with robots appeared first on The Robot Report .",
+    "publishedAt": "2026-10-14T15:08:59.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-14T15:54:49.694Z"
+  },
+  {
+    "title": "Timken Precision Drives puts the motion challenge first in humanoid robots",
+    "url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
+    "desc": "Timken combines the expertise of Cone Drive, SPINEA, CGI Motion, and Timken Encoders to develop application-specific motion systems. The post Timken Precision Drives puts the motion challenge first in humanoid robots appeared first on The Robot Report .",
+    "publishedAt": "2026-10-14T12:20:19.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-14T15:54:49.694Z"
   }
 ]
