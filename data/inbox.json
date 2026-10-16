@@ -14814,5 +14814,38 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-16T15:26:58.980Z"
+  },
+  {
+    "title": "Code, Test, and Deploy on One Machine with NVIDIA RTX Spark",
+    "url": "https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/",
+    "desc": "AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...",
+    "publishedAt": "2026-10-16T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-16T20:01:04.732Z"
+  },
+  {
+    "title": "MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program",
+    "url": "https://www.therobotreport.com/massrobotics-opens-applications-healthcare-robotics-startup-catalyst-program/",
+    "desc": "The cohort will run February through June 2027, concluding with company showcases at the Robotics Summit and Expo in Boston. The post MassRobotics opens applications for Healthcare Robotics Startup Catalyst Program appeared first on The Robot Report .",
+    "publishedAt": "2026-10-16T17:57:12.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-16T20:01:04.881Z"
+  },
+  {
+    "title": "Video Friday: When Two Robots Become One",
+    "url": "https://spectrum.ieee.org/video-friday-reconfigurable-robots",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! When one robot loves another robot very much, and they’re connected by a wire, they can get together and make a brand new robot! SFW. [ JSK Lab ] What happens when Microducks meet? They start to sing together. Each Microduck syncs with its ne",
+    "publishedAt": "2026-10-16T16:30:02.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-16T20:01:05.812Z"
   }
 ]
