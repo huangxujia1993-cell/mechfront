@@ -14784,5 +14784,35 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-16T10:02:32.547Z"
+  },
+  {
+    "title": "See All PTC Awards and Recognition",
+    "url": "https://www.ptc.com/en/about/awards-and-recognition",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-16T15:26:58.980Z"
+  },
+  {
+    "title": "The Third Angle",
+    "url": "https://www.ptc.com/en/resources/corporate/podcast/third-angle",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-16T15:26:58.980Z"
+  },
+  {
+    "title": "Upcoming PTC Events",
+    "url": "https://www.ptc.com/en/events",
+    "publishedAt": null,
+    "sourceId": "ptc_news",
+    "sourceName": "PTC 新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-16T15:26:58.980Z"
   }
 ]
