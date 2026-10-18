@@ -14891,5 +14891,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-18T01:23:08.459Z"
+  },
+  {
+    "title": "How to choose a BLDC motor for robotic arms and mobile robots",
+    "url": "https://www.therobotreport.com/how-to-choose-bldc-motor-robotic-arms-mobile-robots/",
+    "desc": "Several factors, from sensors to safety and robotic arms or mobile platforms, help determine the selection of a brushless DC or BLDC motor. The post How to choose a BLDC motor for robotic arms and mobile robots appeared first on The Robot Report .",
+    "publishedAt": "2026-10-18T12:30:50.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-18T14:44:15.946Z"
   }
 ]
