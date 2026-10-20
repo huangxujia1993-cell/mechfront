@@ -16233,5 +16233,38 @@
     "tier": "official",
     "type": "rss",
     "fetchedAt": "2026-10-20T10:17:39.802Z"
+  },
+  {
+    "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
+    "url": "https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/",
+    "desc": "Surgery Mode in Unfold AI brings patient-specific 3D maps to give an enhanced view of cancer anatomy during robotic prostate procedures. The post Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care appeared first on The Robot Report .",
+    "publishedAt": "2026-10-20T12:59:43.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-20T15:44:28.325Z"
+  },
+  {
+    "title": "A guide to Day 1 of RoboBusiness 2026",
+    "url": "https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/",
+    "desc": "We've compiled a schedule for everything happening on the first day of RoboBusiness 2026 in Santa Clara, Calif. The post A guide to Day 1 of RoboBusiness 2026 appeared first on The Robot Report .",
+    "publishedAt": "2026-10-20T12:00:10.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-20T15:44:28.325Z"
+  },
+  {
+    "title": "Gecko Robotics secures $300M contract with the U.S. Navy",
+    "url": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
+    "desc": "Gecko claimed this signals the Pentagon’s confidence that it is a core military capability that is delivering results. The post Gecko Robotics secures $300M contract with the U.S. Navy appeared first on The Robot Report .",
+    "publishedAt": "2026-10-20T10:25:47.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-20T15:44:28.325Z"
   }
 ]
