@@ -19101,5 +19101,38 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-22T10:26:25.519Z"
+  },
+  {
+    "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+    "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+    "desc": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast [&#8230;]",
+    "publishedAt": "2026-10-22T15:00:02.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-22T15:57:19.126Z"
+  },
+  {
+    "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
+    "desc": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in [&#8230;]",
+    "publishedAt": "2026-10-22T13:00:20.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-22T15:57:19.126Z"
+  },
+  {
+    "title": "Dream Labs raises $90M and launches Dream API",
+    "url": "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+    "desc": "Dream Labs says its Dream-1 AI model works across robots from different manufacturers and will allow robots to transfer their learning. The post Dream Labs raises $90M and launches Dream API appeared first on The Robot Report .",
+    "publishedAt": "2026-10-22T12:36:37.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-22T15:57:19.823Z"
   }
 ]
