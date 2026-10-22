@@ -1731,5 +1731,7 @@
   "https://www.3ds.com/newsroom/press-releases/dassault-systemes-and-vertiv-team-accelerate-ai-factory-design-and-deployment",
   "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
   "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-  "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/"
+  "https://www.therobotreport.com/dream-labs-raises-90m-and-launches-dream-api/",
+  "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
+  "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/"
 ]

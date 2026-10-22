@@ -19134,5 +19134,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-22T15:57:19.823Z"
+  },
+  {
+    "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+    "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage/",
+    "desc": "GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI...",
+    "publishedAt": "2026-10-22T16:39:09.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-22T20:42:49.129Z"
+  },
+  {
+    "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+    "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes/",
+    "desc": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+    "publishedAt": "2026-10-22T16:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-22T20:42:49.129Z"
   }
 ]
