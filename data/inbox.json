@@ -20289,5 +20289,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-24T01:48:48.708Z"
+  },
+  {
+    "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
+    "url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/",
+    "desc": "Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale. The post Eka Robotics raises $150M to scale its vision-force-action model for robots appeared first on The Robot Report .",
+    "publishedAt": "2026-10-24T12:34:27.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-24T14:45:28.755Z"
   }
 ]
