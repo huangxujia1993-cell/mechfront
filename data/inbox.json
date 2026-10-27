@@ -1,25 +1,5 @@
 [
   {
-    "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
-    "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
-    "publishedAt": "2026-09-24T14:00:50.000Z",
-    "sourceId": "nvidia_blog",
-    "sourceName": "NVIDIA 官方博客",
-    "tier": "official",
-    "type": "rss",
-    "fetchedAt": "2026-09-30T06:01:52.332Z"
-  },
-  {
-    "title": "Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW",
-    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/",
-    "publishedAt": "2026-09-24T13:00:36.000Z",
-    "sourceId": "nvidia_blog",
-    "sourceName": "NVIDIA 官方博客",
-    "tier": "official",
-    "type": "rss",
-    "fetchedAt": "2026-09-30T06:01:52.332Z"
-  },
-  {
     "title": "Sakeena Fiza Helps NVIDIA Hardware Succeed at Scale",
     "url": "https://blogs.nvidia.com/blog/nvidia-life-sakeena-fiza/",
     "publishedAt": "2026-09-23T15:00:32.000Z",
@@ -21378,5 +21358,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-26T17:32:29.238Z"
+  },
+  {
+    "title": "Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges",
+    "url": "https://www.therobotreport.com/bedrock-robotics-nears-1b-in-total-funding-as-demand-for-autonomous-heavy-equipment-surges/",
+    "desc": "Bedrock Robotics has secured $600 million to scale autonomous heavy equipment and combat construction labor shortages. The post Bedrock Robotics nears $1B in total funding as demand for autonomous heavy equipment surges appeared first on The Robot Report .",
+    "publishedAt": "2026-10-26T21:15:00.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-27T02:18:22.339Z"
+  },
+  {
+    "title": "OMRON to acquire OnLogic to address edge AI applications",
+    "url": "https://www.therobotreport.com/omron-acquires-onlogic-address-edge-ai-applications/",
+    "desc": "OMRON will add industrial computing from OnLogic to its industrial automation expertise to serve data- and AI-intensive applications. The post OMRON to acquire OnLogic to address edge AI applications appeared first on The Robot Report .",
+    "publishedAt": "2026-10-26T20:13:13.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-27T02:18:22.339Z"
   }
 ]
