@@ -1,35 +1,5 @@
 [
   {
-    "title": "Sensitivity Shaping for Latent Modeling",
-    "url": "https://arxiv.org/abs/2606.14585",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "What Enables In-Context Behavior Prompting for Manipulation?",
-    "url": "https://arxiv.org/abs/2606.30457",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Guided Action Flow: Value-Guided Sampling for Frozen Vision-Language-Action Policies",
-    "url": "https://arxiv.org/abs/2607.02092",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning",
     "url": "https://arxiv.org/abs/2607.12423",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21702,5 +21672,38 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-28T11:29:34.428Z"
+  },
+  {
+    "title": "Thin, Light and Built for Everything: NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-updates-models-agents-games/",
+    "desc": "NVIDIA RTX Spark powers thin and light laptops built for everything that developers, creators and gamers do. RTX Spark laptops are now available from ASUS, Dell, HP, Lenovo, Microsoft and MSI. These powerful systems combine an NVIDIA Blackwell RTX GPU and an NVIDIA Grace CPU in a single superchip with up to 128GB of unified [&#8230;]",
+    "publishedAt": "2026-10-28T15:00:46.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-28T17:18:16.072Z"
+  },
+  {
+    "title": "Warp Sciences emerges from stealth, to apply robotics to drug research",
+    "url": "https://www.therobotreport.com/warp-sciences-emerges-stealth-apply-robotics-drug-research/",
+    "desc": "Warp Sciences has co-founders from OpenAI, Meta, and more, plus funding to build infrastructure for automated drug discovery in the U.S. The post Warp Sciences emerges from stealth, to apply robotics to drug research appeared first on The Robot Report .",
+    "publishedAt": "2026-10-28T16:28:48.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-28T17:18:16.442Z"
+  },
+  {
+    "title": "WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions",
+    "url": "https://www.therobotreport.com/worldoracle-tests-whether-world-models-can-reliably-predict-real-world-executions/",
+    "desc": "In one case showcased by WorldOracle, a robot's grasp missed, yet the world model predicted that the robot had successfully picked up the fruit. The post WorldOracle Tests Whether World Models Can Reliably Predict Real-World Executions appeared first on The Robot Report .",
+    "publishedAt": "2026-10-28T13:44:31.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-28T17:18:16.442Z"
   }
 ]
