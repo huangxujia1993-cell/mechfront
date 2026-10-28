@@ -1,25 +1,5 @@
 [
   {
-    "title": "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning",
-    "url": "https://arxiv.org/abs/2607.12423",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Contact Modes Are Strata: What Geometric Structure Buys in Discrete-Continuous Planning",
-    "url": "https://arxiv.org/abs/2608.15541",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
     "url": "https://arxiv.org/abs/2608.21031",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21705,5 +21685,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-28T17:18:16.442Z"
+  },
+  {
+    "title": "North American robot orders climb 24.8% in Q3 of 2026, says A3",
+    "url": "https://www.therobotreport.com/north-american-robot-orders-climb-24-8-q3-2026-says-a3/",
+    "desc": "Robot demand from automotive component manufacturers nearly doubled in Q3, as other sectors posted strong gains, reported A3. The post North American robot orders climb 24.8% in Q3 of 2026, says A3 appeared first on The Robot Report .",
+    "publishedAt": "2026-10-28T18:59:30.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-28T21:49:23.687Z"
+  },
+  {
+    "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
+    "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
+    "desc": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the challenge of building a diversified, repeatable business. The post What Symbotic’s Walmart growth teaches robotics startups about anchor customers appeared first on The Robot Report .",
+    "publishedAt": "2026-10-28T18:40:57.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-28T21:49:23.687Z"
   }
 ]
