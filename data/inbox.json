@@ -1,55 +1,5 @@
 [
   {
-    "title": "PhysCaP: Grounding Code-as-Policy Agent with Physics-Informed Exploration",
-    "url": "https://arxiv.org/abs/2608.21031",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation",
-    "url": "https://arxiv.org/abs/2608.21290",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2608.27550",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Generation of High-Level Concepts in 3D Scene Graphs via Autoregressive Diffusion",
-    "url": "https://arxiv.org/abs/2608.28733",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Atomic Motion Coordinate for Language-Steerable and Force-Responsive Manipulation",
-    "url": "https://arxiv.org/abs/2609.15012",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
     "url": "https://arxiv.org/abs/2609.36416",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21707,5 +21657,60 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-28T21:49:23.687Z"
+  },
+  {
+    "title": "Slice Into GFN Thursday: ‘Phantom Blade Zero’ Launches on GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-phantom-blade-zero/",
+    "desc": "This Halloween week, GFN Thursday is delivering a fresh batch of gaming treats. Something wicked this blade comes. S-GAME’s Phantom Blade Zero launches on GeForce NOW today, bringing a scarily good blend of martial arts and punk fantasy to the cloud. There’s also something on the horizon for adventurers: World of Warcraft: Forever arrives Wednesday, [&#8230;]",
+    "publishedAt": "2026-10-29T13:00:16.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-29T21:56:02.298Z"
+  },
+  {
+    "title": "Unlocking Tensor Core Performance for Machine Learning Interatomic Potentials",
+    "url": "https://developer.nvidia.com/blog/unlocking-tensor-core-performance-for-machine-learning-interatomic-potentials/",
+    "desc": "Atomistic simulations help researchers understand how molecules and materials behave, from chemical reactions and phase transitions to mechanical failure. These...",
+    "publishedAt": "2026-10-29T15:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-29T21:56:02.716Z"
+  },
+  {
+    "title": "White House makes Section 232 determination regarding foreign-made robots",
+    "url": "https://www.therobotreport.com/white-house-makes-section-232-determination-regarding-foreign-made-robots/",
+    "desc": "The U.S. secretary of commerce's Section 232 investigation concluded that dependence on robotics imports poses a national security risk. The post White House makes Section 232 determination regarding foreign-made robots appeared first on The Robot Report .",
+    "publishedAt": "2026-10-29T20:46:53.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-29T21:56:02.894Z"
+  },
+  {
+    "title": "2026 Robotics Handbook looks at humanoids, AI, and design choices",
+    "url": "https://www.therobotreport.com/2026-robotics-handbook-looks-at-humanoids/",
+    "desc": "The 2026 Robotics Handbook examines design choices behind dexterous manipulation, humanoid robots, and construction automation. The post 2026 Robotics Handbook looks at humanoids, AI, and design choices appeared first on The Robot Report .",
+    "publishedAt": "2026-10-29T19:36:12.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-29T21:56:02.894Z"
+  },
+  {
+    "title": "AGIBOT introduces Worken to measure robot productivity at AGIBOT Innovation Day 2026",
+    "url": "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/",
+    "desc": "AGIBOT unveiled its AHA3 integrated platform, GO-3 Preview, and WITA-Omni 1.0 model, as well as the G2 Max robot and Link-U OS 1.0 framework. The post AGIBOT introduces Worken to measure robot productivity at AGIBOT Innovation Day 2026 appeared first on The Robot Report .",
+    "publishedAt": "2026-10-29T04:01:46.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-29T21:56:02.894Z"
   }
 ]
