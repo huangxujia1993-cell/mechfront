@@ -1,105 +1,5 @@
 [
   {
-    "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
-    "url": "https://arxiv.org/abs/2610.03388",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "RobotUse: Allocating Computation, Context, and Decisions",
-    "url": "https://arxiv.org/abs/2610.04929",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "End-to-End Safe Social Navigation via Multi-Task Reinforcement Learning and Probabilistic Perception",
-    "url": "https://arxiv.org/abs/2610.05733",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "HARL-A: An Extensible Benchmark Framework for Heterogeneous Multi-Agent Adversarial Reinforcement Learning in IsaacLab",
-    "url": "https://arxiv.org/abs/2510.01264",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Learning Visual Feature-Based World Models via Residual Latent Action",
-    "url": "https://arxiv.org/abs/2605.07079",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Con-DSO: Learning Short-Horizon Consistency Priors for RGB-D Direct Sparse Odometry",
-    "url": "https://arxiv.org/abs/2605.27952",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "FedGuide: Diffusion Prior Alignment and Value Baseline Guidance for Heterogeneous Federated Reinforcement Learning",
-    "url": "https://arxiv.org/abs/2609.18964",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
-    "url": "https://arxiv.org/abs/2609.19142",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "A Geometric Decision Procedure for STL Feasibility and Repair",
-    "url": "https://arxiv.org/abs/2610.00199",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Reward as Observation: Learning Reward-Based Policies for Rapid Adaptation",
-    "url": "https://arxiv.org/abs/2610.00729",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "WAMJET: A Harness for World Action Model Acceleration",
     "url": "https://arxiv.org/abs/2610.03797",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21714,5 +21614,114 @@
     "tier": "community",
     "type": "json",
     "fetchedAt": "2026-10-30T11:31:42.673Z"
+  },
+  {
+    "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+    "url": "https://blogs.nvidia.com/blog/ai-joins-the-search-for-extraterrestrial-signals/",
+    "desc": "While science fiction lore tells us that humans will meet extraterrestrial life in the form of little green men, the detail that should raise hairs this Halloween is this: the search for extraterrestrial intelligence took a major leap forward with AI, and it increasingly focuses on AI agents built by humans listening for AI agents [&#8230;]",
+    "publishedAt": "2026-10-30T15:00:10.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.221Z"
+  },
+  {
+    "title": "Build a Validated Kubernetes Runtime for NVIDIA Dynamo",
+    "url": "https://developer.nvidia.com/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/",
+    "desc": "Teams building AI applications need a repeatable path from a model configuration to a working inference endpoint. NVIDIA Dynamo is a distributed inference...",
+    "publishedAt": "2026-10-30T21:35:31.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.616Z"
+  },
+  {
+    "title": "Run AI Models for Edge Application Development with Just a Few Commands",
+    "url": "https://developer.nvidia.com/blog/run-ai-models-for-edge-application-development-with-just-a-few-commands/",
+    "desc": "AI is expanding beyond the data center as developers build a new generation of agents to act at the edge: monitoring driver attention and cabin conditions,...",
+    "publishedAt": "2026-10-30T20:33:18.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.616Z"
+  },
+  {
+    "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
+    "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw/",
+    "desc": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
+    "publishedAt": "2026-10-30T16:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.616Z"
+  },
+  {
+    "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
+    "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform/",
+    "desc": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path...",
+    "publishedAt": "2026-10-30T15:01:36.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.616Z"
+  },
+  {
+    "title": "Percepto launches Axion AI platform to unify inspection data analysis",
+    "url": "https://www.therobotreport.com/percepto-launches-axion-ai-platform-unify-inspection-data-analysis/",
+    "desc": "Percepto has launched Axion, a hardware-agnostic physical AI platform delivering visibility across mission-critical infrastructure. The post Percepto launches Axion AI platform to unify inspection data analysis appeared first on The Robot Report .",
+    "publishedAt": "2026-10-30T19:05:34.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.765Z"
+  },
+  {
+    "title": "Humanoid developer Agility now expects to raise $465M in SPAC deal",
+    "url": "https://www.therobotreport.com/humanoid-developer-agility-now-expects-raise-465m-spac-deal/",
+    "desc": "Agility said it expects to raise $465 million in its combination with Churchill Capital Corp XI, $155 million less than it had estimated. The post Humanoid developer Agility now expects to raise $465M in SPAC deal appeared first on The Robot Report .",
+    "publishedAt": "2026-10-30T16:19:16.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.765Z"
+  },
+  {
+    "title": "RoboBusiness 2026 recap",
+    "url": "https://www.therobotreport.com/robobusiness-2026-recap/",
+    "desc": "The Robot Report editorial team sits down for a recap of noteworthy sessions and networking around the 2026 RoboBusiness event. The post RoboBusiness 2026 recap appeared first on The Robot Report .",
+    "publishedAt": "2026-10-30T12:30:02.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.765Z"
+  },
+  {
+    "title": "Video Friday: Spot Plays to Show Its Whole-Body Manipulation",
+    "url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! Some top-notch whole-body manipulation here from RAI, although it’s a little hard to tell whether there’s direct torso involvement, which is something that humans do with heavy or awkward stuff all the time. “Anything that shows up as a blob ",
+    "publishedAt": "2026-10-30T16:30:03.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T21:39:07.958Z"
+  },
+  {
+    "title": "Dassault Systèmes Names Pierre Barnabé Chief Operating Officer",
+    "url": "https://www.3ds.com/newsroom/media-alerts/dassault-systemes-names-pierre-barnabe-chief-operating-officer",
+    "publishedAt": null,
+    "sourceId": "3ds_newsroom",
+    "sourceName": "达索系统新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-10-30T21:39:10.535Z"
   }
 ]
