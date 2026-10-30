@@ -1,25 +1,5 @@
 [
   {
-    "title": "FineART: Fine-Grained Annotated Robotic Trajectory Dataset and Vision-Language-Action Model for Bimanual Manipulation",
-    "url": "https://arxiv.org/abs/2609.36416",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Completion Aware Guidance for World Action Models",
-    "url": "https://arxiv.org/abs/2610.01559",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "KungfuAthleteBot: learning high-dynamic humanoid motion from video with unified robust recovery",
     "url": "https://arxiv.org/abs/2610.03388",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21712,5 +21692,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-29T21:56:02.894Z"
+  },
+  {
+    "title": "Your Robot’s Safety Functions Already Work. What If the Input Lies?",
+    "url": "https://spectrum.ieee.org/ai-robot-safety-cybersecurity-vicone",
+    "desc": "This article is brought to you by VicOne . A mobile robot slows for someone in a hallway. A collaborative arm eases its movement as a worker approaches. A humanoid pauses to let a person pass. Each response depends on information about the robot or its surroundings: a distance reading, a position estimate, or a stop signal. But what happens when one of those inputs is wrong, and the robot still responds exactly as designed? The mobile robot reads the hallway as clear while someone is still there. The arm estimates that the worker is farther away. The humanoid does not receive a stop signal as ",
+    "publishedAt": "2026-10-27T16:14:39.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-30T11:31:41.708Z"
+  },
+  {
+    "title": "CAD-WAM: Anticipating Geometry for Text-to-CAD Generation",
+    "url": "https://arxiv.org/abs/2610.39306v1",
+    "desc": "Generating editable computer-aided design (CAD) models from text requires selecting operations that produce the intended changes to the geometry constructed so far. An incorrect operation can compromise subsequent steps, making reliable multi-step generation challenging. Existing methods based on large language models (LLMs) primarily learn to predict commands, without explicit supervision of the geometric states those commands should produce. Inspired by world-action models, we introduce CAD-WAM, which couples geometry-conditioned action generation with next-state prediction. We define comple",
+    "publishedAt": "2026-10-29T03:52:21.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-10-30T11:31:42.673Z"
   }
 ]
