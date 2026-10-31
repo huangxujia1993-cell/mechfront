@@ -1,15 +1,5 @@
 [
   {
-    "title": "WAMJET: A Harness for World Action Model Acceleration",
-    "url": "https://arxiv.org/abs/2610.03797",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
     "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
     "url": "https://arxiv.org/abs/2610.05166",
     "publishedAt": "2026-10-07T04:00:00.000Z",
@@ -21723,5 +21713,16 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-10-30T21:39:10.535Z"
+  },
+  {
+    "title": "Unusual robotic animals can prove their utility",
+    "url": "https://www.therobotreport.com/unusual-robotic-animals-can-prove-their-utility/",
+    "desc": "Robotic animals are designed to be helpful rather than scary, showing promise in disaster recovery, utility inspection, and companionship. The post Unusual robotic animals can prove their utility appeared first on The Robot Report .",
+    "publishedAt": "2026-10-31T12:30:46.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-10-31T16:14:07.020Z"
   }
 ]
