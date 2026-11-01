@@ -1,35 +1,5 @@
 [
   {
-    "title": "A Safe Action Is Not Enough: Feasible-Future Decoding for Vision-Language-Action Policies",
-    "url": "https://arxiv.org/abs/2610.05166",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
-    "url": "https://arxiv.org/abs/2610.06814",
-    "publishedAt": "2026-10-07T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T01:03:06.387Z"
-  },
-  {
-    "title": "Learning Connector",
-    "url": "https://learningconnector.ptc.com/",
-    "publishedAt": null,
-    "sourceId": "ptc_news",
-    "sourceName": "PTC 新闻室",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:22.848Z"
-  },
-  {
     "title": "Investor Relations",
     "url": "https://investor.ptc.com/investor-overview/default.aspx",
     "publishedAt": null,
@@ -21724,5 +21694,38 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-10-31T16:14:07.020Z"
+  },
+  {
+    "title": "28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics",
+    "url": "https://www.therobotreport.com/28-zero-day-findings-in-less-than-two-days-what-ai-speed-discovery-means-for-robotics/",
+    "desc": "VicOne identified an initial set of 28 zero-day findings in less than two days using AI-assisted research across software and tools supporting the Physical AI ecosystem. The post 28 Zero-Day Findings in Less Than Two Days: What AI-Speed Discovery Means for Robotics appeared first on The Robot Report .",
+    "publishedAt": "2026-11-01T14:00:58.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-01T21:19:59.186Z"
+  },
+  {
+    "title": "Why physical AI is the next lucrative frontier",
+    "url": "https://www.therobotreport.com/why-physical-ai-next-lucrative-frontier/",
+    "desc": "To prove its commercial value, physical AI must get past funding enthusiasm and move into production environments. The post Why physical AI is the next lucrative frontier appeared first on The Robot Report .",
+    "publishedAt": "2026-11-01T13:30:41.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-01T21:19:59.186Z"
+  },
+  {
+    "title": "Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime",
+    "url": "https://www.therobotreport.com/solving-the-interconnect-challenge-in-modern-robotics-how-3m-is-engineering-for-motion-density-and-uptime/",
+    "desc": "As robotics systems grow more capable — faster, more precise, and increasingly reliant on AI-driven vision and control — the humble interconnect is being asked to do more than ever. The post Solving the Interconnect Challenge in Modern Robotics: How 3M Is Engineering for Motion, Density, and Uptime appeared first on The Robot Report .",
+    "publishedAt": "2026-11-01T13:00:31.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-01T21:19:59.186Z"
   }
 ]
