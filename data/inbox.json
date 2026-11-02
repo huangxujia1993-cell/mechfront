@@ -1,95 +1,5 @@
 [
   {
-    "title": "三维CAD/CAM应用支持",
-    "url": "https://www.zwsoft.cn/support/zw3d",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "&nbsp;400-718-2588",
-    "url": "tel:400-718-2588",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "ENEnglish (Global)",
-    "url": "https://www.zwsoft.com/",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "ENEnglish (MEA)",
-    "url": "https://www.zwsoft.com/mea",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "ESEspañol (España)",
-    "url": "https://www.zwsoft.com/es",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "ESEspañol (LATAM)",
-    "url": "https://www.zwsoft.com/latam",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "VITiếng Việt",
-    "url": "https://www.zwsoft.com/vn",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "CAD/CAM/CAE软件教育版",
-    "url": "https://www.zwsoft.cn/product/edu/software",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "三维CAD/CAM应用支持",
-    "url": "https://www.zwsoft.cn/support/zw3d",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "简体中文 English (Global)",
     "url": "https://www.zwsoft.cn/",
     "publishedAt": null,
@@ -21828,5 +21738,104 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-11-02T13:48:44.909Z"
+  },
+  {
+    "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
+    "url": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/",
+    "desc": "In distributed AI workloads, a single error can produce a cascade of symptoms. A GPU or fabric event may surface as NCCL errors on other ranks, scheduler state...",
+    "publishedAt": "2026-11-02T23:39:34.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.426Z"
+  },
+  {
+    "title": "Keep Distributed Training Running with Automated Workload Recovery",
+    "url": "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/",
+    "desc": "As distributed AI training scales, failures across hardware and software dependencies increasingly disrupt training progress, making fast, reliable recovery...",
+    "publishedAt": "2026-11-02T22:43:05.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.426Z"
+  },
+  {
+    "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+    "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/",
+    "desc": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
+    "publishedAt": "2026-11-02T18:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.426Z"
+  },
+  {
+    "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+    "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/",
+    "desc": "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
+    "publishedAt": "2026-11-02T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.426Z"
+  },
+  {
+    "title": "Support New AI Frameworks Faster Using NVIDIA Workload Map",
+    "url": "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/",
+    "desc": "NVIDIA DSX AI Factory Platform brings together technologies to help the ecosystem design, build, and operate more efficient AI factories, including open source,...",
+    "publishedAt": "2026-11-02T16:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.426Z"
+  },
+  {
+    "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+    "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+    "desc": "Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments. The post Tutor Intelligence raises Series B to scale model training, robot deployments appeared first on The Robot Report .",
+    "publishedAt": "2026-11-02T19:25:59.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.599Z"
+  },
+  {
+    "title": "Gentherm designs ThermAffyx to protect, move patients during robotic surgeries",
+    "url": "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+    "desc": "ThermAffyx addresses secure positioning and heating of patients for robot-assisted surgical procedures with a minimal OR footprint. The post Gentherm designs ThermAffyx to protect, move patients during robotic surgeries appeared first on The Robot Report .",
+    "publishedAt": "2026-11-02T18:06:36.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.599Z"
+  },
+  {
+    "title": "Top 10 robotics developments of October 2026",
+    "url": "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
+    "desc": "Last month, we celebrated the 20th anniversary of RoboBusiness, whic is being rebranded to Robotics Summit &#038; Expo West. The post Top 10 robotics developments of October 2026 appeared first on The Robot Report .",
+    "publishedAt": "2026-11-02T17:56:42.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.599Z"
+  },
+  {
+    "title": "What AgTech founders get wrong about ROI",
+    "url": "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/",
+    "desc": "Connie Bowen, the founding general partner of Farmhand Ventures, discusses the importance of return on investment for AgTech developers. The post What AgTech founders get wrong about ROI appeared first on The Robot Report .",
+    "publishedAt": "2026-11-02T15:30:09.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-02T23:58:34.599Z"
   }
 ]

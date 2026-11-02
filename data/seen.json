@@ -2389,5 +2389,14 @@
   "https://arxiv.org/abs/2610.40285",
   "https://arxiv.org/abs/2506.08630",
   "https://arxiv.org/abs/2609.03602",
-  "https://arxiv.org/abs/2610.39232"
+  "https://arxiv.org/abs/2610.39232",
+  "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/",
+  "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery/",
+  "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/",
+  "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/",
+  "https://developer.nvidia.com/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/",
+  "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+  "https://www.therobotreport.com/gentherm-designs-thermaffyx-protect-move-patients-during-robotic-surgeries/",
+  "https://www.therobotreport.com/top-10-robotics-developments-october-2026/",
+  "https://www.therobotreport.com/what-agtech-founders-get-wrong-about-roi/"
 ]
