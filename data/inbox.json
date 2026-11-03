@@ -1,35 +1,5 @@
 [
   {
-    "title": "中望软件2025年度产品发布会圆满举行：以“CAD+”推动工业可持续创新",
-    "url": "https://www.zwsoft.cn/news/291-15070.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望CAD携手鸿蒙电脑，打造“多端+全流程”设计行业全场景方案",
-    "url": "https://www.zwsoft.cn/news/294-15044.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望软件芜湖峰会圆满召开，共探自主CAx技术助力企业数字化升级最佳实践",
-    "url": "https://www.zwsoft.cn/news/291-15026.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "中望软件亮相法国 BIM World 展会： 以CAD技术创新赋能工程建设行业数字化转型",
     "url": "https://www.zwsoft.cn/news/291-15000.html",
     "publishedAt": null,
@@ -21842,5 +21812,38 @@
     "tier": "community",
     "type": "json",
     "fetchedAt": "2026-11-03T12:56:25.628Z"
+  },
+  {
+    "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+    "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+    "desc": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause are critical, challenging steps in semiconductor [&#8230;]",
+    "publishedAt": "2026-11-03T16:00:45.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-03T22:27:02.305Z"
+  },
+  {
+    "title": "Ben Waters on the latest wireless charging strategies",
+    "url": "https://www.therobotreport.com/ben-waters-on-the-latest-wireless-charging-strategies/",
+    "desc": "Ben Waters discusses opportunity charging, battery life, and the infrastructure needed to keep growing robot fleets running. The post Ben Waters on the latest wireless charging strategies appeared first on The Robot Report .",
+    "publishedAt": "2026-11-03T21:29:37.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-03T22:27:02.616Z"
+  },
+  {
+    "title": "New ISO interoperability standard covers collaboration among mobile robots from multiple vendors",
+    "url": "https://www.therobotreport.com/new-iso-interoperability-standard-covers-collaboration-among-mobile-robots-from-multiple-vendors/",
+    "desc": "The ISO 21423:2026 interoperability standard is intended to allow mobile robots from multiple vendors to communicate and coordinate. The post New ISO interoperability standard covers collaboration among mobile robots from multiple vendors appeared first on The Robot Report .",
+    "publishedAt": "2026-11-03T14:40:33.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-03T22:27:02.616Z"
   }
 ]
