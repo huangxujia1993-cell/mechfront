@@ -1,55 +1,5 @@
 [
   {
-    "title": "简体中文 English (Global)",
-    "url": "https://www.zwsoft.cn/",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "English (MEA)",
-    "url": "https://www.zwsoft.com/mea",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "Español (España)",
-    "url": "https://www.zwsoft.com/es",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "Español (LATAM)",
-    "url": "https://www.zwsoft.com/latam",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望3D 2026全球发布：开启设计仿真制造协同一体化时代",
-    "url": "https://www.zwsoft.cn/news/294-15210.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "中望软件2025年度产品发布会圆满举行：以“CAD+”推动工业可持续创新",
     "url": "https://www.zwsoft.cn/news/291-15070.html",
     "publishedAt": null,
@@ -21837,5 +21787,60 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-02T23:58:34.599Z"
+  },
+  {
+    "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+    "url": "https://blogs.nvidia.com/blog/cities-physical-agentic-ai-applications/",
+    "desc": "Cities generate enormous amounts of data from cameras, sensors and operational systems, but turning it into useful action — for planning, maintenance and public services — remains a challenge. Physical and agentic AI offer new ways to close that gap, from digital twins for infrastructure planning to vision and service agents, while keeping local governments [&#8230;]",
+    "publishedAt": "2026-11-03T07:00:12.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-03T12:56:23.729Z"
+  },
+  {
+    "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+    "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+    "desc": "Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers. The post Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC appeared first on The Robot Report .",
+    "publishedAt": "2026-11-03T00:15:39.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-03T12:56:24.396Z"
+  },
+  {
+    "title": "Intent2CAD: How Semantic-Parametric Supervision Shapes Text-to-CAD Generation",
+    "url": "https://arxiv.org/abs/2611.03449v1",
+    "desc": "Text-to-CAD generation aims to make CAD modeling more accessible by generating executable CAD programs from natural-language descriptions. However, practical CAD workflows require more than executable geometry: generated programs should also expose reusable structure that supports later modification. We introduce intent-oriented text-to-CAD generation, where design intent is expressed as recoverable code-level signals: semantic features, reusable parameters, and lightweight parametric relations. Rather than changing the model architecture or decoding procedure, we investigate how supervision r",
+    "publishedAt": "2026-11-02T16:58:42.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-03T12:56:25.628Z"
+  },
+  {
+    "title": "Parametric CAD Bench v3: Evaluating Agentic Parametric CAD Authoring from Text and Engineering Drawings",
+    "url": "https://arxiv.org/abs/2611.02659v1",
+    "desc": "Producing an executable CAD script is not sufficient to establish that an agent has satisfied an engineering design request. Evaluation must also consider the resulting geometry, specified dimensions, and native CAD modeling history. We present Parametric CAD Bench v3, a 100-task benchmark comprising 30 text-to-CAD creation tasks, 30 text-to-CAD create-and-edit tasks, and 40 tasks that reconstruct mechanical parts from engineering drawings. Agents operate in a pinned FreeCAD environment and submit native CAD artifacts to a separate programmatic verifier. The primary metric is mean continuous t",
+    "publishedAt": "2026-11-02T07:19:55.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-03T12:56:25.628Z"
+  },
+  {
+    "title": "CRAFT: Corrective and Robust Multi-Agent Framework for Text-to-Parametric CAD",
+    "url": "https://arxiv.org/abs/2611.00076v1",
+    "desc": "Text-to-CAD generation has the potential to make mechanical CAD more accessible, but existing approaches face a trade-off between data dependence and output fidelity. Supervised methods rely on large paired text-model datasets, while zero-shot prompting strategies are often brittle and tend to lose the parametric structure needed for downstream editing and customization. We present CRAFT, a corrective and robust multi-agent framework that produces parametric OpenSCAD programs from natural language without task-specific training. At its core is a JSON intermediate representation that carries sy",
+    "publishedAt": "2026-10-16T22:33:31.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-03T12:56:25.628Z"
   }
 ]
