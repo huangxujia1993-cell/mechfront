@@ -1,115 +1,5 @@
 [
   {
-    "title": "中望亮相2025汉诺威工业博览会：以创新推动全球工业可持续发展",
-    "url": "https://www.zwsoft.cn/news/291-14998.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望CAD提效功能：便捷的三维实体夹点编辑",
-    "url": "https://www.zwsoft.cn/support/68-10945.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望CAD提效功能：强大的表格功能",
-    "url": "https://www.zwsoft.cn/support/68-10933.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望CAD提效功能之图纸集：图纸管理与打印的强大工具",
-    "url": "https://www.zwsoft.cn/support/68-10796.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "关联阵列，中望CAD 2022灵活设计的“大杀器”",
-    "url": "https://www.zwsoft.cn/support/68-9438.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "超强升级表格功能，尽在全新中望CAD 2022",
-    "url": "https://www.zwsoft.cn/support/68-9047.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "中望CAD 2022新增IFC：搭建二维CAD与BIM“桥梁”",
-    "url": "https://www.zwsoft.cn/support/68-8964.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "广州中望龙腾软件股份有限公司选聘2024年度会计师事务所项目的招标公告",
-    "url": "https://www.zwsoft.cn/announcement/xphjs",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "工软数创展厅设计及施工项目招标公告",
-    "url": "https://www.zwsoft.cn/announcement/grsc",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "400-718-2588",
-    "url": "tel:4007182588",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "400-718-2588",
-    "url": "tel:4007182588",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "support@zwsoft.com",
     "url": "mailto:support@zwsoft.com",
     "publishedAt": null,
@@ -21845,5 +21735,123 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-11-04T03:06:40.263Z"
+  },
+  {
+    "title": "How NVIDIA Uses AI Agents to Streamline AI Factory Operations",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/",
+    "desc": "As GPU clusters scale, operations span compute, network, hardware, and scheduling. Site reliability engineers (SREs) often have to examine multiple dashboards...",
+    "publishedAt": "2026-11-04T22:00:17.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.247Z"
+  },
+  {
+    "title": "NVIDIA CUDA 13.5 Brings NVIDIA Vera Rubin GA Support",
+    "url": "https://developer.nvidia.com/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/",
+    "desc": "As artificial intelligence and accelerated computing continue to push the boundaries of what's possible, the latest NVIDIA CUDA release arrives to unlock...",
+    "publishedAt": "2026-11-04T18:46:07.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.247Z"
+  },
+  {
+    "title": "How NVIDIA Factory Operations Blueprint Coordinates AI Agents to Investigate Production Issues",
+    "url": "https://developer.nvidia.com/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/",
+    "desc": "A Siemens report estimates that unplanned downtime costs an average large plant in the surveyed sectors $253 million per year. Whether investigating a failed...",
+    "publishedAt": "2026-11-04T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.247Z"
+  },
+  {
+    "title": "Use NVIDIA NeMo to Turn Agent Failures into Tests and Harness Fixes",
+    "url": "https://developer.nvidia.com/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/",
+    "desc": "Turn production evidence into prioritized issues and custom evaluations that help you improve prompts, tools, models, memory, skills, and harness code. When you...",
+    "publishedAt": "2026-11-04T16:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.247Z"
+  },
+  {
+    "title": "Robotics Startup Radar 2026",
+    "url": "https://www.therobotreport.com/robotics-startup-radar-2026/",
+    "desc": "The 2026 Startup Radar presents innovative young companies developing hardware, software, and business models for the next generation of commercial robotics. The post Robotics Startup Radar 2026 appeared first on The Robot Report .",
+    "publishedAt": "2026-11-04T16:08:46.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.335Z"
+  },
+  {
+    "title": "How GlobalLogic helped Haystack Robotics build a UV disinfection robot",
+    "url": "https://www.therobotreport.com/how-globallogic-helped-haystack-robotics-build-uv-disinfection-robot/",
+    "desc": "When designing the robot, GlobalLogic said it didn't want to just quickly design a robot for one use case or environment. The post How GlobalLogic helped Haystack Robotics build a UV disinfection robot appeared first on The Robot Report .",
+    "publishedAt": "2026-11-04T15:22:55.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.335Z"
+  },
+  {
+    "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+    "url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+    "desc": "LiberAI introduces Liber-0, a world action model pretrained on more than 2.2 million hours of human experience to support zero-shot robot manipulation. The post LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action appeared first on The Robot Report .",
+    "publishedAt": "2026-11-04T15:02:57.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.335Z"
+  },
+  {
+    "title": "Are Drone Ports the Next Annoying Tech Neighbor?",
+    "url": "https://spectrum.ieee.org/drone-delivery-noise",
+    "desc": "Rick and Marcia LeCompte loved to watch the Cooper’s hawks that frequented a sweetgum tree in their yard in Baton Rouge, La. But this October, the hawks were gone. Marcia LeCompte is convinced the birds were scared away by the same flying robots that have been vexing the couple since early September. The noise had them spending less time outside in their garden, and even inside their home, they couldn’t escape the near-constant buzzing. Angry and feeling harassed, the LeComptes began to think about moving. The problem: delivery drones. Amazon’s MK30 delivery drones are large and must fly near ",
+    "publishedAt": "2026-11-04T18:47:21.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-04T22:46:32.458Z"
+  },
+  {
+    "title": "Synopsys Expands Access to Advanced Chip Design Capabilities Through European Chips Design Platform",
+    "url": "https://news.synopsys.com/2026-11-04-Synopsys-Expands-Access-to-Advanced-Chip-Design-Capabilities-Through-European-Chips-Design-Platform",
+    "publishedAt": null,
+    "sourceId": "synopsys_news",
+    "sourceName": "Synopsys（Ansys）新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-04T22:46:35.325Z"
+  },
+  {
+    "title": "FeatureScript MCP",
+    "url": "https://www.onshape.com/en/features/featurescript-mcp",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-04T22:46:35.403Z"
+  },
+  {
+    "title": "FeatureScript MCP",
+    "url": "https://www.onshape.com/en/features/featurescript-mcp",
+    "publishedAt": null,
+    "sourceId": "onshape_blog",
+    "sourceName": "Onshape 官方博客",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-04T22:46:35.403Z"
   }
 ]
