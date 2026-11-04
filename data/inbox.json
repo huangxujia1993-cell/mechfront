@@ -1,15 +1,5 @@
 [
   {
-    "title": "中望软件亮相法国 BIM World 展会： 以CAD技术创新赋能工程建设行业数字化转型",
-    "url": "https://www.zwsoft.cn/news/291-15000.html",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "中望亮相2025汉诺威工业博览会：以创新推动全球工业可持续发展",
     "url": "https://www.zwsoft.cn/news/291-14998.html",
     "publishedAt": null,
@@ -21845,5 +21835,15 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-03T22:27:02.616Z"
+  },
+  {
+    "title": "中望软件亮相2026腾讯全球数字生态大会，携手共建“AI+工业软件”新生态",
+    "url": "https://www.zwsoft.cn/news/292-16341.html",
+    "publishedAt": null,
+    "sourceId": "zwsoft",
+    "sourceName": "中望软件动态",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-04T03:06:40.263Z"
   }
 ]
