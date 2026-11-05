@@ -1,25 +1,5 @@
 [
   {
-    "title": "support@zwsoft.com",
-    "url": "mailto:support@zwsoft.com",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
-    "title": "market@zwsoft.com",
-    "url": "mailto:market@zwsoft.com",
-    "publishedAt": null,
-    "sourceId": "zwsoft",
-    "sourceName": "中望软件动态",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:03:26.390Z"
-  },
-  {
     "title": "中望仿真 中望CAD 365",
     "url": "https://www.zwsoft.cn/solution/zwsim",
     "publishedAt": null,
@@ -21853,5 +21833,27 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-11-04T22:46:35.403Z"
+  },
+  {
+    "title": "Mechanical Engineering Skills: An Open Library of Agent Skills for Design, Analysis and Manufacturing",
+    "url": "https://arxiv.org/abs/2611.05758v1",
+    "desc": "Mechanical engineers use specialized tools for CAD, simulation, manufacturing and research, each with a distinct interface and learning curve. We present Mechanical Engineering Skills, an open library of 33 agent skills that makes these capabilities accessible through a single text or voice conversation. Each skill combines operating instructions, executable tools and verification procedures. A language model interprets the request, selects and coordinates skills, while deterministic tools perform computations and return checked results. Default workflows require no tool-specific interface tra",
+    "publishedAt": "2026-11-03T23:57:51.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-05T03:37:15.577Z"
+  },
+  {
+    "title": "TraceCAD: Trace-Guided Repair for Agentic CAD Generation",
+    "url": "https://arxiv.org/abs/2608.03062v2",
+    "desc": "LLM-based CAD agents produce executable parametric programs, but their correction loops may lose evidence about satisfied requirements, faulty operations, and prior repairs. We introduce TraceCAD, a recovery layer that links requested features, modeling steps, failure evidence, and candidate outcomes as persistent state. TraceCAD diagnoses likely faulty operations, searches bounded edits in their dependency regions, validates candidates through execution and preservation checks, and retains successful and failed repair outcomes in reusable skill memory. On DeepCAD-derived benchmarks with 200-m",
+    "publishedAt": "2026-08-04T03:23:11.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-05T03:37:15.577Z"
   }
 ]
