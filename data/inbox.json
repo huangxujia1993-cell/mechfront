@@ -1,15 +1,5 @@
 [
   {
-    "title": "Special Displays",
-    "url": "https://www.hannovermesse.de/en/expo/special-displays/",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
     "title": "Exhibitors &amp; Products 2026",
     "url": "https://www.hannovermesse.de/en/expo/exhibitors-products/index-2",
     "publishedAt": null,
@@ -21953,5 +21943,16 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-11-05T22:46:31.936Z"
+  },
+  {
+    "title": "How did Agility Robotics perform on its first day on the stock market?",
+    "url": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
+    "desc": "Humanoid developer Agility Robotics ended its first day of trading on the Nasdaq just 2% above where it started, at $11.49. The post How did Agility Robotics perform on its first day on the stock market? appeared first on The Robot Report .",
+    "publishedAt": "2026-11-05T22:48:14.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T03:31:35.079Z"
   }
 ]
