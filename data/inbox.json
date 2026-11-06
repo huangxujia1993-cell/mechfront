@@ -1,65 +1,5 @@
 [
   {
-    "title": "Exhibitors &amp; Products 2026",
-    "url": "https://www.hannovermesse.de/en/expo/exhibitors-products/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
-    "title": "Become an Exhibitor",
-    "url": "https://www.hannovermesse.de/en/for-exhibitors/become-an-exhibitor/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
-    "title": "News &amp; Articles",
-    "url": "https://www.hannovermesse.de/en/news/news-articles/newshub",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
-    "title": "Media Library",
-    "url": "https://www.hannovermesse.de/en/news/media-library/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
-    "title": "Image Galleries",
-    "url": "https://www.hannovermesse.de/en/news/image-galleries/",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
-    "title": "Subscribe to Newsletter",
-    "url": "https://www.hannovermesse.de/en/news/newsletter/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
     "title": "About HANNOVER MESSE",
     "url": "https://www.hannovermesse.de/en/about-us/about-the-show/",
     "publishedAt": null,
@@ -21954,5 +21894,71 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-06T03:31:35.079Z"
+  },
+  {
+    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+    "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+    "desc": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless [&#8230;]",
+    "publishedAt": "2026-11-06T16:00:35.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:11.469Z"
+  },
+  {
+    "title": "Accelerating Reinforcement Learning Weight Refit with the Reshard Collective",
+    "url": "https://developer.nvidia.com/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/",
+    "desc": "During reinforcement learning (RL) post-training, training trajectories are generated on the fly by running inference with the current policy model. For...",
+    "publishedAt": "2026-11-06T18:03:26.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:11.741Z"
+  },
+  {
+    "title": "How Point One turned GPS accuracy Into a robotics platform",
+    "url": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
+    "desc": "Aaron Nathan explains how precise location technology like GPS is enabling robots to navigate, coordinate, and scale across real environments. The post How Point One turned GPS accuracy Into a robotics platform appeared first on The Robot Report .",
+    "publishedAt": "2026-11-06T21:47:35.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:11.873Z"
+  },
+  {
+    "title": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
+    "url": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
+    "desc": "Brian Donnelly, the VP and GM of logistics robotics at Boston Dynamics, said the new version of Stretch has been in the works for two and a half years. The post Boston Dynamics built Stretch Gen 2 for reliable, consistent performance appeared first on The Robot Report .",
+    "publishedAt": "2026-11-06T21:34:44.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:11.873Z"
+  },
+  {
+    "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+    "url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+    "desc": "China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts. The post Industry experts discuss China blocking SoftBank acquisition of ABB Robotics appeared first on The Robot Report .",
+    "publishedAt": "2026-11-06T20:41:17.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:11.873Z"
+  },
+  {
+    "title": "Video Friday: Room-Scale Cable-Driven Home Robot Tidies Up",
+    "url": "https://spectrum.ieee.org/video-friday-home-cable-robot",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. CoRL 2026 : 9–12 November 2026, AUSTIN, TEXAS Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CALIF. Enjoy today’s videos! This is such a novel and underrated form factor for a household robot. I absolutely love it. Stringman is all yours for US $795. [ Neufangled Robotics ] As of yesterday, Agility Robotics is publicly trading as AGLT. [ Agility Robot",
+    "publishedAt": "2026-11-06T17:00:03.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-06T22:15:12.179Z"
   }
 ]
