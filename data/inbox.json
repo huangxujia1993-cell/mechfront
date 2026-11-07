@@ -1,15 +1,5 @@
 [
   {
-    "title": "About HANNOVER MESSE",
-    "url": "https://www.hannovermesse.de/en/about-us/about-the-show/",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
     "title": "After Show Report",
     "url": "https://www.hannovermesse.de/en/about-us/after-show-report/index-2",
     "publishedAt": null,
@@ -21960,5 +21950,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-06T22:15:12.179Z"
+  },
+  {
+    "title": "Speed Up Image Generation with FLUX 3 Image Klein on NVIDIA Blackwell GPUs",
+    "url": "https://developer.nvidia.com/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/",
+    "desc": "When deploying diffusion models in design tools, image editors, and visual production workflows, developers must account for inference latency. Generating an...",
+    "publishedAt": "2026-11-06T22:20:20.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-07T03:01:59.175Z"
   }
 ]
