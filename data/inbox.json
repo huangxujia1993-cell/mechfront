@@ -1,15 +1,5 @@
 [
   {
-    "title": "After Show Report",
-    "url": "https://www.hannovermesse.de/en/about-us/after-show-report/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
     "title": "HANNOVER MESSE worldwide",
     "url": "https://www.hannovermesse.de/en/about-us/hannover-messe-worldwide/index-2",
     "publishedAt": null,
@@ -21961,5 +21951,16 @@
     "tier": "official",
     "type": "rss",
     "fetchedAt": "2026-11-07T03:01:59.175Z"
+  },
+  {
+    "title": "Robot integration brings high-precision production to midmarket manufacturers",
+    "url": "https://www.therobotreport.com/robot-integration-brings-high-precision-production-to-midmarket-manufacturers/",
+    "desc": "Properly integrated industrial and collaborative robots can help midmarket manufacturers, according to a columnist. The post Robot integration brings high-precision production to midmarket manufacturers appeared first on The Robot Report .",
+    "publishedAt": "2026-11-07T13:32:59.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-07T21:01:29.664Z"
   }
 ]
