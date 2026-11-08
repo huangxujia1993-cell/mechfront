@@ -1,15 +1,5 @@
 [
   {
-    "title": "HANNOVER MESSE worldwide",
-    "url": "https://www.hannovermesse.de/en/about-us/hannover-messe-worldwide/index-2",
-    "publishedAt": null,
-    "sourceId": "hannovermesse",
-    "sourceName": "汉诺威工博会新闻",
-    "tier": "official",
-    "type": "webpage",
-    "fetchedAt": "2026-10-08T01:07:35.829Z"
-  },
-  {
     "title": "Trade Fair Location",
     "url": "https://www.hannovermesse.de/en/for-exhibitors/trade-fair-location/",
     "publishedAt": null,
@@ -21962,5 +21952,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-07T21:01:29.664Z"
+  },
+  {
+    "title": "ARM Institute consortium grows to more than 500 organizations",
+    "url": "https://www.therobotreport.com/arm-institute-members-grows-more-than-500-organizations/",
+    "desc": "The ARM Institute reached the milestone as it prepares to host its 10th annual member meeting in Pittsburgh. The post ARM Institute consortium grows to more than 500 organizations appeared first on The Robot Report .",
+    "publishedAt": "2026-11-08T13:00:23.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-08T21:18:32.550Z"
   }
 ]
