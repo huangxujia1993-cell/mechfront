@@ -1,27 +1,5 @@
 [
   {
-    "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
-    "url": "https://arxiv.org/abs/2610.10534",
-    "desc": "arXiv:2610.10534v1 Announce Type: new Abstract: End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation, but specialized hardware and operator training hinder deployment at scale. Other approaches incorporate human guidance as additional policy inputs, often requiring architectural changes and dedicated training for steerability, which limits their applicability across policies. We present RoboPrompt, a",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
-    "title": "FlightMagNav: An Open Dataset and Probabilistic Map Learning and Validation Framework for Outdoor Magnetic Field-Based Positioning",
-    "url": "https://arxiv.org/abs/2610.08982",
-    "desc": "arXiv:2610.08982v1 Announce Type: cross Abstract: Magnetic field-based positioning is a resilient positioning technology that requires no external infrastructure and is hard to jam at scale. To facilitate research on magnetic field-based positioning for aerial platforms operating close to the Earth's surface, an open dataset is presented with measurements collected using an unmanned aerial vehicle carrying two optically pumped magnetometers, a type of quantum magnetometer, and a global navigation satellite system-aided inertial navigation system. The dataset includes measurements for both magn",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
     "title": "LASER: Latent Space Adjoint Matching for Support-Constrained Entropy-Regularized Offline RL",
     "url": "https://arxiv.org/abs/2610.08989",
     "desc": "arXiv:2610.08989v1 Announce Type: cross Abstract: While offline reinforcement learning (RL) enables policy optimization from static datasets without costly online interaction, it remains bottlenecked by the risk of executing out-of-distribution (OOD) actions. Recent approaches mitigate this by learning a behavior-cloning policy through flow matching and then performing RL within its constrained latent space. However, naively optimizing the latent policy can easily cause the policy to collapse into a brittle mode or exploit sharp artifacts of the learned critic. In this work, we find that entro",
@@ -21978,5 +21956,26 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-10T00:48:45.711Z"
+  },
+  {
+    "title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+    "url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+    "desc": "The partners plan to bring Skydio drones to public safety agencies across the U.S. as Axon expands its Drone as First Responder program. The post Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor appeared first on The Robot Report .",
+    "publishedAt": "2026-11-10T13:06:58.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-10T13:41:08.401Z"
+  },
+  {
+    "title": "Synopsys Advances Virtual Development of Next-Generation Automotive and Physical AI Applications with Infineon AURIX™ RC1 Microcontroller Family",
+    "url": "https://news.synopsys.com/2026-11-10-Synopsys-Advances-Virtual-Development-of-Next-Generation-Automotive-and-Physical-AI-Applications-with-Infineon-AURIX-TM-RC1-Microcontroller-Family",
+    "publishedAt": null,
+    "sourceId": "synopsys_news",
+    "sourceName": "Synopsys（Ansys）新闻室",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-10T13:41:26.144Z"
   }
 ]
