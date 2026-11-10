@@ -1,49 +1,5 @@
 [
   {
-    "title": "HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion",
-    "url": "https://arxiv.org/abs/2610.10489",
-    "desc": "arXiv:2610.10489v1 Announce Type: new Abstract: Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data. Using an in-house curated locomotion dataset covering diverse speeds and directions, we first learn a natural locomotion",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
-    "title": "Factorized Tactile Representation and Control for Sim-to-Real Manipulation",
-    "url": "https://arxiv.org/abs/2610.10510",
-    "desc": "arXiv:2610.10510v1 Announce Type: new Abstract: Tactile sim-to-real learning must bridge simulated contact and device-specific sensor responses while preserving information needed for control. We propose a factorized tactile representation and control framework that maps normal force and contact patch to an effective contact response recoverable from sensor readings. The response is separated into contact geometry, force distribution, and temporal contact change, with representation-specific encoding and randomization. A Tactile Gated Policy preserves these representations separately through c",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
-    "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2610.10526",
-    "desc": "arXiv:2610.10526v1 Announce Type: new Abstract: Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: $\\pi_{0.5}$ turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a $\\pi_0$ checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. We characterize this sensitivity with statistically tested single-edit swings and an oracle phrase searc",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
-    "title": "Long-WAM: Scaling the Context of World-Action Models",
-    "url": "https://arxiv.org/abs/2610.10528",
-    "desc": "arXiv:2610.10528v1 Announce Type: new Abstract: Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this ",
-    "publishedAt": "2026-10-08T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-08T12:10:54.605Z"
-  },
-  {
     "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
     "url": "https://arxiv.org/abs/2610.10534",
     "desc": "arXiv:2610.10534v1 Announce Type: new Abstract: End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation, but specialized hardware and operator training hinder deployment at scale. Other approaches incorporate human guidance as additional policy inputs, often requiring architectural changes and dedicated training for steerability, which limits their applicability across policies. We present RoboPrompt, a",
@@ -21978,5 +21934,49 @@
     "tier": "community",
     "type": "json",
     "fetchedAt": "2026-11-09T14:11:17.945Z"
+  },
+  {
+    "title": "Make a Robot Arm Feel Weightless with NVIDIA Holoscan 5",
+    "url": "https://developer.nvidia.com/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/",
+    "desc": "Picture guiding a robot arm by hand while its motors supply just enough torque to support its weight and keep the robot upright. This simple interaction, a...",
+    "publishedAt": "2026-11-09T19:09:32.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-10T00:48:45.558Z"
+  },
+  {
+    "title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+    "url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+    "desc": "NVIDIA also gave a look at how its partners, like Ambi Robotics, FieldAI, Flexion, Skild AI, RLWRLD, and more, are using these technologies. The post NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL appeared first on The Robot Report .",
+    "publishedAt": "2026-11-09T21:52:05.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-10T00:48:45.711Z"
+  },
+  {
+    "title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+    "url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+    "desc": "Boston Dynamics combines classical motor control with whole-body reinforcement learning to power dynamic, wheeled locomotion for Atlas. The post Boston Dynamics adds wheels to Atlas humanoid to test whole-body control appeared first on The Robot Report .",
+    "publishedAt": "2026-11-09T18:34:38.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-10T00:48:45.711Z"
+  },
+  {
+    "title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+    "url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+    "desc": "Dedicated Wi-Fi scan architectures can improve robot mobility, reliability, and performance, says Synaptics. The post How to minimize Wi-Fi roaming interruptions for autonomous mobile robots appeared first on The Robot Report .",
+    "publishedAt": "2026-11-09T15:40:41.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-10T00:48:45.711Z"
   }
 ]
