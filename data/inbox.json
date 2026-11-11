@@ -1,49 +1,5 @@
 [
   {
-    "title": "Skill-SLM: Agent Skill-driven Small Language Models for Reliable Robot Operation",
-    "url": "https://arxiv.org/abs/2610.10812",
-    "desc": "arXiv:2610.10812v1 Announce Type: new Abstract: Small language models (SLMs) have been increasingly adopted for onboard robot operation because they enable intelligent decision-making. However, existing approaches are mainly distillation-oriented and rely on enumerating representative task-solution pairs. This makes dataset construction difficult and limits generalization to diverse robot tasks whose possible forms grow rapidly. This paper proposes Skill-SLM, a framework that reformulates SLM-driven robot operation as a task-decomposition and skill-composition problem. Given a natural language",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Cross-Embodiment Robot Foundation World Models with Latent Actions",
-    "url": "https://arxiv.org/abs/2610.10846",
-    "desc": "arXiv:2610.10846v1 Announce Type: new Abstract: The diversity of robot embodiments and action spaces makes it challenging to build robot world models that generalize across different embodiments. We introduce the Latent Action-Conditioned Robot World Model (LAC-WM), which operates within a learned unified latent action space shared across diverse embodiments. This unified action space improves the world model's performance when adapted to previously unseen robot embodiments. We compare LAC-WM with an Explicit Action-Conditioned World Model (EAC-WM), which conditions on explicit motion labels. ",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "OmniHOI: Dexterous Hand-Object Interaction from Monocular Human Video",
-    "url": "https://arxiv.org/abs/2610.10855",
-    "desc": "arXiv:2610.10855v1 Announce Type: new Abstract: Monocular videos of human manipulation provide abundant dexterous demonstrations, yet reconstructing hand-object interaction from a single view and transferring it to robot hands remain difficult, limiting their direct use for robot execution. Prior methods either require task-specific RL training, limiting scalability, or assume clean motion-capture trajectories and thus cannot operate directly on video. We present OmniHOI, a pipeline that turns an RGB video of hand-object interaction into an interaction-faithful trajectory on dexterous hands. T",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Informationally Decoupled Trajectory Design for Sim-to-Real System Identification",
-    "url": "https://arxiv.org/abs/2610.10905",
-    "desc": "arXiv:2610.10905v1 Announce Type: new Abstract: Sampling-based system identification estimates physically meaningful parameters by tuning a simulator to reproduce the target system dynamics, providing an interpretable approach to improving sim-to-real transfer. Yet when the collected trajectories do not distinguish the effects of different parameters, multiple parameter combinations can reproduce those trajectories, leading to unreliable parameter estimates. To address this challenge, we introduce an Informationally Decoupled Trajectory Design framework (IDTD), which formulates the objective f",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "When Listening Becomes Easier: Scrubbing Visual Cues for Shortcut-Free VLAs",
     "url": "https://arxiv.org/abs/2610.10912",
     "desc": "arXiv:2610.10912v1 Announce Type: new Abstract: Shortcut learning is a prevalent issue in robot learning. The limited diversity of robot demonstration datasets can mislead policies into exploiting spurious correlations between tasks and irrelevant features, such as viewpoint or background. Collecting sufficiently diverse robot demonstrations is costly and inefficient, motivating algorithmic alternatives. We focus on vision-language-action (VLA) models and discover that different vision-language model backbones exhibit substantially different levels of susceptibility to visual shortcut learning",
@@ -21977,5 +21933,49 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-11-11T12:52:48.093Z"
+  },
+  {
+    "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
+    "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/",
+    "desc": "As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform...",
+    "publishedAt": "2026-11-11T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-11T23:36:45.242Z"
+  },
+  {
+    "title": "Serve Robotics opens robot delivery network for others to build on",
+    "url": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+    "desc": "Serve Robotics says its on-demand delivery API allows third parties to develop new delivery services on its fleet of more than 2,000 robots. The post Serve Robotics opens robot delivery network for others to build on appeared first on The Robot Report .",
+    "publishedAt": "2026-11-11T13:43:29.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-11T23:36:45.416Z"
+  },
+  {
+    "title": "Memories.ai builds standardized egocentric video pipeline",
+    "url": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
+    "desc": "Memories.ai provides standardized egocentric video collection and AI-powered annotation to build training data infrastructure for robotics. The post Memories.ai builds standardized egocentric video pipeline appeared first on The Robot Report .",
+    "publishedAt": "2026-11-11T13:00:34.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-11T23:36:45.416Z"
+  },
+  {
+    "title": "Can AI agents program industrial robots without training data? Berkeley says yes",
+    "url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+    "desc": "UC Berkeley and NVIDIA have released open-source tools for teams of AI coding agents that write, simulate, and refine readable robot programs. The post Can AI agents program industrial robots without training data? Berkeley says yes appeared first on The Robot Report .",
+    "publishedAt": "2026-11-11T12:55:16.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-11T23:36:45.416Z"
   }
 ]
