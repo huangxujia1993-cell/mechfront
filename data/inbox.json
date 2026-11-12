@@ -1,27 +1,5 @@
 [
   {
-    "title": "A Reconfigurable Fabric Based Pneumatic Actuator with Button Fastened Constraint Modules for Multi Mode Actuation",
-    "url": "https://arxiv.org/abs/2610.11054",
-    "desc": "arXiv:2610.11054v1 Announce Type: new Abstract: Soft pneumatic actuators are widely used in soft robotics. However, their actuation modes are typically fixed by internal chamber designs or reinforcements, making post fabrication reconfiguration difficult. This paper presents a reconfigurable fabric-based pneumatic actuator that enables rapid, tool free, and reusable switching among multiple actuation modes by attaching constraint fabric modules to a buttoned textile sleeve. By rearranging low-stretch constraint parts on a single actuator body, the proposed system realizes four actuation modes ",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Towards Path-Creative Navigation: Robot Navigation through Embodied Interaction",
-    "url": "https://arxiv.org/abs/2610.11072",
-    "desc": "arXiv:2610.11072v1 Announce Type: new Abstract: Autonomous navigation in cluttered and constrained environments typically assumes a fixed environment and searches only for paths within existing free space. However, a route can be blocked by an articulated structure, a movable object, or a pedestrian, and reaching the goal may therefore require appropriate embodied interaction with the environment. This paper formulates Path-Creative Navigation (PCN), a navigation paradigm in which the robot recovers free space by coordinating locomotion and embodied interaction, and addresses one class of PCN ",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "FOCUS: From Privileged States to RGB-D with Controlled Modality Switching and Representation Alignment",
     "url": "https://arxiv.org/abs/2610.11119",
     "desc": "arXiv:2610.11119v1 Announce Type: new Abstract: Vision-based reinforcement learning for robotic manipulation is sample-inefficient because RGB-D observations are high-dimensional and noisy. Privileged state information available in simulation can accelerate training, but its absence at test time creates a train-test modality gap. We propose FOCUS, a single-stage PPO framework that trains the critic on privileged state while automatically regulating whether the actor collects rollouts from RGB-D or privileged-state latents. Regulation is driven by the KL divergence between the action distributi",
@@ -21975,5 +21953,27 @@
     "tier": "official",
     "type": "webpage",
     "fetchedAt": "2026-11-12T13:55:45.762Z"
+  },
+  {
+    "title": "A New Dawn in the Cloud: ‘Warhammer 40,000: Dawn of War IV’ Is Coming to GeForce NOW",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-warhammer-dawn-of-war-iv-coming/",
+    "desc": "Rally the ranks this GFN Thursday. Warhammer 40,000: Dawn of War IV is coming to GeForce NOW, allowing players to experience the battle for Kronus through cloud gaming. There’s more on the horizon, with NVIDIA DLSS 5 technology coming to War Thunder and Where Winds Meet. Meanwhile, Dragon’s Dogma 2: Dark Arisen brings new tales [&#8230;]",
+    "publishedAt": "2026-11-12T14:00:59.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-12T22:49:37.214Z"
+  },
+  {
+    "title": "NVIDIA replaces CEO amid China AI and robotics concerns",
+    "url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+    "desc": "NVIDIA is replacing co-founder Jensen Huang with Collette Kress as CEO and Harvey C. Jones as board chair as it faces trade scrutiny. The post NVIDIA replaces CEO amid China AI and robotics concerns appeared first on The Robot Report .",
+    "publishedAt": "2026-11-12T16:33:17.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-12T22:49:38.248Z"
   }
 ]
