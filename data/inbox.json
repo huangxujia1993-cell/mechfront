@@ -1,49 +1,5 @@
 [
   {
-    "title": "When Listening Becomes Easier: Scrubbing Visual Cues for Shortcut-Free VLAs",
-    "url": "https://arxiv.org/abs/2610.10912",
-    "desc": "arXiv:2610.10912v1 Announce Type: new Abstract: Shortcut learning is a prevalent issue in robot learning. The limited diversity of robot demonstration datasets can mislead policies into exploiting spurious correlations between tasks and irrelevant features, such as viewpoint or background. Collecting sufficiently diverse robot demonstrations is costly and inefficient, motivating algorithmic alternatives. We focus on vision-language-action (VLA) models and discover that different vision-language model backbones exhibit substantially different levels of susceptibility to visual shortcut learning",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Higher-Order Morphology Priors for Quadruped Reinforcement Learning Under Actuator Degradation",
-    "url": "https://arxiv.org/abs/2610.10934",
-    "desc": "arXiv:2610.10934v1 Announce Type: new Abstract: Actuator degradation turns quadruped locomotion into a coordination problem requiring joints to compensate for lost actuation. Prior work suggests that morphology-aware graph policies improve learning and generalization under body perturbations. We ask whether these benefits can be strengthened by explicitly modeling higher-order mechanical structure. We represent the Unitree Go1 as a cell complex with limb- and body-level rank-2 cells and apply Hodge-based message passing. Under degradation training, the node-edge-face Hodge actor achieves the h",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "iAm.md: Robot Skill Self-Assessment through Agentic Introspection for Unknown Open-Vocabulary Domains",
-    "url": "https://arxiv.org/abs/2610.10962",
-    "desc": "arXiv:2610.10962v1 Announce Type: new Abstract: Agentic AI based on Large Language Model generalization capabilities offers a wide range of potential applications, including planning for embodied tasks. For example, embodied agents based on Foundation models can generate plausible plans in autonomous robotics scenarios. Due to limited context windows or hallucinatory phenomena in the next-token prediction formulation, behaviors may be generated without establishing whether the deployed robot and the observed environment actually support the requested operation, in what we call a \"grounding fai",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "ActiveReg: Information-Driven Active Regional Probing for Partial-to-Full Bone Registration",
-    "url": "https://arxiv.org/abs/2610.11003",
-    "desc": "arXiv:2610.11003v1 Announce Type: new Abstract: Accurate bone registration is essential for orthopedic surgical navigation and robotic assistance. In a common workflow, the surgeon needs to identify and probe a number of prescribed locations on the exposed bone surface to obtain data points for registration, which can be difficult and time-consuming under limited surgical exposure. Reducing the number of required points while providing clear probing guidance would ease the surgeon's acquisition task intra-operatively. We present ActiveReg, a closed-loop framework that recommends probing region",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "A Reconfigurable Fabric Based Pneumatic Actuator with Button Fastened Constraint Modules for Multi Mode Actuation",
     "url": "https://arxiv.org/abs/2610.11054",
     "desc": "arXiv:2610.11054v1 Announce Type: new Abstract: Soft pneumatic actuators are widely used in soft robotics. However, their actuation modes are typically fixed by internal chamber designs or reinforcements, making post fabrication reconfiguration difficult. This paper presents a reconfigurable fabric-based pneumatic actuator that enables rapid, tool free, and reusable switching among multiple actuation modes by attaching constraint fabric modules to a buttoned textile sleeve. By rearranging low-stretch constraint parts on a single actuator body, the proposed system realizes four actuation modes ",
@@ -21977,5 +21933,47 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-11T23:36:45.416Z"
+  },
+  {
+    "title": "Viam Launchpad aims to accelerate robotics deployments",
+    "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+    "desc": "The Viam Launchpad is intended to provide the software and engineering infrastructure to help startups bring robots to commercial deployment. The post Viam Launchpad aims to accelerate robotics deployments appeared first on The Robot Report .",
+    "publishedAt": "2026-11-12T13:30:31.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-12T13:55:37.722Z"
+  },
+  {
+    "title": "Runway&#8217;s Praxis-1 world action model for robotics is now available",
+    "url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+    "desc": "Runway launched Praxis-1 with partners including Noble Machines, Standard Bots, and Ultra. Developers can now use it with open weights. The post Runway&#8217;s Praxis-1 world action model for robotics is now available appeared first on The Robot Report .",
+    "publishedAt": "2026-11-12T13:18:47.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-12T13:55:37.722Z"
+  },
+  {
+    "title": "CrownStyling",
+    "url": "https://www.hoteamsoft.com/category245",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-12T13:55:45.762Z"
+  },
+  {
+    "title": "CrownStyling",
+    "url": "https://www.hoteamsoft.com/category245",
+    "publishedAt": null,
+    "sourceId": "hoteam",
+    "sourceName": "华天软件资讯",
+    "tier": "official",
+    "type": "webpage",
+    "fetchedAt": "2026-11-12T13:55:45.762Z"
   }
 ]
