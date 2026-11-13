@@ -1,104 +1,5 @@
 [
   {
-    "title": "Distributed Relative Localization Based on Ultra-WideBand and LiDAR for Multi-robot with Limited Communication",
-    "url": "https://arxiv.org/abs/2610.11141",
-    "desc": "arXiv:2610.11141v1 Announce Type: new Abstract: Relative localization is crucial for a multi-robot system to collaboratively perform tasks, such as exploration and formation. However, this is highly challenging for homogeneous robots with similar appearance in GPS-denied and communication-limited environments. In this paper, we propose a fully distributed relative position estimation approach for a team of robots based on onboard UWB and LiDAR sensors, in which LiDAR is utilized to obtain the position of anonymous objects in Line-of-Sight (LOS), and UWB is used for ranging between robots. We c",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "PMTRM: Pseudo-Memory Temporal Re-encoding Module for Embodied Policy Learning",
-    "url": "https://arxiv.org/abs/2610.11168",
-    "desc": "arXiv:2610.11168v1 Announce Type: new Abstract: Robotic manipulation often contains repeated motions whose local observations look similar at different phases. When these phases require different actions, a policy that relies mainly on the current observation may repeat completed motions or switch phases at the wrong time. To address this phase ambiguity, we present the Pseudo-Memory Temporal Re-encoding Module (PMTRM), a lightweight plug-in module with only 7.61M parameters that encodes a bounded history of executed states and actions into a latent sequence for existing policies. To help dist",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Higher-Order Action Supervision Makes A Strong Policy Class",
-    "url": "https://arxiv.org/abs/2610.11175",
-    "desc": "arXiv:2610.11175v1 Announce Type: new Abstract: Modern data-driven decision-making methods, such as imitation learning (IL) and reinforcement learning (RL), have achieved great success in solving many complex tasks. However, these methods often suffer from serious control instability and robustness issues when applied in real-world applications such as robotics and autonomous driving, posing notable challenges for their practical deployment. We argue that this instability issue stems largely from their limitations in solely supervising and optimizing zeroth-order actions (i.e., the action labe",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "OmniDex: Scaling Dexterous Hand Grasping to Diverse Cluttered Scenes",
-    "url": "https://arxiv.org/abs/2610.11194",
-    "desc": "arXiv:2610.11194v1 Announce Type: new Abstract: Dexterous grasping is the foundational primitive in embodied AI, demanding massive data to train robust models. As real-world data collection is expensive, simulation has become the mainstream paradigm. Yet, while cluttered scenes best reflect real-world applications, learning to grasp within them is bottlenecked by a critical scarcity of large-scale data. To resolve this, we curate high-quality 3D objects and supporting bases, proposing a scalable seed-and-filter strategy that bypasses sluggish scene-level optimization. This yields an unpreceden",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Demonstrating Arena 5.0: A Photorealistic ROS2 Simulation Framework for Developing and Benchmarking Social Navigation",
-    "url": "https://arxiv.org/abs/2610.11220",
-    "desc": "arXiv:2610.11220v1 Announce Type: new Abstract: Building upon the foundations laid by our previous work, this paper introduces Arena 5.0, the fifth iteration of our framework for robotics social navigation development and benchmarking. Arena 5.0 provides three main contributions: 1) The complete integration of NVIDIA Isaac Gym, enabling photorealistic simulations and more efficient training. It seamlessly incorporates Isaac Gym into the Arena platform, allowing the use of existing modules such as randomized environment generation, evaluation tools, ROS2 support, and the integration of planners",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "How Firm Should a Grasp Be?",
-    "url": "https://arxiv.org/abs/2610.11221",
-    "desc": "arXiv:2610.11221v1 Announce Type: new Abstract: An ideal robot grasp is firm enough to securely handle an object, yet gentle enough to avoid damaging it. Achieving this balance requires knowledge of the object's material properties, such as its mass, elasticity, and surface friction. These properties, however, are seldom precisely known a priori. In this work, we propose a visuotactile approach to estimating material properties in real time, during the process of grasping. Our method uses these estimated properties to determine the minimum grasp force required to handle the object. We contribu",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "SafeInferCom: Safe Inference-Time Compute via Verifier-Guided Mid-Generation Intervention for Robotic Task Planning",
-    "url": "https://arxiv.org/abs/2610.11223",
-    "desc": "arXiv:2610.11223v1 Announce Type: new Abstract: Large Reasoning Language Models (LRLMs) enable multi-step reasoning for robotic task planning, but continued reasoning can overwrite valid intermediate plans or leave constraint violations unresolved, reducing planning reliability and wasting inference-time computation. We develop an inference-time monitor that exposes and verifies intermediate plans without disrupting the original decoding trajectory. Building on this monitor, we propose SafeInferCom, a formal verifier-guided framework that preserves valid intermediate plans and directs error co",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "SimVLA: Zero-Shot Sim-to-Real VLA Learning for Mobile Manipulation",
-    "url": "https://arxiv.org/abs/2610.11248",
-    "desc": "arXiv:2610.11248v1 Announce Type: new Abstract: Large-scale, diverse datasets have driven the success of LLMs and VLMs. But VLAs for robotics remain limited by the cost and complexity of real-world data collection. While simulation offers a scalable alternative, its potential for sim-to-real VLA learning in mobile manipulation remains largely underexplored. We introduce SimVLA, an end-to-end framework that trains VLAs entirely on synthetic simulation data without teleoperation for mobile manipulation. SimVLA is first pre-trained on two complementary simulation-derived datasets: SimAction, a la",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
-    "title": "Being-M0.7: A Latent World-Action Model for Humanoid Robots",
-    "url": "https://arxiv.org/abs/2610.11283",
-    "desc": "arXiv:2610.11283v1 Announce Type: new Abstract: Humanoid loco-manipulation requires coordinated locomotion and manipulation informed by future scene evolution and whole-body motion, yet learning these capabilities is constrained by scarce robot demonstrations. Human video and motion datasets offer scalable supervision, but many contain only video or motion rather than paired video-motion data. Moreover, human motion does not directly specify executable robot actions. We present Being-M0.7, a latent world-action model that transfers visual-motion priors learned from mixed-modality human data to",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications",
     "url": "https://arxiv.org/abs/2610.11308",
     "desc": "arXiv:2610.11308v1 Announce Type: new Abstract: Accurate and reliable relative localization is crucial for multi-robot applications like exploration, search, and rescue missions. LiDAR-based solutions offer high accuracy in localizing surrounding objects; however, distinguishing homogeneous robots with similar appearances remains challenging due to the lack of distinctive identification features. In this paper, we propose a fully distributed relative pose estimation approach by integrating LiDAR, UWB, and odometry measurements, allowing each robot to accurately and continuously localize its te",
@@ -21975,5 +21876,104 @@
     "tier": "official",
     "type": "rss",
     "fetchedAt": "2026-11-13T13:19:41.773Z"
+  },
+  {
+    "title": "Faster Scientific Simulations with New FP64 Algorithms in NVIDIA cuBLAS",
+    "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/",
+    "desc": "Many scientific simulations, from molecular chemistry to materials science, spend the majority of their execution time computing high-precision dense general...",
+    "publishedAt": "2026-11-13T22:13:51.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:49.922Z"
+  },
+  {
+    "title": "Run GPU-Powered Black Hole Interferometry with NVIDIA cuPhoton",
+    "url": "https://developer.nvidia.com/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/",
+    "desc": "Imaging black holes is challenging because they are distant and appear tiny in the sky—for example, M87*’s observed ring spans just 42 microarcseconds. The...",
+    "publishedAt": "2026-11-13T21:17:17.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:49.922Z"
+  },
+  {
+    "title": "Run Native DLA Inference in Python on NVIDIA Jetson AGX Orin Using cuDLA",
+    "url": "https://developer.nvidia.com/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/",
+    "desc": "AI applications at the edge often need to run multiple neural networks within limited compute and power budgets. NVIDIA Deep Learning Accelerator (DLA)...",
+    "publishedAt": "2026-11-13T18:57:10.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:49.922Z"
+  },
+  {
+    "title": "When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
+    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+    "desc": "Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations...",
+    "publishedAt": "2026-11-13T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:49.922Z"
+  },
+  {
+    "title": "Adapt Human Motion for Robots with NVIDIA SOMA Retargeter",
+    "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "desc": "Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing...",
+    "publishedAt": "2026-11-13T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:49.922Z"
+  },
+  {
+    "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+    "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+    "desc": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store. The post Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial appeared first on The Robot Report .",
+    "publishedAt": "2026-11-13T16:32:58.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:50.097Z"
+  },
+  {
+    "title": "How Rhoda AI is using video data to create generalized AI models for robots",
+    "url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+    "desc": "Rhoda AI offers a direct video action model, which it recently extended with mobile DVA, to enable robots to understand the physical world. The post How Rhoda AI is using video data to create generalized AI models for robots appeared first on The Robot Report .",
+    "publishedAt": "2026-11-13T13:30:44.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:50.097Z"
+  },
+  {
+    "title": "Narwal builds robot vacuums to serve regional needs",
+    "url": "https://www.therobotreport.com/narwal-builds-robot-vacuums-to-serve-regional-needs/",
+    "desc": "Narwal executives say they spent a decade in research and development and have tailored their household cleaning robots to local markets. The post Narwal builds robot vacuums to serve regional needs appeared first on The Robot Report .",
+    "publishedAt": "2026-11-13T13:18:05.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:50.097Z"
+  },
+  {
+    "title": "Video Friday: NASA PROMISEs a New Moon Rover",
+    "url": "https://spectrum.ieee.org/video-friday-moon-rover-promise",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! NASA will send a nuclear-powered rover called PROMISE (Polar Rover for Observation, Mapping, and In-Situ Exploration, depicted in the rendering) to the Moon’s South Pole as a foundational mission in the Moon Base Program. It will be constructed largely from existing hardware—test-",
+    "publishedAt": "2026-11-13T17:30:03.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-13T22:45:50.353Z"
   }
 ]
