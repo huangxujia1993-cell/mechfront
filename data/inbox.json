@@ -1,16 +1,5 @@
 [
   {
-    "title": "Distributed Relative Localization for Homogeneous Multi-Robot Systems through UWB Ranging and Limited Communications",
-    "url": "https://arxiv.org/abs/2610.11308",
-    "desc": "arXiv:2610.11308v1 Announce Type: new Abstract: Accurate and reliable relative localization is crucial for multi-robot applications like exploration, search, and rescue missions. LiDAR-based solutions offer high accuracy in localizing surrounding objects; however, distinguishing homogeneous robots with similar appearances remains challenging due to the lack of distinctive identification features. In this paper, we propose a fully distributed relative pose estimation approach by integrating LiDAR, UWB, and odometry measurements, allowing each robot to accurately and continuously localize its te",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
     "url": "https://arxiv.org/abs/2610.11322",
     "desc": "arXiv:2610.11322v1 Announce Type: new Abstract: Geometrically faithful and functional articulated 3D assets are essential for real-to-sim robot manipulation, where policies trained in simulation must transfer to physical objects. Recent mesh-based methods learn to infer articulation from annotated 3D assets, but deployment remains challenging when real-world objects fall outside the training distribution or their meshes are incomplete or corrupted. To address these limitations, we formulate articulated asset reconstruction as programmatic modeling grounded in partial geometric evidence and int",
@@ -21975,5 +21964,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-13T22:45:50.353Z"
+  },
+  {
+    "title": "Why Skydio Built a Lopsided Drone",
+    "url": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+    "desc": "Skydio’s drones have always been magical. From MIT research and early prototypes to what I would argue is still the most advanced consumer drone ever made , this is a company that makes very cool stuff. Sadly, Skydio no longer makes cool stuff for consumers , instead focusing on drone platforms for public safety, inspection, and other things that, on a good day, don’t affect me personally. Even so, a new drone from Skydio is worth paying attention to, especially when it’s as weird as this one—the F10 Lightrunner is a fixed-wing camera drone designed for autonomous deployment and high-speed fli",
+    "publishedAt": "2026-11-15T14:00:02.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-15T21:58:37.701Z"
   }
 ]
