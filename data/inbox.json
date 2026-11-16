@@ -1,16 +1,5 @@
 [
   {
-    "title": "USDCraft: Geometrically Grounded Programmatic Modeling of Articulated 3D Assets for Simulation",
-    "url": "https://arxiv.org/abs/2610.11322",
-    "desc": "arXiv:2610.11322v1 Announce Type: new Abstract: Geometrically faithful and functional articulated 3D assets are essential for real-to-sim robot manipulation, where policies trained in simulation must transfer to physical objects. Recent mesh-based methods learn to infer articulation from annotated 3D assets, but deployment remains challenging when real-world objects fall outside the training distribution or their meshes are incomplete or corrupted. To address these limitations, we formulate articulated asset reconstruction as programmatic modeling grounded in partial geometric evidence and int",
-    "publishedAt": "2026-10-09T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-09T12:01:33.475Z"
-  },
-  {
     "title": "PlanWAM: Planning-Shaped Future Representations for End-to-End Autonomous Driving",
     "url": "https://arxiv.org/abs/2610.11382",
     "desc": "arXiv:2610.11382v1 Announce Type: new Abstract: World models in end-to-end autonomous driving predict future scene evolution to provide foresight for trajectory planning. Existing methods mainly study how to predict the future and how to use it, but less often ask which future representation is actually most useful for planning. To this end, we propose PlanWAM, a Planning-Shaped World Action Model. The key idea is to let the planning task shape the future-state representation, so that it retains the information most useful for planning. A latent world model then predicts this planning-shaped f",
@@ -21975,5 +21964,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-15T21:58:37.701Z"
+  },
+  {
+    "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+    "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+    "desc": "Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice president of robotics and edge AI at NVIDIA, said Korea is “punching above its weight,” with Doosan Robotics, Hyundai [&#8230;]",
+    "publishedAt": "2026-11-16T00:00:28.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-16T02:56:24.999Z"
   }
 ]
