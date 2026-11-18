@@ -1,60 +1,5 @@
 [
   {
-    "title": "PACER: Process-Aware VLA Policy Learning from Human Corrections for Robotic Disassembly",
-    "url": "https://arxiv.org/abs/2610.19248",
-    "desc": "arXiv:2610.19248v1 Announce Type: new Abstract: Robotic disassembly of end-of-life (EoL) products requires robots to accommodate product variation, follow prerequisite sequences, and approach components precisely for contact-rich manipulation. Supervised fine-tuning (SFT) provides a practical path for adaptation, but limited and costly disassembly data cannot capture the distribution shifts arising from changing environments and product uncertainties. The policy's own rollouts record its approach attempts, and human corrections demonstrate recovery from its errors, but turning these experience",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
-    "title": "Full-Order Safety for Nonlinear Reduced-Order MPC",
-    "url": "https://arxiv.org/abs/2610.19250",
-    "desc": "arXiv:2610.19250v1 Announce Type: new Abstract: Reduced-order models (ROMs) make model predictive control (MPC) of high-dimensional nonlinear systems tractable, but the resulting modeling error can lead to constraint violations on the real system. We introduce CoRE-MPC, a robust MPC formulation that plans with a nonlinear ROM and guarantees recursive feasibility and constraint satisfaction for the full-order system. It can be applied with a broad class of nonlinear model reduction techniques and the resulting MPC does not require evaluating the full-order model online, thus ensuring computatio",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
-    "title": "MIND: Instruction-Conditioned Incremental Grounding for Robots",
-    "url": "https://arxiv.org/abs/2610.19262",
-    "desc": "arXiv:2610.19262v1 Announce Type: new Abstract: Robots following persistent language instructions must decide which cached room judgments remain valid as their environment changes. We present MIND (Maintenance via INstruction-conditioned Dependencies), a framework for maintaining target-room decisions without re-evaluating every room after each event. A language model compiles each instruction into dependencies for semantic qualification and target selection. The controller intersects semantic dependencies with event footprints, refreshes affected judgments, and updates reachability and select",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
-    "title": "Learning Keypoint Constraints from Visual Demonstrations for Safe Motion Planning",
-    "url": "https://arxiv.org/abs/2610.19295",
-    "desc": "arXiv:2610.19295v1 Announce Type: new Abstract: We present Keypoint Constraint Learning (KCL), a framework for learning task-relevant motion constraints from visual demonstrations and for planning safely with the extracted constraints. To make constraint learning tractable from RGB-D observations, we represent demonstrations using sparse 3D object-centric keypoints and semantic mask centroids extracted through segmentation, visual feature clustering, and point tracking. In this reduced geometric space, we learn keypoint dynamics and infer distance- and orientation-based constraints that make t",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
-    "title": "Probabilistic Physics Digital Twin for Human-Robot Interaction",
-    "url": "https://arxiv.org/abs/2610.19336",
-    "desc": "arXiv:2610.19336v1 Announce Type: new Abstract: Digital twins are increasingly used in robotics to simulate interactions, predict action outcomes, and support planning. However, constructing accurate digital twins requires precise estimates of physical properties such as mass, friction, and center of mass, which are often difficult to obtain in real-world environments. We propose probabilistic digital twins, which represent uncertain physical properties as probability distributions rather than fixed values. By simulating actions across these distributions, the twin predicts a range of possible",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
     "title": "Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control",
     "url": "https://arxiv.org/abs/2610.19393",
     "desc": "arXiv:2610.19393v1 Announce Type: new Abstract: Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics. Existing whole-body trackers typically balance joint and keypoint tracking with physical stability across diverse motions, but these objectives do not necessarily prioritize the expressive characteristics of each action. Our analysis shows that lower average positional tracking error does not guarantee better preservation of dynamic and postural motio",
@@ -21977,5 +21922,60 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-11-18T14:25:50.232Z"
+  },
+  {
+    "title": "Build Training-Ready Physical AI Datasets with Two Prompts in NVIDIA Cosmos",
+    "url": "https://developer.nvidia.com/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/",
+    "desc": "World model accuracy starts with high-quality, diverse training datasets. Yet capturing rare defects, nighttime incidents, and other challenging scenarios is...",
+    "publishedAt": "2026-11-18T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-18T23:29:11.130Z"
+  },
+  {
+    "title": "Tackling GPU Bottlenecks in Plane-Wave DFT with K-Point Batching and Mixed Precision",
+    "url": "https://developer.nvidia.com/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/",
+    "desc": "Training a next-generation machine learning interatomic potential (MLIP) requires ground truth: tens to hundreds of millions of density functional theory (DFT)...",
+    "publishedAt": "2026-11-18T15:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-18T23:29:11.130Z"
+  },
+  {
+    "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+    "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+    "desc": "Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post Humyn Labs raises $47M to collect real-world data for robotics appeared first on The Robot Report .",
+    "publishedAt": "2026-11-18T22:43:06.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-18T23:29:11.228Z"
+  },
+  {
+    "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+    "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+    "desc": "Robotics is advancing rapidly. New AI models and increasingly capable hardware are expanding what machines can perceive, understand and do. The post From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics appeared first on The Robot Report .",
+    "publishedAt": "2026-11-18T18:00:09.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-18T23:29:11.228Z"
+  },
+  {
+    "title": "Rockwell Automation acquiring mobile robot maker AGILOX",
+    "url": "https://www.therobotreport.com/rockwell-automation-acquiring-mobile-robot-maker-agilox/",
+    "desc": "Rockwell Automation has agreed to acquire autonomous mobile robot developer AGILOX, expanding its mobile robotics portfolio following its 2023 acquisition of OTTO Motors. The post Rockwell Automation acquiring mobile robot maker AGILOX appeared first on The Robot Report .",
+    "publishedAt": "2026-11-18T16:44:18.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-18T23:29:11.228Z"
   }
 ]
