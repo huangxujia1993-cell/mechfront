@@ -1,16 +1,5 @@
 [
   {
-    "title": "Beyond Kinematic Tracking: Preserving Expressive Characteristics in Humanoid Whole-Body Control",
-    "url": "https://arxiv.org/abs/2610.19393",
-    "desc": "arXiv:2610.19393v1 Announce Type: new Abstract: Whole-body control plays a crucial role in enabling humanoid robots to execute expressive motions. Faithful execution requires preserving both the intended action and its expressive characteristics. Existing whole-body trackers typically balance joint and keypoint tracking with physical stability across diverse motions, but these objectives do not necessarily prioritize the expressive characteristics of each action. Our analysis shows that lower average positional tracking error does not guarantee better preservation of dynamic and postural motio",
-    "publishedAt": "2026-10-15T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-15T10:11:07.285Z"
-  },
-  {
     "title": "A Master-to-Simulation Interface with Demonstration-Trajectory Guidance for Vascular Intervention",
     "url": "https://arxiv.org/abs/2610.19395",
     "desc": "arXiv:2610.19395v1 Announce Type: new Abstract: Robotic vascular intervention can reduce radiation exposure to physicians and improve manipulation stability, but effective guidance remains challenging because conventional fluoroscopic images provide limited spatial information. This paper developed a vascular intervention interactive system that connects a real robotic master controller with the SOFA(Simulation Open Framework Architecture) physical simulation platform and reused successful operation trajectories as visual guidance in physical phantom experiments. Experiments were conducted to ",
@@ -21977,5 +21966,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-18T23:29:11.228Z"
+  },
+  {
+    "title": "DrawScore: Evaluating Generated CAD Models against Engineering Drawings",
+    "url": "https://arxiv.org/abs/2611.24681v1",
+    "desc": "Automatic CAD generation is commonly evaluated with volumetric IoU, Chamfer Distance, and surface F-score, which barely penalize local errors that occupy only a small fraction of a part's volume or surface area, such as a misplaced hole or a slot on the wrong face, even though such errors are critical to manufacturing. We formalize these metrics in a unified integral form and show that the weight of a local error decays as the $(k+q)$-th power of its size, where $k$ is the dimension of the integration domain and $q$ is determined by the penalty function. Guided by this analysis, we propose Dra",
+    "publishedAt": "2026-11-18T16:14:30.000Z",
+    "sourceId": "arxiv_text2cad",
+    "sourceName": "arXiv 关键词订阅：text-to-CAD / CAD 生成",
+    "tier": "community",
+    "type": "json",
+    "fetchedAt": "2026-11-19T04:26:17.917Z"
   }
 ]
