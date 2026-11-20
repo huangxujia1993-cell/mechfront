@@ -1,27 +1,5 @@
 [
   {
-    "title": "A 2D Image Feedback-Based Autonomous Endovascular Navigation Method: A Perception and Control Framework",
-    "url": "https://arxiv.org/abs/2610.21481",
-    "desc": "arXiv:2610.21481v1 Announce Type: new Abstract: In endovascular interventions, physicians rely on planar DSA and X-ray fluoroscopy to interpret vessel anatomy and device motion, yet converting these images into feedback for autonomous navigation remains difficult. A perception and control method is formulated for two-dimensional image feedback. Vessel masks are converted into a labeled centerline graph, and device-tip estimates are projected onto a planned path to obtain progress, deviation, and direction. A rule-based controller uses these quantities for delivery, branch selection, probing, r",
-    "publishedAt": "2026-10-16T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-16T10:02:25.860Z"
-  },
-  {
-    "title": "Location-Based Safety Management with Wearable Seamless Indoor-Outdoor Positioning",
-    "url": "https://arxiv.org/abs/2610.21503",
-    "desc": "arXiv:2610.21503v1 Announce Type: new Abstract: Reliable worker localization is essential for real-time industrial safety management, but seamless outdoor-indoor positioning remains challenging. GNSS performs well outdoors yet degrades near buildings and fails indoors, while many indoor systems require costly infrastructure or extensive calibration. This paper presents a practical safety-oriented positioning system that uses resource-constrained wearable tags and a device-cloud split architecture for continuous outdoor-indoor worker tracking. The tag integrates GNSS, IMU, barometric sensing, L",
-    "publishedAt": "2026-10-16T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-16T10:02:25.860Z"
-  },
-  {
     "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
     "url": "https://arxiv.org/abs/2610.21515",
     "desc": "arXiv:2610.21515v1 Announce Type: new Abstract: Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language mo",
@@ -21977,5 +21955,27 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-11-20T14:15:20.381Z"
+  },
+  {
+    "title": "MassRobotics launching marine robotics facility on Boston Harbor",
+    "url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
+    "desc": "MassRobotics plans to open the marine-focused facility in early 2028, with programming starting throughout 2027. The post MassRobotics launching marine robotics facility on Boston Harbor appeared first on The Robot Report .",
+    "publishedAt": "2026-11-20T17:04:28.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-20T23:15:53.236Z"
+  },
+  {
+    "title": "Video Friday: Drone Squeezes Itself to Fit Through Tight Spaces",
+    "url": "https://spectrum.ieee.org/video-friday-morphing-robots-quadrotor",
+    "desc": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events for the next few months. Please send us your events for inclusion. Humanoids 2026 : 6–9 December 2026, SANTA CLARA, CA Enjoy today’s videos! Drones navigating cluttered spaces often encounter openings narrower than their bodies. We present a design method that jointly optimizes a quadrotor’s geometry and how its two side arms bend on contact. The resulting prototype folds from 31.3 cm to 14.1 cm wide on contact and fli",
+    "publishedAt": "2026-11-20T17:30:03.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-20T23:15:53.543Z"
   }
 ]
