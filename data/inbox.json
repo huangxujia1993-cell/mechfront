@@ -1,16 +1,5 @@
 [
   {
-    "title": "TRACE: Typed Reference-Aware Conversational Editing for Humanoid Motion Diffusion",
-    "url": "https://arxiv.org/abs/2610.21515",
-    "desc": "arXiv:2610.21515v1 Announce Type: new Abstract: Language-conditioned humanoid motion generation enables users to create and refine robot movements through natural language. The central challenge is to connect an underspecified request to concrete motion structure that can subsequently be revised relative to an accepted reference. We present TRACE, a generation and editing framework for the Unitree G1 humanoid robot built around typed, measurable kinematic quantities. Our insight is to ground generation conditions in paired training motions and editing goals in the current motion. A language mo",
-    "publishedAt": "2026-10-16T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-16T10:02:25.860Z"
-  },
-  {
     "title": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models",
     "url": "https://arxiv.org/abs/2610.21522",
     "desc": "arXiv:2610.21522v1 Announce Type: new Abstract: Specialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging. On-policy distillation (OPD) transfers teacher knowledge on inputs induced by the student, addressing the distribution mismatch encountered during deployment. For flow-based VLAs, this mismatch arises at two levels: environment observations and intermediate action-generation states. We propose a two-level on-policy distillation framework that couples student-driven environment interact",
@@ -21977,5 +21966,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-20T23:15:53.543Z"
+  },
+  {
+    "title": "Medtronic&#8217;s Hugo surgical robot ready for bigger operation",
+    "url": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
+    "desc": "Globally, the Hugo surgical system is on track to surpass 50,000 cumulative procedures by the end of Medtronic's fiscal year. The post Medtronic&#8217;s Hugo surgical robot ready for bigger operation appeared first on The Robot Report .",
+    "publishedAt": "2026-11-21T00:55:45.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-21T04:09:53.120Z"
   }
 ]
