@@ -1,16 +1,5 @@
 [
   {
-    "title": "Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2610.21522",
-    "desc": "arXiv:2610.21522v1 Announce Type: new Abstract: Specialized vision-language-action (VLA) policies acquire strong domain-specific skills, yet consolidating these skills into one shared policy remains challenging. On-policy distillation (OPD) transfers teacher knowledge on inputs induced by the student, addressing the distribution mismatch encountered during deployment. For flow-based VLAs, this mismatch arises at two levels: environment observations and intermediate action-generation states. We propose a two-level on-policy distillation framework that couples student-driven environment interact",
-    "publishedAt": "2026-10-16T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-16T10:02:25.860Z"
-  },
-  {
     "title": "Attribution-Gated Joint Estimation of Intention and Capability for Assist-as-Needed Upper-Limb Robots",
     "url": "https://arxiv.org/abs/2610.21534",
     "desc": "arXiv:2610.21534v1 Announce Type: new Abstract: Assist-as-needed (AAN) control must distinguish between changes in intended motion and changes in effective voluntary torque capability, even though both can produce similar kinematic and interaction responses. A dual-measurand multimodal MHE-MPC architecture is developed as the base framework, in which the intended trajectory and the task-dependent effective voluntary torque capability are estimated online as distinct quantities, and both estimates are used to adapt robotic assistance. Building on this architecture, the ambiguity between the two",
@@ -21977,5 +21966,16 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-21T04:09:53.120Z"
+  },
+  {
+    "title": "The manufacturing data gap holding back physical AI",
+    "url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+    "desc": "Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The manufacturing data gap holding back physical AI appeared first on The Robot Report .",
+    "publishedAt": "2026-11-21T22:25:35.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-22T03:21:31.012Z"
   }
 ]
