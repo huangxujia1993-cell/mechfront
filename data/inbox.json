@@ -1,60 +1,5 @@
 [
   {
-    "title": "FCTS: Failure-Guided Curriculum Tree Search Over Generated Terrain for Legged Parkour",
-    "url": "https://arxiv.org/abs/2610.22619",
-    "desc": "arXiv:2610.22619v1 Announce Type: new Abstract: Quadruped parkour policies handle canonical obstacles well, but their training curricula often miss the irregular, compound geometry of industrial and disaster-response sites, where agile locomotion matters most. Such environments pose a hard generalization problem: even training directly on reconstructed geometry from the target site does not reliably yield policies that traverse it. Hand-designed curricula span only a few terrain families, and recent LLM-generated curricula offer little control over which policy weaknesses they target. We propo",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Task Structure and Scalability in Multi-Robot Authoring",
-    "url": "https://arxiv.org/abs/2610.22670",
-    "desc": "arXiv:2610.22670v1 Announce Type: new Abstract: Multi-robot authoring can reduce completion time by distributing drawing work, but the resulting speedup depends on task structure and the allocation-routing pipeline. We investigate these relationships by representing drawings as geometric stroke graphs and comparing component-level (single-token) allocation with shared-token (decomposed) allocation, which permits multiple robots to work within a connected component. A simulation study of 385 drawings and teams of one to eight robots shows diminishing speedup gains under single-token allocation ",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Spatial Memory by Agents, for Agents",
-    "url": "https://arxiv.org/abs/2610.22736",
-    "desc": "arXiv:2610.22736v1 Announce Type: new Abstract: Spatial memory enables robots to reuse past observations for localization, navigation, and question answering. Designing such memory involves jointly deciding what to retain and how to retrieve it for diverse semantic, metric, and temporal needs. We investigate whether coding agents can automate this design process through iterative implementation and evaluation. Under a fixed development budget, a Designer Agent writes and revises code for memory construction and retrieval using feedback from a fixed Query Agent. The resulting implementations ar",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Shape-Aware Neural Time Fields for Rigid-Body Motion and Manipulation Planning",
-    "url": "https://arxiv.org/abs/2610.22762",
-    "desc": "arXiv:2610.22762v1 Announce Type: new Abstract: Rigid-body motion planning is fundamental to robotic transport and manipulation, where both object position and orientation determine whether a body can move through cluttered environments. This coupling makes planning chal- lenging because translation and rotation can be constrained very differently by surrounding geometry. We propose Shape- Aware Neural Time Fields, a physics-informed neural motion planning framework that learns a reusable travel-time, or cost- to-go, representation for rigid-body motion while explicitly accounting for these di",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Pedicel-Targeted Strawberry Harvesting via Imitation Learning on a Low-Cost Teleoperated Robotic Arm",
-    "url": "https://arxiv.org/abs/2610.22765",
-    "desc": "arXiv:2610.22765v1 Announce Type: new Abstract: Precise pedicel-targeted grasping in strawberry harvesting remains a critical bottleneck due to the pedicel's small diameter (1.3-3 mm), color similarity with surrounding foliage, and precise force control required for clean abscission zone detachment. As a market-grade crop, strawberry aesthetic value makes bruise-free pedicel detachment essential over direct fruit grasping. Classical approaches struggle to unify vision models, motion planning, and contact manipulation into a robust framework, particularly in occluded canopy environments. Theref",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
     "title": "PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation",
     "url": "https://arxiv.org/abs/2610.22812",
     "desc": "arXiv:2610.22812v1 Announce Type: new Abstract: Reliable vision-and-language navigation (VLN) requires not only understanding instructions but also determining whether and how a robot can physically execute them. However, existing VLN benchmarks typically assume executable instructions and focus on long-horizon tasks. This leaves body-dependent local execution, including passability and collision-free execution, largely unexamined. Evaluating these factors within long-horizon tasks would entangle local physical execution with task planning and long-term spatial memory, making navigation failur",
@@ -21981,5 +21926,60 @@
     "tier": "community",
     "type": "rss",
     "fetchedAt": "2026-11-23T16:20:21.828Z"
+  },
+  {
+    "title": "Merry Making: Play, Build and Create With NVIDIA Technologies This Holiday Season",
+    "url": "https://blogs.nvidia.com/blog/nvidia-technologies-holidays-2026/",
+    "desc": "The elves don’t have to be the only ones busy in the workshop this holiday season. With the lights twinkling and the gift wrap out, it’s the perfect time to give someone — or yourself — a spark to take a hobby to the next level. For some, that means diving into a new game. [&#8230;]",
+    "publishedAt": "2026-11-23T17:00:08.000Z",
+    "sourceId": "nvidia_blog",
+    "sourceName": "NVIDIA 官方博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T03:25:39.695Z"
+  },
+  {
+    "title": "Accelerating Direct Sparse Solvers for Computational Engineering with NVIDIA cuDSS 1.0",
+    "url": "https://developer.nvidia.com/blog/accelerating-direct-sparse-solvers-for-computational-engineering-with-nvidia-cudss-1-0/",
+    "desc": "Sparse linear systems are at the core of nearly every engineering and scientific simulation, from structural mechanics and computational fluid dynamics to...",
+    "publishedAt": "2026-11-23T19:59:40.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T03:25:39.843Z"
+  },
+  {
+    "title": "Get Started with GPU-Accelerated DuckDB Analytics Using the Sirius Core Extension",
+    "url": "https://developer.nvidia.com/blog/get-started-with-gpu-accelerated-duckdb-analytics-using-the-sirius-core-extension/",
+    "desc": "As datasets grow, analytical queries can take longer to run, slowing down data exploration, pipelines, and applications. For developers using DuckDB, reducing...",
+    "publishedAt": "2026-11-23T17:09:28.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T03:25:39.843Z"
+  },
+  {
+    "title": "Connecting Energy Use to Scientific Output with Science per Joule",
+    "url": "https://developer.nvidia.com/blog/connecting-energy-use-to-scientific-output-with-science-per-joule/",
+    "desc": "For high-performance computing (HPC) centers operating under a fixed power budget, every joule spent computing needs to translate into useful scientific work....",
+    "publishedAt": "2026-11-18T21:26:33.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T03:25:39.843Z"
+  },
+  {
+    "title": "How does Orchard AI fit into John Deere&#8217;s technology portfolio?",
+    "url": "https://www.therobotreport.com/how-does-orchard-ai-fit-into-john-deeres-technology-portfolio/",
+    "desc": "John Deere said the deal strengthens its ability to help growers make more informed decisions throughout the growing season. The post How does Orchard AI fit into John Deere&#8217;s technology portfolio? appeared first on The Robot Report .",
+    "publishedAt": "2026-11-23T20:29:55.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T03:25:39.955Z"
   }
 ]
