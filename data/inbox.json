@@ -1,27 +1,5 @@
 [
   {
-    "title": "PASS-VLN: Passability-Aware Local-Command Vision-and-Language Navigation",
-    "url": "https://arxiv.org/abs/2610.22812",
-    "desc": "arXiv:2610.22812v1 Announce Type: new Abstract: Reliable vision-and-language navigation (VLN) requires not only understanding instructions but also determining whether and how a robot can physically execute them. However, existing VLN benchmarks typically assume executable instructions and focus on long-horizon tasks. This leaves body-dependent local execution, including passability and collision-free execution, largely unexamined. Evaluating these factors within long-horizon tasks would entangle local physical execution with task planning and long-term spatial memory, making navigation failur",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Simultaneous Force and Motion Control in Generalised Coordinates",
-    "url": "https://arxiv.org/abs/2610.22813",
-    "desc": "arXiv:2610.22813v1 Announce Type: new Abstract: Robot manipulators often come into contact with rigid objects when performing work. This imposes physical constraints on their motion. Simultaneous force &amp; motion control was developed to regulate contact forces commensurate with these constraints, whilst projecting motion control in to the orthogonal, unconstrained directions. This is typically formulated in the task coordinates, i.e. operational space, then mapped to joint torques to command the robot. However, most constraints on the robot control, such as joint limits, collision avoidance",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
     "title": "DefFlow: Goal-Conditioned Deformable Object Manipulation using 3D Point Flows",
     "url": "https://arxiv.org/abs/2610.22827",
     "desc": "arXiv:2610.22827v1 Announce Type: new Abstract: Manipulating deformable objects toward desired 3D configurations is a fundamental capability for robots operating in unstructured physical environments. However, as the range of possible initial and target configurations grows, goal-conditioned deformable manipulation requires a robot to infer increasingly diverse manipulation behaviors in addition to precise continuous actions. We introduce DefFlow, a framework for goal-conditioned manipulation of deformable objects toward a broad range of 3D configurations. DefFlow learns from demonstrations by",
@@ -21981,5 +21959,27 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-24T03:25:39.955Z"
+  },
+  {
+    "title": "Q&A: How Everstone Brings Where Winds Meet to Life with NVIDIA DLSS 5",
+    "url": "https://developer.nvidia.com/blog/qa-how-everstone-brings-where-winds-meet-to-life-with-nvidia-dlss-5/",
+    "desc": "Where Winds Meet moves between distant mountain landscapes, bustling streets, and quiet moments with its characters. For Everstone Studio, bringing more...",
+    "publishedAt": "2026-11-24T14:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T16:09:00.526Z"
+  },
+  {
+    "title": "SoftBank acquires Marc Raibert&#8217;s Robotics and AI Institute",
+    "url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+    "desc": "SoftBank has completed its acquisition of the Robotics and AI Institute from Hyundai Motor Group, expanding its robotics portfolio as the research organization looks to fill 24 open positions in Massachusetts and Switzerland. The post SoftBank acquires Marc Raibert&#8217;s Robotics and AI Institute appeared first on The Robot Report .",
+    "publishedAt": "2026-11-24T14:48:57.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-24T16:09:00.713Z"
   }
 ]
