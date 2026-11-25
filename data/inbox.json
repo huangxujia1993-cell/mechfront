@@ -1,49 +1,5 @@
 [
   {
-    "title": "DefFlow: Goal-Conditioned Deformable Object Manipulation using 3D Point Flows",
-    "url": "https://arxiv.org/abs/2610.22827",
-    "desc": "arXiv:2610.22827v1 Announce Type: new Abstract: Manipulating deformable objects toward desired 3D configurations is a fundamental capability for robots operating in unstructured physical environments. However, as the range of possible initial and target configurations grows, goal-conditioned deformable manipulation requires a robot to infer increasingly diverse manipulation behaviors in addition to precise continuous actions. We introduce DefFlow, a framework for goal-conditioned manipulation of deformable objects toward a broad range of 3D configurations. DefFlow learns from demonstrations by",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Sample-Efficient Reinforcement Learning for Policy Improvement via Flow-Reversed Action Anchors",
-    "url": "https://arxiv.org/abs/2610.22852",
-    "desc": "arXiv:2610.22852v1 Announce Type: new Abstract: Generalist robot policies offer strong behavioral priors, but achieving deployment-level reliability and throughput remains difficult. Reinforcement learning (RL) can improve these policies, yet its effectiveness is constrained by the cost of online interaction. Existing methods adapt frozen flow-matching policies by treating noise space as a continuous action space. We show that this behaviorally unstructured space makes exploration inefficient, often preventing these methods from extracting meaningful learning signals on challenging tasks. We i",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Structured Perception Representations for Off-road Dynamics Learning",
-    "url": "https://arxiv.org/abs/2610.22900",
-    "desc": "arXiv:2610.22900v1 Announce Type: new Abstract: Autonomously navigating off-road terrain at high speed demands accurate control, which often relies on dynamics models that capture complex interactions between the robot and terrain. In off-road regimes, terrain interaction is a major component of the vehicle's dynamics. Prior work attempts to capture this effect by training learned models of the vehicle's dynamics, conditioned on its perception of the local environment. However, said conditioning is often overly simplistic, ignoring the spatial structure of the dynamics problem. Our approach, S",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "SenseSwarm: Swarm Exploration via Neural Structure Estimation with Shared World-Anticipation for Rapid Mapping",
-    "url": "https://arxiv.org/abs/2610.22905",
-    "desc": "arXiv:2610.22905v1 Announce Type: new Abstract: A robot swarm covers a building faster with more robots, but the map is only as complete as the space the robots have physically visited. We target the amount of an unknown building a decentralized swarm knows at each instant, ahead of physical coverage. SenseSwarm serves a lightweight learned map predictor on the swarm's shared occupancy map and folds the predicted structure back into a stigmergic guidance field. Its 709K-parameter predictor is fine-tuned on the swarm's own multi-front observations, which we show is necessary: a single-robot pre",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
     "title": "Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation",
     "url": "https://arxiv.org/abs/2610.22932",
     "desc": "arXiv:2610.22932v1 Announce Type: new Abstract: Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone. Measuring them on robots requires specialized tactile hardware and platform-specific data collection, which keeps robot tactile data scarce. Human egocentric video is far easier to scale but lacks touch. Recent predictors trained on egocentric recordings paired with tactile-glove measurements can predict this missing signal from video alone. These predictors, however, remain confined to human hands, which differ fro",
@@ -21981,5 +21937,49 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-24T16:09:00.713Z"
+  },
+  {
+    "title": "How to Run NVIDIA Cosmos 3 on Local AI Devices Using Hugging Face Diffusers",
+    "url": "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
+    "desc": "Running video generation models locally can be challenging when model weights and intermediate data exceed available GPU memory. NVIDIA Cosmos 3 Nano is a world...",
+    "publishedAt": "2026-11-24T18:44:05.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-25T01:30:21.974Z"
+  },
+  {
+    "title": "Prepare Market Data for Forecasting with NVIDIA Megatron Core",
+    "url": "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/",
+    "desc": "Market data arrives as a stream of trades and quotes: every execution, bid, and ask, timestamped to the microsecond. Preparing this data for AI-based market...",
+    "publishedAt": "2026-11-24T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-25T01:30:21.974Z"
+  },
+  {
+    "title": "What’s New for Game Developers: AI Animation and RTX Tools",
+    "url": "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
+    "desc": "This month’s NVIDIA game development updates help teams bring new graphics, animation, and local AI capabilities into their engines while balancing image...",
+    "publishedAt": "2026-11-24T17:00:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-25T01:30:21.974Z"
+  },
+  {
+    "title": "Robotics Summit 2027 opens call for speakers",
+    "url": "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
+    "desc": "The Robotics Summit &#038; Expo returns to Boston June 2-3, 2027 with deepened coverage, an expanded expo floor, and more. The post Robotics Summit 2027 opens call for speakers appeared first on The Robot Report .",
+    "publishedAt": "2026-11-24T18:03:37.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-25T01:30:22.108Z"
   }
 ]
