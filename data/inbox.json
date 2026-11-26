@@ -1,60 +1,5 @@
 [
   {
-    "title": "Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation",
-    "url": "https://arxiv.org/abs/2610.22932",
-    "desc": "arXiv:2610.22932v1 Announce Type: new Abstract: Contact locations and interaction forces are critical for contact-rich robot manipulation but are often ambiguous from vision alone. Measuring them on robots requires specialized tactile hardware and platform-specific data collection, which keeps robot tactile data scarce. Human egocentric video is far easier to scale but lacks touch. Recent predictors trained on egocentric recordings paired with tactile-glove measurements can predict this missing signal from video alone. These predictors, however, remain confined to human hands, which differ fro",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
-    "url": "https://arxiv.org/abs/2610.22951",
-    "desc": "arXiv:2610.22951v1 Announce Type: new Abstract: Vision-language-action (VLA) models have shown strong promise for generalist robotic manipulation, but their inference cost remains a major bottleneck for real-time control. This limitation is especially pronounced in flow-matching VLAs such as $\\pi_{0.5}$, where the action expert is evaluated repeatedly during iterative denoising. We introduce MambaAct, an efficient Mamba action expert for flow-matching VLA policies. MambaAct retains the pretrained visual-language prefix encoder of $\\pi_{0.5}$, while replacing its transformer-based action expert",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Hardware-as-Regularization: Enhancing Data Consistency in Imitation Learning via an Adjustable Passive Compliant Leader Arm",
-    "url": "https://arxiv.org/abs/2610.22977",
-    "desc": "arXiv:2610.22977v1 Announce Type: new Abstract: Low-cost passive leader arms enable scalable data collection for imitation learning, but their lack of restoring forces leaves redundant joints unconstrained, yielding highly inconsistent joint-space trajectories. We address this with a low-cost passive joint module (an adjustable mechanical clutch and a 3D-printed spiral spring) that pulls each joint toward a user-defined neutral posture. This passive restoring force acts as a physical prior equivalent to joint-space $L_2$ regularization (``Hardware-as-Regularization''), improving kinematic cons",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "GR-VIP: Geometric representation conditioning for precise visuomotor policy",
-    "url": "https://arxiv.org/abs/2610.22997",
-    "desc": "arXiv:2610.22997v1 Announce Type: new Abstract: Achieving precise terminal position and heading alignment remains a significant challenge for learning-based mobile robot control. Recent vision-based learning methods have shown promise for precise target-relative control and generalization to unseen environments with pretrained visual encoders, but general-purpose visual representations are not specifically designed to capture the fine-grained spatial differences between current and goal views required for precise control, and real-world demonstrations combining millimeter-scale terminal accura",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
-    "title": "Robotic Spatiotemporal Editing: A Unified Interface for Controllable Action Generation via Masked Action Reconstruction",
-    "url": "https://arxiv.org/abs/2610.23002",
-    "desc": "arXiv:2610.23002v1 Announce Type: new Abstract: Generative policies can synthesize robot behaviors, yet controlling and editing them through diverse spatiotemporal references remains challenging. In the real world, human intent requires robot behaviors that satisfy constraints on where, when, and how actions are executed. Our key insight is that spatiotemporal control references, such as keypoints, flows, orientations, and keyposes, can be viewed as partial specifications of the same temporal Cartesian action space. We introduce the MAP (Masked Action Space) interface to unify these action ref",
-    "publishedAt": "2026-10-19T04:00:00.000Z",
-    "sourceId": "arxiv_ro",
-    "sourceName": "arXiv cs.RO 机器人学新论文",
-    "tier": "community",
-    "type": "rss",
-    "fetchedAt": "2026-10-19T11:04:32.810Z"
-  },
-  {
     "title": "What Makes a Good Symbol for Hybrid Discrete-Continuous Planning?",
     "url": "https://arxiv.org/abs/2610.23010",
     "desc": "arXiv:2610.23010v1 Announce Type: new Abstract: The physical world has continuous state and action spaces, yet robot planning often benefits from hybrid discrete-continuous formulations that explicitly expose combinatorial structure, such as contact modes or discrete primitive actions. Existing methods typically rely on human-defined symbol sets or symbols derived from language supervision, without asking what makes a symbol computationally useful. In this paper, we take an inference-algorithm--centric view to define usefulness: a good symbol should expose the discrete commitments that simplif",
@@ -21981,5 +21926,60 @@
     "tier": "media",
     "type": "rss",
     "fetchedAt": "2026-11-25T01:30:22.108Z"
+  },
+  {
+    "title": "How to Optimize NVFP4 Attention on NVIDIA RTX Blackwell Through Register Recycling",
+    "url": "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+    "desc": "Attention can be a major bottleneck when serving world foundation models, where long sequences make inference computationally demanding. On NVIDIA Hopper and...",
+    "publishedAt": "2026-11-25T19:30:00.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-26T01:05:05.345Z"
+  },
+  {
+    "title": "Manage Liquid-Cooled AI Factories with NVIDIA Mission Control",
+    "url": "https://developer.nvidia.com/blog/manage-liquid-cooled-ai-factories-with-nvidia-mission-control/",
+    "desc": "Managing AI infrastructure such as NVIDIA Vera Rubin NVL72 requires coordinated operation of compute, power, and cooling systems. In liquid-cooled AI factories,...",
+    "publishedAt": "2026-11-19T22:02:30.000Z",
+    "sourceId": "nvidia_dev",
+    "sourceName": "NVIDIA 技术博客",
+    "tier": "official",
+    "type": "rss",
+    "fetchedAt": "2026-11-26T01:05:05.345Z"
+  },
+  {
+    "title": "How Vention is cutting factory programming from weeks to minutes",
+    "url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+    "desc": "Etienne Lacroix explains why AI deployment—not just better models—will define the future of industrial automation. The post How Vention is cutting factory programming from weeks to minutes appeared first on The Robot Report .",
+    "publishedAt": "2026-11-25T18:24:42.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-26T01:05:05.477Z"
+  },
+  {
+    "title": "FCC should focus on robot security, not country of origin",
+    "url": "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+    "desc": "Where a robot was assembled tells you little about who controls it once it's deployed, writes Brain Corp CEO David Pinn. The post FCC should focus on robot security, not country of origin appeared first on The Robot Report .",
+    "publishedAt": "2026-11-25T17:00:07.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-26T01:05:05.477Z"
+  },
+  {
+    "title": "How DARPA Challenged Teams to Bring Robots Into Disaster Triage",
+    "url": "https://spectrum.ieee.org/darpa-triage-challenge-final-robots",
+    "desc": "On 5 November, 10 teams descended upon a 52-acre mock town in College Station, Texas called Disaster City . They were there for a nine-day competition to see how well teams of robots and humans could navigate simulated catastrophes, like a market ravaged by a tornado and a nighttime strike on a military base. At stake? US $2.5 million in prize money. The scenarios were the final of the DARPA Triage Challenge , which the U.S. agency has been running for three years with the goal of saving more lives in urgent mass casualty events. Engineers from academia and industry have competed in elaboratel",
+    "publishedAt": "2026-11-25T15:00:03.000Z",
+    "sourceId": "ieee_robotics",
+    "sourceName": "IEEE Spectrum Robotics",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-26T01:05:05.699Z"
   }
 ]

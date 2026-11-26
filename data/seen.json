@@ -3362,5 +3362,10 @@
   "https://developer.nvidia.com/blog/how-to-run-nvidia-cosmos-3-on-local-ai-devices-using-hugging-face-diffusers/",
   "https://developer.nvidia.com/blog/prepare-market-data-for-forecasting-with-nvidia-megatron-core/",
   "https://developer.nvidia.com/blog/whats-new-for-game-developers-ai-animation-and-rtx-tools/",
-  "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/"
+  "https://www.therobotreport.com/robotics-summit-2027-opens-call-for-speakers/",
+  "https://developer.nvidia.com/blog/how-to-optimize-nvfp4-attention-on-nvidia-rtx-blackwell-through-register-recycling/",
+  "https://developer.nvidia.com/blog/manage-liquid-cooled-ai-factories-with-nvidia-mission-control/",
+  "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+  "https://www.therobotreport.com/fcc-should-focus-on-robot-security-not-country-of-origin/",
+  "https://spectrum.ieee.org/darpa-triage-challenge-final-robots"
 ]
