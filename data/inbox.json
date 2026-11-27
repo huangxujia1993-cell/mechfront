@@ -1,16 +1,5 @@
 [
   {
-    "title": "Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care",
-    "url": "https://www.therobotreport.com/avenda-health-expands-unfold-ai-platform-support-intraoperative-prostate-cancer-care/",
-    "desc": "Surgery Mode in Unfold AI brings patient-specific 3D maps to give an enhanced view of cancer anatomy during robotic prostate procedures. The post Avenda Health expands Unfold AI platform to support intraoperative prostate cancer care appeared first on The Robot Report .",
-    "publishedAt": "2026-10-20T12:59:43.000Z",
-    "sourceId": "robot_report",
-    "sourceName": "The Robot Report",
-    "tier": "media",
-    "type": "rss",
-    "fetchedAt": "2026-10-20T15:44:28.325Z"
-  },
-  {
     "title": "A guide to Day 1 of RoboBusiness 2026",
     "url": "https://www.therobotreport.com/a-guide-to-day-1-of-robobusiness-2026/",
     "desc": "We've compiled a schedule for everything happening on the first day of RoboBusiness 2026 in Santa Clara, Calif. The post A guide to Day 1 of RoboBusiness 2026 appeared first on The Robot Report .",
@@ -21981,5 +21970,16 @@
     "tier": "community",
     "type": "json",
     "fetchedAt": "2026-11-26T15:35:46.708Z"
+  },
+  {
+    "title": "GXO doubling down on robotics in 2027",
+    "url": "https://www.therobotreport.com/gxo-doubling-down-on-robotics-in-2027/",
+    "desc": "GXO didn't disclose which providers it would increase deployments with, but let's take a look at the existing technologies in its portfolio. The post GXO doubling down on robotics in 2027 appeared first on The Robot Report .",
+    "publishedAt": "2026-11-27T13:56:43.000Z",
+    "sourceId": "robot_report",
+    "sourceName": "The Robot Report",
+    "tier": "media",
+    "type": "rss",
+    "fetchedAt": "2026-11-27T15:27:03.939Z"
   }
 ]
